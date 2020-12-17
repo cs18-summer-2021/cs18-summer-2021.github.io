@@ -8,12 +8,14 @@ import {
 	Route,
 } from 'react-router-dom';
 
+import HomePage from './Pages/HomePage/HomePage';
+
 function App() {
   return (
 	<Router>
 		<Switch>
 			<Route path="/">
-				<Page />
+				<HomePage/>
 			</Route>
 		</Switch>
 	</Router>

@@ -30,18 +30,13 @@ class Page extends React.Component {
 		return (
 			<div className="page-wrapper">
 				<Header active={this.props.activeTab} resize={resize}/>
-				{/*<div className={"main-content" + " " + resizeStyle}>
+				<div className={"main-content" + " main-content-resize " + resizeStyle}>
 					{this.props.children}
 				</div>
-				<Footer resize={resize}/>*/}
+				<Footer resize={resize}/>
 			</div>
 		);
 	}
-}
-
-Page.defaultProps = {
-	activeTab: "",
-	resizeStyle: "main-content-resize"
 }
 
 export default Page;

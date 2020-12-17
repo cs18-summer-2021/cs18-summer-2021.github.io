@@ -4,6 +4,7 @@ import './Header.scss';
 import HeaderTab from './HeaderTab';
 import { Link } from 'react-router-dom';
 import tree from '../WebsiteTree';
+import AnimatedImage from '../../Components/AnimatedImage/AnimatedImage.js';
 
 import { MdMenu } from 'react-icons/md';
 
@@ -30,8 +31,6 @@ class Header extends React.Component {
 			const openStyle = this.state.open ? " header-open" : ""
 			const fillStyle = this.state.open ? " header-fill" : ""
 
-			console.log(this.state.open)
-
 			return (
 					<div className="header-wrapper header-resize">
 						<div className={"header-background-fill" + fillStyle} onClick={() => this.setState({ open: false })}/>
@@ -48,7 +47,7 @@ class Header extends React.Component {
 			return (
 				<div className="header-wrapper">
 					<div className="logo-wrapper">
-						CS17
+						<AnimatedImage/>
 					</div>
 					<div className="tabs-wrapper">
 						{this.renderTabs()}

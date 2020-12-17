@@ -19,10 +19,9 @@ class HeaderTab extends React.Component {
 
 	render() {
 		const activeStyle = this.props.active ? " active" : ""
-		const styleStyle = this.props.style == "default" ? "" : " " + this.props.style
 		return (
 			<Link to={this.props.navigation}>
-				<div className={"tab-wrapper" + activeStyle + styleStyle}>
+				<div className={"tab-wrapper" + activeStyle}>
 					{this.props.label}
 					{this.renderChildren()}
 				</div>

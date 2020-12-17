@@ -1,10 +1,18 @@
 /* autoprefixer grid: autoplace */
 
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap');
+$main-font: 'Poppins', sans-serif;
 
-$main-font: 'Kumbh Sans', sans-serif;
-$logo-font: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$aqua-light: #53D2DC;
+$aqua-medium: #12BBBA;
+$aqua-dark: #18A2A5;
+
+$orange-light: #FFF0AA;
+$orange-medium: #FFC060;
+$orange-dark: #FF826C;
+
+$light: #FFFFFF;
+$dark: #000000;
 
 html, body, #root{
 	height: 100vh;
