@@ -1,0 +1,62 @@
+import React from 'react';
+import './Header.scss';
+
+import HeaderTab from './HeaderTab';
+import { Link } from 'react-router-dom';
+import tree from '../WebsiteTree';
+
+import { MdMenu } from 'react-icons/md';
+
+class Header extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = { open: false }
+	}
+
+	renderTabs() {
+		return tree.map((tab) => {
+			return <HeaderTab 
+				resize={this.props.resize}
+				active={this.props.active === tab.label} 
+				label={tab.label} 
+				style={tab.style}
+				navigation={tab.navigation} 
+				children={tab.children}
+		/>});
+	}
+
+	render() {
+		if (this.props.resize) {
+			const openStyle = this.state.open ? " header-open" : ""
+			const fillStyle = this.state.open ? " header-fill" : ""
+
+			console.log(this.state.open)
+
+			return (
+					<div className="header-wrapper header-resize">
+						<div className={"header-background-fill" + fillStyle} onClick={() => this.setState({ open: false })}/>
+						<MdMenu onClick={() => this.setState({ open: true })} />
+						<div className="logo">CS17</div>
+						<div className={"tabs-wrapper" + openStyle}>
+							{this.renderTabs()}
+						</div>
+					</div>
+			)
+		} else {
+			if (this.state.open) { this.setState({open: false}) };
+
+			return (
+				<div className="header-wrapper">
+					<div className="logo-wrapper">
+						CS17
+					</div>
+					<div className="tabs-wrapper">
+						{this.renderTabs()}
+					</div>
+				</div>
+			);
+		}
+	}
+}
+
+export default Header;
