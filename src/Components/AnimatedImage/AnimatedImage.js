@@ -24,7 +24,7 @@ class AnimatedImage extends React.Component {
 	}
 
 	render() {
-		return(
+		return (
 			<div className="animated-image-wrapper">
 				{this.state.images[this.state.currentImage]}
 			</div>

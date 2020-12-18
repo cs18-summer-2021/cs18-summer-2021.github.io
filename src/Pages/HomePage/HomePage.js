@@ -3,7 +3,11 @@ import React from 'react';
 import './HomePage.scss';
 
 import Page from '../../Layout/Page/Page';
-import AnimatedImage from '../../Components/AnimatedImage/AnimatedImage.js';
+import AnimatedImage from '../../Components/AnimatedImage/AnimatedImage';
+
+import { ReactComponent as CIT_Illustration } from '../../Assets/CIT_Logo/CIT_Illustration.svg';
+
+import { ReactComponent as CIT_Logo_1 } from '../../Assets/CIT_Logo/CIT_Logo_1.svg';
 
 class HomePage extends React.Component {
 	render() {

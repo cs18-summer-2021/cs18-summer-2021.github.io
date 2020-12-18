@@ -24,11 +24,22 @@
 		gap: 2em;
 
 		.home-intro-images {
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
+			position: relative;
 			height: 20vh;
 
+			.cit-illustration {
+				position: absolute;
+				height: 80%;
+				left: 5em; top: 0;
+				z-index: 1;
+			}
+
+			.animated-image-wrapper {
+				position: relative;
+				top: 0;
+				left: 0;
+				z-index: 10; 
+			}
 		}
 
 		.home-intro-text {
