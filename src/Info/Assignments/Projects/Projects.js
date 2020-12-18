@@ -1,3 +1,5 @@
+import { MdDescription, MdCode, MdSlideshow } from 'react-icons/md';
+
 const projects = [
 	{ 
 		number: 1, title: "bignum", dueDate: new Date('01 Jan 2021 00:00:00 EST'), 

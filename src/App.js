@@ -12,13 +12,22 @@ import HomePage from './Pages/HomePage/HomePage';
 import StaffPage from './Pages/StaffPage/StaffPage';
 
 import AssignmentsPage from './Pages/AssignmentsPage/AssignmentsPage';
+import Homeworks from './Info/Assignments/Homeworks/Homeworks';
+import Projects from './Info/Assignments/Projects/Projects';
+import Labs from './Info/Assignments/Labs/Labs';
 
 function App() {
   return (
 	<Router>
 		<Switch>
 			<Route path="/homeworks">
-				<AssignmentsPage/>
+				<AssignmentsPage assignments={Homeworks}/>
+			</Route>
+			<Route path="/labs">
+				<AssignmentsPage assignments={Labs}/>
+			</Route>
+			<Route path="/projects">
+				<AssignmentsPage assignments={Projects}/>
 			</Route>
 			<Route path="/staff">
 				<StaffPage/>

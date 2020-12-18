@@ -34,8 +34,10 @@ class Header extends React.Component {
 			return (
 					<div className="header-wrapper header-resize">
 						<div className={"header-background-fill" + fillStyle} onClick={() => this.setState({ open: false })}/>
-						<MdMenu onClick={() => this.setState({ open: true })} />
-						<div className="logo">CS17</div>
+						<MdMenu className="header-hamburger" onClick={() => this.setState({ open: true })} />
+						<div className="logo-wrapper">
+							<AnimatedImage/>
+						</div>
 						<div className={"tabs-wrapper" + openStyle}>
 							{this.renderTabs()}
 						</div>

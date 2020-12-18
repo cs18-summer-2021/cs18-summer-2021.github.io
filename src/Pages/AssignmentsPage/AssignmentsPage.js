@@ -5,37 +5,18 @@ import './AssignmentsPage.scss';
 import { Link } from 'react-router-dom';
 
 import Page from '../../Layout/Page/Page';
-import Homeworks from '../../Info/Assignments/Homeworks/Homeworks';
-
-class AssignmentsCard extends React.Component {
-	renderLinks() {
-		return this.props.links.map((l) => <a href={l.link}>{l.icon}</a>)
-	}
-
-	render() {
-		const inactiveStyle = this.props.active ? "" : " assignments-inactive"
-		return (
-			<div className={"assignments-card" + inactiveStyle}>
-				<div className="assignments-card-heading">
-					<p className="assignments-card-number">{this.props.number}</p>
-					<p className="assignments-card-title">{this.props.title}</p>
-				</div>
-				{this.renderLinks()}
-			</div>
-		)
-	}
-}
+import AssignmentsCard from '../../Components/AssignmentsCard/AssignmentsCard';
 
 class AssignmentsPage extends React.Component {
-	renderCards(hws) {
-		return hws.map((h) => <AssignmentsCard number={h.number} title={h.title} dueDate={h.dueDate} active={h.active} links={h.links}/>)
+	renderCards(as) {
+		return as.map((a) => <AssignmentsCard number={a.number} title={a.title} dueDate={a.dueDate} active={a.active} links={a.links}/>)
 	}
 
 	renderSections() {
-		return Homeworks.map((h) => 
+		return this.props.assignments.map((a) => 
 			<div className="assignments-section">
-				<p className="assignments-section-title">{h.section}</p>
-				<div className="assignments-section-cards">{this.renderCards(h.assignments)}</div>
+				<p className="assignments-section-title">{a.section}</p>
+				<div className="assignments-section-cards">{this.renderCards(a.assignments)}</div>
 			</div>
 		)
 	}
@@ -61,7 +42,7 @@ class AssignmentsPage extends React.Component {
 						</div>
 					</div>
 					<div className="assignments-right-wrapper">
-						{this.renderSections()}
+						{this.props.assignments[0].section !== undefined ? this.renderSections() : this.renderCards(this.props.assignments)}
 					</div>
 				</div>
 			</Page>

@@ -1,0 +1,42 @@
+@import '../../Main.scss';
+
+.assignments-inactive {
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+.assignments-card {
+	height: 20vh;
+
+	border-radius: 1em;
+	box-shadow: 0 0 0.5em 0em rgba($dark, 0.25);
+	&:hover { box-shadow: 0 0 0.5em 0em rgba($dark, 0.5); }
+	background-color: $light;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+
+	.assignments-card-heading {
+		padding: 0.75em 1em;
+		display: grid;
+		grid-template-columns: min-content auto;
+		gap: 0.5em;
+		width: 100%;
+
+		// border-bottom: .25em solid $orange-light; 
+
+		.assignments-card-number {
+			font-size: 1.5em;
+			font-weight: 700;
+			color: $orange-medium;
+		}
+
+		.assignments-card-title {
+			font-size: 1em;
+			font-weight: 500;
+			color: $orange-dark;
+		}
+	}
+}
