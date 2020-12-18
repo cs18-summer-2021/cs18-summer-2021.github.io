@@ -1,20 +1,18 @@
 @import '../../Main.scss';
 
 .home-wrapper {
-	height: 100%; min-height: 75vh;
+	height: 100%; min-height: 85vh;
 	width: 100%;
-	padding-bottom: 2em;
 
 	display: grid;
 	grid-template-columns: 2fr 3fr;
 	gap: 2em;
 
 	.home-left-wrapper {
-		background: rgba($aqua-light, 0.4);
+		background: $bg-color;
 
 		height: 100%;
 		border-top-right-radius: 2em;
-		border-bottom-right-radius: 2em;
 		padding: 4em;
 
 		display: flex;
@@ -62,7 +60,7 @@
 		gap: 2em;
 
 		.home-due-soon {
-			background: rgba($aqua-light, 0.4);
+			background: $bg-color;
 			border-top-left-radius: 2em;
 			border-bottom-left-radius: 2em;
 		}

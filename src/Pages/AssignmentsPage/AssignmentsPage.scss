@@ -1,0 +1,116 @@
+@import '../../Main.scss';
+
+.assignments-wrapper {
+	height: 100%; min-height: 85vh;
+	width: 100%;
+
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	gap: 2em;
+	
+	.assignments-left-wrapper {
+		background: $bg-color;
+
+		height: 100%;
+		border-top-right-radius: 2em;
+		padding: 4em;
+
+		display: flex;
+		flex-direction: column;
+	}
+
+	.assignments-right-wrapper {
+		height: 100%;
+		width: 100%;
+
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		gap: 3em;
+
+		.assignments-section {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+			gap: 1.5em;
+			width: 100%;
+			padding-right: 2em;
+
+			.assignments-section-title {
+				position: relative;
+				font-size: 1.5em;
+				font-weight: 700;
+				width: fit-content;
+				text-transform: uppercase;
+
+				&:after {
+					content: '';
+					width: 0%;
+					opacity: 0;
+					height: 0.25em;
+					position: absolute;
+					bottom: -0.25em;
+					left: 0; right: 0;
+					margin-left: auto; margin-right: auto;
+					transition: width 0.25s ease, opacity 0.25s ease;
+	
+					background-color: $orange-medium;
+				}
+	
+				&:hover {
+					&:after { width: 100%; opacity: 1; }
+				}
+			}
+
+			.assignments-section-cards {
+				display: grid;
+				width: 100%;
+				grid-template-columns: repeat(4, unquote("calc((100% - 3em)/4)"));
+				grid-template-rows: auto;
+				gap: 1em;
+
+				.assignments-inactive {
+					pointer-events: none;
+					opacity: 0.5;
+				}
+
+				.assignments-card {
+					height: 20vh;
+
+					border-radius: 1em;
+					box-shadow: 0 0 0.5em 0em rgba($dark, 0.25);
+					&:hover { box-shadow: 0 0 0.5em 0em rgba($dark, 0.5); }
+
+					display: flex;
+					flex-direction: column;
+					align-items: flex-start;
+					justify-content: flex-start;
+
+					.assignments-card-heading {
+						padding: 1em;
+						display: grid;
+						grid-template-columns: 2em 1fr;
+						width: 100%;
+
+						// border-bottom: .25em solid $orange-light; 
+
+						.assignments-card-number {
+							font-size: 1.5em;
+							font-weight: 700;
+							color: $orange-medium;
+						}
+
+						.assignments-card-title {
+							font-size: 1em;
+							font-weight: 500;
+							color: $orange-dark;
+						}
+					}
+				}
+			}
+		}
+		
+	}
+}
