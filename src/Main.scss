@@ -19,6 +19,7 @@ $bg-color: rgba($aqua-light, 0.4);
 html, body, #root{
 	height: 100vh;
 	width: 100vw;
+	// overscroll-behavior: none;
 }
 
 html, body, * {

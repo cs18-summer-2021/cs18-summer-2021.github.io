@@ -52,13 +52,18 @@
 
 		.home-links {
 			width: 100%;
-			display: flex;
-			flex-direction: column;
-			align-items: flex-start;
-			justify-content: center;
-			gap: 1em;
+			// display: flex;
+			// flex-direction: column;
+			// align-items: flex-start;
+			// justify-content: center;
+			// gap: 1em;
+
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: auto;
+			gap: 1em 2em;
 			
-			h1 { color: $dark; font-size: 1.5em; }
+			h1 { color: $dark; font-size: 1.5em; grid-column: 1/3; margin-bottom: 0.5em; }
 
 			.home-link {
 				display: flex;
@@ -94,19 +99,55 @@
 
 				.home-link-description {
 					width: 100%;
-					text-align: justify;
 				}
 			}
 		}
-
-
 	}
 
 	.home-right-wrapper {
 		height: 100%;
 		display: grid;
-		grid-template-rows: max-content auto min-content;
+		grid-template-rows: min-content max-content auto min-content;
 		gap: 2em;
+
+		.home-announcement {
+			padding: 1em;
+			margin: 0 2em;
+			border-radius: 1em;
+
+			background: $orange-medium;
+			color: $dark;
+
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			flex-wrap: wrap;
+
+			div {
+				display: flex;
+				align-items: flex-start;
+				justify-content: flex-start;
+
+				div {
+					line-height: 0em;
+					font-size: 0.75em;
+					background: $dark;
+					border-radius: 50em;
+					padding: 0.5em;
+					color: $orange-medium;
+					margin-right: 0.5em;
+				}
+
+				p {
+					mark {
+						color: $dark;
+						background: none;
+						font-weight: 700;
+						margin-right: 0.25em;
+					}
+				}
+			}
+		}
 
 		.home-due-soon {
 			background: $bg-color;

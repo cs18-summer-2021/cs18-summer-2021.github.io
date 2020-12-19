@@ -3,17 +3,26 @@ import React from 'react';
 import './HomePage.scss';
 
 import { Link } from 'react-router-dom';
-import { FaQuestion, FaSchool, FaShoePrints, FaComment } from 'react-icons/fa';
+import { FaQuestion, FaSchool, FaShoePrints, FaComment, FaVideo, FaExclamation, FaFileAlt } from 'react-icons/fa';
 
 import Page from '../../Layout/Page/Page';
 import AnimatedImage from '../../Components/AnimatedImage/AnimatedImage';
 import { ReactComponent as CIT_Illustration } from '../../Assets/CIT_Logo/CIT_Illustration.svg';
+import { ReactComponent as CIT_Logo_1 } from '../../Assets/CIT_Logo/CIT_Logo_1.svg';
 import AssignmentsCard from '../../Components/AssignmentsCard/AssignmentsCard';
 
 import Homeworks from '../../Info/Assignments/Homeworks/Homeworks';
 import Projects from '../../Info/Assignments/Projects/Projects';
 import Labs from '../../Info/Assignments/Labs/Labs';
 
+const homeLinks = [
+	{ label: "Syllabus", icon: <FaFileAlt/>, link: "", description: "this is syllabus" },
+	{ label: "Zoom Link", icon: <FaVideo/>, link: "", description: "this is zoom lonk" },
+	{ label: "Gradescope", icon: <FaSchool/>, link: "", description: "this is grades" },
+	{ label: "Piazza", icon: <FaQuestion/>, link: "", description: "this is questions" },
+	{ label: "SignMeUp", icon: <FaComment/>, link: "", description: "this is hours" },
+	{ label: "Gather.town", icon: <FaShoePrints/>, link: "", description: "this is game" },
+]
 
 class HomePage extends React.Component {
 	getAssignments() {
@@ -38,6 +47,15 @@ class HomePage extends React.Component {
 		return {curH, curL, curP}
 	}
 
+	renderHomeLinks() {
+		return homeLinks.map((l) => <div className="home-link">
+			<p className="home-link-icon">{l.icon}</p>
+			<a href={l.link} target="_blank" rel="noopener noreferrer">{l.label}</a>
+			<p className="home-link-description">{l.description}</p>
+		</div>
+		)
+	}
+
 	render() {
 		const curA = this.getAssignments();
 		let curH = curA.curH; let curL = curA.curL; let curP = curA.curP; 
@@ -48,6 +66,7 @@ class HomePage extends React.Component {
 					<div className="home-left-wrapper">
 						<div className="home-intro-images">
 							<CIT_Illustration className="cit-illustration"/>
+							{/* <AnimatedImage images={[<CIT_Logo_1/>]}/> */}
 							<AnimatedImage/>
 						</div>
 						<div className="home-intro-text">
@@ -56,29 +75,16 @@ class HomePage extends React.Component {
 						</div>
 						<div className="home-links">
 							<h1>Important Links</h1>
-							<div className="home-link">
-								<p className="home-link-icon"><FaSchool/></p>
-								<a href="" target="_blank" rel="noopener noreferrer">Gradescope</a>
-								<p className="home-link-description">This is where we do grading.</p>
-							</div>
-							<div className="home-link">
-							<p className="home-link-icon"><FaQuestion/></p>
-								<a href="" target="_blank" rel="noopener noreferrer">Piazza</a>
-								<p className="home-link-description">This is where we answer qusetions.</p>
-							</div>
-							<div className="home-link">
-								<p className="home-link-icon"><FaComment/></p>
-								<a href="" target="_blank" rel="noopener noreferrer">SignMeUp</a>
-								<p className="home-link-description">This is where u do hours and shit.</p>
-							</div>
-							<div className="home-link">
-								<p className="home-link-icon"><FaShoePrints/></p>
-								<a href="" target="_blank" rel="noopener noreferrer">Gather.town</a>
-								<p className="home-link-description">This is where we gather.</p>
-							</div>
+							{this.renderHomeLinks()}
 						</div>
 					</div>
 					<div className="home-right-wrapper">
+						<div className="home-announcement">
+							<div>
+								<div><FaExclamation/></div>
+								<p><mark>Announcement:</mark> The first lecture will be held at&nbsp;<a href="">this Zoom link</a>. We hope to see you there!</p>
+							</div>
+						</div>
 						<div className="home-due-soon">
 							<h1>Current Assignments</h1>
 							<div className="home-due-soon-labels">
