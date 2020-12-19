@@ -1,11 +1,11 @@
 @import '../../Main.scss';
 
-.assignments-inactive {
+.notes-inactive {
 	pointer-events: none;
 	opacity: 0.5;
 }
 
-.assignments-card {
+.notes-card {
 	height: fit-content;
 	width: 100%;
 
@@ -20,26 +20,27 @@
 	align-items: flex-start;
 	justify-content: space-between;
 
-	.assignments-card-heading {
+	.notes-card-heading {
 		padding: 0.75em 1em;
 		display: grid;
 		grid-template-columns: min-content auto;
 		gap: 0.5em;
 		width: 100%;
-		.assignments-card-number {
+
+		.notes-card-number {
 			font-size: 1.5em;
 			font-weight: 700;
 			color: $orange-medium;
 		}
 
-		.assignments-card-title {
+		.notes-card-title {
 			font-size: 1em;
 			font-weight: 500;
 			color: $orange-dark;
 		}
 	}
 
-	.assignments-card-links {
+	.notes-card-links {
 		padding-bottom: 1em;
 		width: 100%;
 		display: flex;
@@ -47,7 +48,7 @@
 		justify-content: center;
 		gap: 1em;
 
-		.assignments-card-link {
+		.notes-card-link {
 			font-size: 1.25em;
 			line-height: 0em;
 			padding: 0.5em;
@@ -60,7 +61,7 @@
 		}
 	}
 
-	.assignments-card-due-date {
+	.notes-card-out-date {
 		width: 100%;
 		display: flex;
 		align-items: center;

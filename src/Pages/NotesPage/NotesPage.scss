@@ -1,6 +1,6 @@
 @import '../../Main.scss';
 
-.assignments-wrapper {
+.notes-wrapper {
 	height: 100%; min-height: 85vh;
 	width: 100%;
 
@@ -8,28 +8,28 @@
 	grid-template-columns: 1fr 3fr;
 	gap: 2em;
 	
-	.assignments-left-wrapper {
+	.notes-left-wrapper {
 		background: $bg-color;
 
 		height: 100%;
 		border-top-right-radius: 2em;
 		padding: 4em;
 
-		.assignments-nav-bar {
+		.notes-nav-bar {
 			width: 100%;
 			height: fit-content;
 			display: flex;
 			flex-direction: column;
 			gap: 2em;
 
-			.assignments-link-wrapper {
+			.notes-link-wrapper {
 				display: flex;
 				flex-direction: column;
 				gap: 0.5em;
 
 				a { text-decoration: none; }
 
-				.assignments-link {
+				.notes-link {
 					font-size: 1em;
 					text-transform: uppercase;
 					font-weight: 900;
@@ -57,11 +57,11 @@
 					}
 				}
 
-				.assignments-active-link {
+				.notes-active-link {
 					color: $orange-dark;
 				}
 
-				.assignments-link-description {
+				.notes-link-description {
 					font-size: 0.9em;
 					font-weight: normal;
 					color: $dark;
@@ -70,7 +70,7 @@
 		}
 	}
 
-	.assignments-right-wrapper {
+	.notes-right-wrapper {
 		height: 100%;
 		width: 100%;
 
@@ -84,6 +84,6 @@
 		padding-bottom: 2em;
 		overflow: visible;
 
-		.assignments-card { height: 100%; }
+		.notes-card { height: 100%; }
 	}
 }

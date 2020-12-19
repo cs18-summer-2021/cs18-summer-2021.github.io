@@ -2,7 +2,7 @@ import { MdDescription, MdCode, MdSlideshow } from 'react-icons/md';
 
 const labs = [
 	{ 
-		number: 1, title: "warmup", dueDate: new Date('01 Jan 2021 00:00:00 EST'), 
+		number: 1, title: "warmup", dueDate: "01-21-2021", active: true,
 		links: [
 			{ icon: <MdDescription/>, link: "" },
 			{ icon: <MdCode/>, link: "" },
@@ -10,7 +10,7 @@ const labs = [
 		]
 	},
 	{ 
-		number: 2, title: "functions + procedures", dueDate: new Date('08 Feb 2021 00:00:00 EST'), 
+		number: 2, title: "functions + procedures", dueDate: "01-21-2021", active: false,
 		links: [
 			{ icon: <MdDescription/>, link: "" },
 			{ icon: <MdCode/>, link: "" },
@@ -18,7 +18,7 @@ const labs = [
 		]
 	},
 	{ 
-		number: 3, title: "recursion", dueDate: new Date('08 Feb 2021 00:00:00 EST'), 
+		number: 3, title: "recursion", dueDate: "01-21-2021", active: false,
 		links: [
 			{ icon: <MdDescription/>, link: "" },
 			{ icon: <MdCode/>, link: "" },
@@ -26,7 +26,7 @@ const labs = [
 		]
 	},
 	{ 
-		number: 4, title: "more recursion", dueDate: new Date('08 Feb 2021 00:00:00 EST'), 
+		number: 4, title: "more recursion", dueDate: "01-21-2021", active: false,
 		links: [
 			{ icon: <MdDescription/>, link: "" },
 			{ icon: <MdCode/>, link: "" },

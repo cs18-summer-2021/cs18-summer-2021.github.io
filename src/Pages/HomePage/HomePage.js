@@ -14,10 +14,31 @@ import Projects from '../../Info/Assignments/Projects/Projects';
 import Labs from '../../Info/Assignments/Labs/Labs';
 
 class HomePage extends React.Component {
+	getAssignments() {
+		const activeH = Homeworks.filter((h) => h.active); 
+		let curH;
+		if (activeH.length == 0) {
+			curH = Homeworks.filter((h) => !h.active)[0]; 
+		} else { curH = activeH[activeH.length - 1]; }
+			
+		const activeL = Labs.filter((l) => l.active); 
+		let curL;
+		if (activeL.length == 0) {
+			curL = Labs.filter((l) => !l.active)[0];
+		} else { curL = activeL[activeL.length - 1] }
+
+		const activeP = Projects.filter((p) => p.active); 
+		let curP;
+		if (activeP.length == 0) {
+			curP = Projects.filter((p) => !p.active)[0];
+		} else { curP = activeP[activeP.length - 1]; }
+
+		return {curH, curL, curP}
+	}
+
 	render() {
-		const curH_section = (Homeworks[Homeworks.length - 1]).assignments; const curH = curH_section[curH_section.length - 1]
-		const curL = Labs[Labs.length - 1]
-		const curP = Projects[Projects.length - 1]
+		const curA = this.getAssignments();
+		let curH = curA.curH; let curL = curA.curL; let curP = curA.curP; 
 
 		return (
 			<Page activeTab="Home" resizeStyle="home-resize">
@@ -48,12 +69,12 @@ class HomePage extends React.Component {
 									<Link to="/homeworks">See all...</Link>
 								</div>
 								<div className="home-due-soon-label">
-									<p>Project</p>
-									<Link to="/projects">See all...</Link>
+									<p>Lab</p>
+									<Link to="/labs">See all...</Link>
 								</div>
 								<div className="home-due-soon-label">
-									<p>Lab</p>
-									<Link to="/labss">See all...</Link>
+									<p>Project</p>
+									<Link to="/projects">See all...</Link>
 								</div>
 							</div>
 							<div className="home-due-soon-cards">
@@ -63,6 +84,7 @@ class HomePage extends React.Component {
 							</div>
 						</div>
 						<div className="home-hours"></div>
+						<div className="home-contact"></div>
 					</div>
 				</div>
 			</Page>

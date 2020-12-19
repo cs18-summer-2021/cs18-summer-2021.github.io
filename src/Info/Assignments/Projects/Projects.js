@@ -2,21 +2,21 @@ import { MdDescription, MdCode, MdSlideshow } from 'react-icons/md';
 
 const projects = [
 	{ 
-		number: 1, title: "bignum", dueDate: new Date('01 Jan 2021 00:00:00 EST'), 
+		number: 1, title: "Bignum", dueDate: "01-21-2021", active: false,
 		links: [
 			{ icon: <MdDescription/>, link: "" },
 			{ icon: <MdCode/>, link: "" },
 		]
 	},
 	{ 
-		number: 2, title: "rackette", dueDate: new Date('08 Feb 2021 00:00:00 EST'), 
+		number: 2, title: "Rackette", dueDate: "01-21-2021", active: false,
 		links: [
 			{ icon: <MdDescription/>, link: "" },
 			{ icon: <MdCode/>, link: "" },
 		]
 	},
 	{ 
-		number: 3, title: "game", dueDate: new Date('08 Feb 2021 00:00:00 EST'), 
+		number: 3, title: "Game", dueDate: "01-21-2021", active: false,
 		links: [
 			{ icon: <MdDescription/>, link: "" },
 			{ icon: <MdCode/>, link: "" },

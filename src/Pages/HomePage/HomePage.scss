@@ -6,7 +6,7 @@
 
 	display: grid;
 	grid-template-columns: 2fr 3fr;
-	gap: 2em;
+	gap: 0em;
 
 	.home-left-wrapper {
 		background: $bg-color;
@@ -57,7 +57,7 @@
 	.home-right-wrapper {
 		height: 100%;
 		display: grid;
-		grid-template-rows: min-content auto;
+		grid-template-rows: max-content auto min-content;
 		gap: 2em;
 
 		.home-due-soon {
@@ -71,6 +71,7 @@
 			align-items: center;
 			justify-content: space-evenly;
 			gap: 0.5em;
+			margin-left: 2em;
 
 			.home-due-soon-labels {
 				margin-top: 1em;
@@ -103,12 +104,17 @@
 				grid-template-columns: repeat(3, 1fr);
 				gap: 2em;
 
-				* { width: 100%; }
+				.assignments-card { width: 100%; }
 			}
 		}
 
 		.home-hours {
 			background: $light;
+		}
+
+		.home-contact {
+			background-color: $orange-medium;
+			height: 10vh;
 		}
 	}
 }
