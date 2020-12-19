@@ -7,7 +7,8 @@ const lectures = [
 			{ icon: <MdDescription/>, link: "" },
 			{ icon: <MdMovie/>, link: "" },
 			{ icon: <MdSlideshow/>, link: "" },
-		]
+		],
+		tags: ["Intro", "Racket"]
 	},
 	{ 
 		number: 2, title: "lect2", dueDate: "01-21-2021", active: false,
@@ -15,7 +16,8 @@ const lectures = [
 			{ icon: <MdDescription/>, link: "" },
 			{ icon: <MdMovie/>, link: "" },
 			{ icon: <MdSlideshow/>, link: "" },
-		]
+		],
+		tags: ["Racket"]
 	},
 ]
 

@@ -38,6 +38,7 @@
 		}
 
 		.home-intro-text {
+			width: 100%;
 			display: flex;
 			flex-direction: column;
 			align-items: flex-start;
@@ -50,8 +51,55 @@
 		}
 
 		.home-links {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+			gap: 1em;
+			
 			h1 { color: $dark; font-size: 1.5em; }
+
+			.home-link {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				gap: 0.5em;
+				width: 100%;
+
+				.home-link-icon {
+					width: fit-content;
+					text-decoration: none;
+					font-size: 1em;
+					line-height: 0em;
+					padding: 0.5em;
+
+					background-color: $aqua-medium;
+					color: $light;
+					border-radius: 50%;
+				}
+
+				a { 
+					width: fit-content;
+					text-decoration: none;
+					font-size: 1em;
+					padding: 0.25em 0.5em;
+
+					background-color: $aqua-medium;
+					color: $light;
+					border-radius: 0.25em;
+
+					&:hover { background-color: $aqua-dark; }
+				}
+
+				.home-link-description {
+					width: 100%;
+					text-align: justify;
+				}
+			}
 		}
+
+
 	}
 
 	.home-right-wrapper {
@@ -92,6 +140,7 @@
 						color: $orange-dark;
 						font-weight: normal;
 						opacity: 0.5;
+						text-decoration: none;
 
 						&:hover { opacity: 1; }
 					}
@@ -110,11 +159,28 @@
 
 		.home-hours {
 			background: $light;
+			width: 100%;
+			height: 100%;
+			min-height: fit-content;
+			padding: 0 2em;
+
+			iframe {
+				width: 100%;
+				height: 100%;
+				min-height: 60vh;
+			}
 		}
 
 		.home-contact {
 			background-color: $orange-medium;
 			height: 10vh;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 2em;
+			color: $dark;
+
+			a { color: $dark; }
 		}
 	}
 }

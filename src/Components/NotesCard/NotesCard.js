@@ -1,10 +1,15 @@
 import React from 'react';
+import { MdTransferWithinAStation } from 'react-icons/md';
 
 import './NotesCard.scss';
 
 class NotesCard extends React.Component {
 	renderLinks() {
 		return this.props.links.map((l) => <a className="notes-card-link" href={l.link}>{l.icon}</a>)
+	}
+
+	renderTags() {
+		return this.props.tags.map((l) => <p className="notes-card-tag">{l}</p>)
 	}
 
 	formatDate() {
@@ -14,8 +19,6 @@ class NotesCard extends React.Component {
 		const year = date.getFullYear().toString().substr(-2)
 		const month = date.getMonth()
 		const day = date.getDate()
-
-		console.log(date)
 
 		return `${month + 1}/${day}/${year}, 11:59 PM AOE`
 	}
@@ -28,6 +31,7 @@ class NotesCard extends React.Component {
 					<p className="notes-card-number">{this.props.number}</p>
 					<p className="notes-card-title">{this.props.title}</p>
 				</div>
+				{this.props.tags !== undefined ? <div className="notes-card-tags">{this.renderTags()}</div> : <></>}
 				<div className="notes-card-links">{this.renderLinks()}</div>
 				<div className="notes-card-out-date">{this.formatDate()}</div>
 			</div>

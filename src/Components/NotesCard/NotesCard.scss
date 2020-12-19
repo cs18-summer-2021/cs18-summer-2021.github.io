@@ -61,6 +61,27 @@
 		}
 	}
 
+	.notes-card-tags {
+		width: 100%;
+		padding: 1em;
+		padding-top: 0em;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 1em;
+
+		p {
+			font-size: 1em;
+			padding: 0.25em 0.5em;
+
+			background-color: $aqua-medium;
+			color: $light;
+			border-radius: 0.25em;
+
+			&:hover { background-color: $aqua-dark; }
+		}
+	}
+
 	.notes-card-out-date {
 		width: 100%;
 		display: flex;

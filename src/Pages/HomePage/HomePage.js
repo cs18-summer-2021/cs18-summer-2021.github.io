@@ -3,6 +3,7 @@ import React from 'react';
 import './HomePage.scss';
 
 import { Link } from 'react-router-dom';
+import { FaQuestion, FaSchool, FaShoePrints, FaComment } from 'react-icons/fa';
 
 import Page from '../../Layout/Page/Page';
 import AnimatedImage from '../../Components/AnimatedImage/AnimatedImage';
@@ -12,6 +13,7 @@ import AssignmentsCard from '../../Components/AssignmentsCard/AssignmentsCard';
 import Homeworks from '../../Info/Assignments/Homeworks/Homeworks';
 import Projects from '../../Info/Assignments/Projects/Projects';
 import Labs from '../../Info/Assignments/Labs/Labs';
+
 
 class HomePage extends React.Component {
 	getAssignments() {
@@ -54,10 +56,26 @@ class HomePage extends React.Component {
 						</div>
 						<div className="home-links">
 							<h1>Important Links</h1>
-							<div className="home-link">Gradescope</div>
-							<div className="home-link">Piazza</div>
-							<div className="home-link">SignMeUp</div>
-							<div className="home-link">Gather.town</div>
+							<div className="home-link">
+								<p className="home-link-icon"><FaSchool/></p>
+								<a href="" target="_blank" rel="noopener noreferrer">Gradescope</a>
+								<p className="home-link-description">This is where we do grading.</p>
+							</div>
+							<div className="home-link">
+							<p className="home-link-icon"><FaQuestion/></p>
+								<a href="" target="_blank" rel="noopener noreferrer">Piazza</a>
+								<p className="home-link-description">This is where we answer qusetions.</p>
+							</div>
+							<div className="home-link">
+								<p className="home-link-icon"><FaComment/></p>
+								<a href="" target="_blank" rel="noopener noreferrer">SignMeUp</a>
+								<p className="home-link-description">This is where u do hours and shit.</p>
+							</div>
+							<div className="home-link">
+								<p className="home-link-icon"><FaShoePrints/></p>
+								<a href="" target="_blank" rel="noopener noreferrer">Gather.town</a>
+								<p className="home-link-description">This is where we gather.</p>
+							</div>
 						</div>
 					</div>
 					<div className="home-right-wrapper">
@@ -83,8 +101,13 @@ class HomePage extends React.Component {
 								<AssignmentsCard number={curP.number} title={curP.title} active={curP.active} dueDate={curP.dueDate} links={curP.links}/>
 							</div>
 						</div>
-						<div className="home-hours"></div>
-						<div className="home-contact"></div>
+						<div className="home-hours">
+							<iframe src="https://calendar.google.com/calendar/embed?src=brown.edu_fechjhecobm9ec4c23lp12nfuk%40group.calendar.google.com&ctz=America%2FChicago" style={{border: 0}} frameborder="0" scrolling="no"></iframe>
+						</div>
+						<div className="home-contact">
+							<div>Copyright © 2020 CS17</div>
+							<div>Email the <a href="mailto:cs0170headtas@lists.brown.edu" target="_blank" rel="noreferrer noopener">HTA Mailing List</a> with any questions!</div>
+						</div>
 					</div>
 				</div>
 			</Page>
