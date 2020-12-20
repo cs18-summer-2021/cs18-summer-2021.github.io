@@ -70,38 +70,36 @@ class HomePage extends React.Component {
 							{this.renderHomeLinks()}
 						</div>
 					</div>
-					<div className="home-right-wrapper">
-						<div className="home-announcement">
-							<div>
-								<div><FaExclamation/></div>
-								<p><mark>Announcement:</mark> The first lecture will be held at&nbsp;<a href="">this Zoom link</a>. We hope to see you there!</p>
+					<div className="home-announcement">
+						<div>
+							<div><FaExclamation/></div>
+							<p><mark>Announcement:</mark> The first lecture will be held at&nbsp;<a href="">this Zoom link</a>. We hope to see you there!</p>
+						</div>
+					</div>
+					<div className="home-due-soon">
+						<h1>Current Assignments</h1>
+						<div className="home-due-soon-labels">
+							<div className="home-due-soon-label">
+								<p>Homework</p>
+								<Link to="/homeworks">See all...</Link>
+							</div>
+							<div className="home-due-soon-label">
+								<p>Lab</p>
+								<Link to="/labs">See all...</Link>
+							</div>
+							<div className="home-due-soon-label">
+								<p>Project</p>
+								<Link to="/projects">See all...</Link>
 							</div>
 						</div>
-						<div className="home-due-soon">
-							<h1>Current Assignments</h1>
-							<div className="home-due-soon-labels">
-								<div className="home-due-soon-label">
-									<p>Homework</p>
-									<Link to="/homeworks">See all...</Link>
-								</div>
-								<div className="home-due-soon-label">
-									<p>Lab</p>
-									<Link to="/labs">See all...</Link>
-								</div>
-								<div className="home-due-soon-label">
-									<p>Project</p>
-									<Link to="/projects">See all...</Link>
-								</div>
-							</div>
-							<div className="home-due-soon-cards">
-								<AssignmentsCard number={curH.number} title={curH.title} active={curH.active} dueDate={curH.dueDate} links={curH.links}/>
-								<AssignmentsCard number={curL.number} title={curL.title} active={curL.active} dueDate={curL.dueDate} links={curL.links}/>
-								<AssignmentsCard number={curP.number} title={curP.title} active={curP.active} dueDate={curP.dueDate} links={curP.links}/>
-							</div>
+						<div className="home-due-soon-cards">
+							<AssignmentsCard number={curH.number} title={curH.title} active={curH.active} dueDate={curH.dueDate} links={curH.links}/>
+							<AssignmentsCard number={curL.number} title={curL.title} active={curL.active} dueDate={curL.dueDate} links={curL.links}/>
+							<AssignmentsCard number={curP.number} title={curP.title} active={curP.active} dueDate={curP.dueDate} links={curP.links}/>
 						</div>
-						<div className="home-hours">
-							<iframe src="https://calendar.google.com/calendar/embed?src=brown.edu_fechjhecobm9ec4c23lp12nfuk%40group.calendar.google.com&ctz=America%2FChicago" style={{border: 0}} frameborder="0" scrolling="no"></iframe>
-						</div>
+					</div>
+					<div className="home-hours">
+						<iframe src="https://calendar.google.com/calendar/embed?src=brown.edu_fechjhecobm9ec4c23lp12nfuk%40group.calendar.google.com&ctz=America%2FChicago" style={{border: 0}} frameborder="0" scrolling="no"></iframe>
 					</div>
 				</div>
 			</Page>
