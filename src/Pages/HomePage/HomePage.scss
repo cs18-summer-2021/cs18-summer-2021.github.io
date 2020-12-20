@@ -225,3 +225,38 @@
 		}
 	}
 }
+
+.home-resize {
+	.home-wrapper {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+
+		.home-left-wrapper {
+			width: 100vw;
+			padding: 2em;
+			border-radius: 0em;
+			
+			.home-intro-images {
+				width: 80%;
+			}
+
+			.home-intro-text {
+				text-align: left;
+			}
+
+			.home-links {
+				display: flex;
+				flex-direction: column;
+
+				.home-link {
+					flex-wrap: none;
+					width: 100%;
+
+					.home-link-description {
+						width: fit-content;
+					}
+				}
+			}
+		}
+	}
+}
