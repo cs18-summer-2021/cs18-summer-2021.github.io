@@ -1,15 +1,13 @@
 @import '../../Main.scss';
 
 .footer-wrapper {
+	background-color: $orange-medium;
+	height: 10vh;
 	display: flex;
-	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
 	padding: 2em;
-	gap: 1em;
-	height: 10vh;
-	
-	background-color: $orange-dark;
-	// border-top-left-radius: 2em;
-	// border-top-right-radius: 2em;
+	color: $dark;
+
+	a { color: $dark; }
 }

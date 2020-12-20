@@ -7,9 +7,8 @@ class Footer extends React.Component {
 
 		return (
 			<div className={"footer-wrapper" + resizeStyle}>
-				<div className="footer-text">
-					CS17 2021 :)
-				</div>
+				<div>Copyright © 2020 CS17</div>
+				<div>Email the <a href="mailto:cs0170headtas@lists.brown.edu" target="_blank" rel="noreferrer noopener">HTA Mailing List</a> with any questions!</div>
 			</div>
 		);
 	}

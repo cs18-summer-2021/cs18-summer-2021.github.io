@@ -33,7 +33,7 @@ class Page extends React.Component {
 				<div className={"main-content" + " main-content-resize " + resizeStyle}>
 					{this.props.children}
 				</div>
-				{/* <Footer resize={resize}/> */}
+				<Footer resize={resize}/>
 			</div>
 		);
 	}
