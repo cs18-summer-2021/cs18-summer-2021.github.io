@@ -10,6 +10,7 @@ import {
 
 import HomePage from './Pages/HomePage/HomePage';
 import StaffPage from './Pages/StaffPage/StaffPage';
+import ResourcesPage from './Pages/ResourcesPage/ResourcesPage';
 
 import AssignmentsPage from './Pages/AssignmentsPage/AssignmentsPage';
 import Homeworks from './Info/Assignments/Homeworks/Homeworks';
@@ -41,6 +42,9 @@ function App() {
 			</Route>
 			<Route path="/staff">
 				<StaffPage/>
+			</Route>
+			<Route path="/resources">
+				<ResourcesPage/>
 			</Route>
 			<Route path="/">
 				<HomePage/>

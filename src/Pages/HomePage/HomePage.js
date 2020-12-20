@@ -3,7 +3,7 @@ import React from 'react';
 import './HomePage.scss';
 
 import { Link } from 'react-router-dom';
-import { FaQuestion, FaSchool, FaShoePrints, FaComment, FaVideo, FaExclamation, FaFileAlt } from 'react-icons/fa';
+import { FaExclamation } from 'react-icons/fa';
 
 import Page from '../../Layout/Page/Page';
 import AnimatedImage from '../../Components/AnimatedImage/AnimatedImage';
@@ -14,15 +14,7 @@ import AssignmentsCard from '../../Components/AssignmentsCard/AssignmentsCard';
 import Homeworks from '../../Info/Assignments/Homeworks/Homeworks';
 import Projects from '../../Info/Assignments/Projects/Projects';
 import Labs from '../../Info/Assignments/Labs/Labs';
-
-const homeLinks = [
-	{ label: "Syllabus", icon: <FaFileAlt/>, link: "", description: "this is syllabus" },
-	{ label: "Zoom Link", icon: <FaVideo/>, link: "", description: "this is zoom lonk" },
-	{ label: "Gradescope", icon: <FaSchool/>, link: "", description: "this is grades" },
-	{ label: "Piazza", icon: <FaQuestion/>, link: "", description: "this is questions" },
-	{ label: "SignMeUp", icon: <FaComment/>, link: "", description: "this is hours" },
-	{ label: "Gather.town", icon: <FaShoePrints/>, link: "", description: "this is game" },
-]
+import { ImportantLinks } from '../../Info/Resources/Resources';
 
 class HomePage extends React.Component {
 	getAssignments() {
@@ -48,7 +40,7 @@ class HomePage extends React.Component {
 	}
 
 	renderHomeLinks() {
-		return homeLinks.map((l) => <div className="home-link">
+		return ImportantLinks.map((l) => <div className="home-link">
 			<p className="home-link-icon">{l.icon}</p>
 			<a href={l.link} target="_blank" rel="noopener noreferrer">{l.label}</a>
 			<p className="home-link-description">{l.description}</p>
