@@ -102,10 +102,6 @@ class HomePage extends React.Component {
 						<div className="home-hours">
 							<iframe src="https://calendar.google.com/calendar/embed?src=brown.edu_fechjhecobm9ec4c23lp12nfuk%40group.calendar.google.com&ctz=America%2FChicago" style={{border: 0}} frameborder="0" scrolling="no"></iframe>
 						</div>
-						<div className="home-contact">
-							<div>Copyright © 2020 CS17</div>
-							<div>Email the <a href="mailto:cs0170headtas@lists.brown.edu" target="_blank" rel="noreferrer noopener">HTA Mailing List</a> with any questions!</div>
-						</div>
 					</div>
 				</div>
 			</Page>
