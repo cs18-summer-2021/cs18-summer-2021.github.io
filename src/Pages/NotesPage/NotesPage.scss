@@ -153,8 +153,23 @@
 
 			.notes-cards-wrapper {
 				padding: 0em;
-				// if we have multiple breakpoints, this can be two columns instead
 				grid-template-columns: 1fr;
+			}
+		}
+	}
+}
+
+.notes-resize-tablet {
+	.notes-wrapper {
+		grid-template-columns: 1fr 2fr;
+
+		.notes-left-wrapper {
+			padding: 2em;
+		}
+
+		.notes-right-wrapper {
+			.notes-cards-wrapper {
+				grid-template-columns: repeat(2, 1fr);
 			}
 		}
 	}
