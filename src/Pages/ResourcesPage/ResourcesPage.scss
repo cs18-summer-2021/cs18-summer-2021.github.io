@@ -105,3 +105,44 @@
 		}
 	}
 }
+
+.resources-resize {
+	.resources-wrapper {
+		grid-template-columns: 1fr;
+
+		.resources-left-wrapper {
+			border-radius: 0em;
+			padding: 2em;
+
+			.resources-important-links {
+				display: flex;
+				flex-direction: column;
+
+				.resources-important-link {
+					flex-wrap: none;
+					width: 100%;
+
+					.resources-important-link-description {
+						width: fit-content;
+					}
+				}
+			}
+		}
+
+		.resources-right-wrapper {
+			padding: 0em;
+			gap: 0em;
+
+			* {
+				border-radius: 0em;
+			}
+
+			.resources-section {
+				margin-top: 1em;
+				.resources-section-links {
+					grid-template-columns: 1fr;
+				}
+			}
+		}
+	}
+}
