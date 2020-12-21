@@ -41,7 +41,7 @@ class Page extends React.Component {
 
 Page.defaultProps = {
 	resizeStyle: 'resize',
-	resizeRatios: [1.33, 0.75],
+	resizeRatios: [1.44, 0.6],
 	resizePrefixes: ["tablet", "mobile"]
 }
 

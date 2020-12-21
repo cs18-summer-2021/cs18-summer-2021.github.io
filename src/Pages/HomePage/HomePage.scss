@@ -296,6 +296,7 @@
 .home-resize-tablet {
 	.home-wrapper {
 		grid-template-columns: 1fr 1fr;
+		grid-template-rows: min-content 1fr 1fr;
 
 		.home-left-wrapper {
 			padding: 2em;

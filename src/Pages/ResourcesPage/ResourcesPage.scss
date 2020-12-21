@@ -105,6 +105,12 @@
 	}
 }
 
+.resources-resize-tablet {
+	.resources-wrapper {
+		grid-template-columns: 1fr 2fr;
+	}
+}
+
 .resources-resize-mobile {
 	.resources-wrapper {
 		grid-template-columns: 1fr;

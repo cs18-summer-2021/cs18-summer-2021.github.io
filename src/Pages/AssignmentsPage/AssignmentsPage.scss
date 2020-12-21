@@ -115,6 +115,9 @@
 
 		.assignments-right-wrapper {
 			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: min-content;
+			
+			.assignments-card { height: fit-content; }
 		}
 	}
 }
