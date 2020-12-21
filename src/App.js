@@ -1,12 +1,17 @@
 import React from 'react';
 
-import Page from './Layout/Page/Page';
+import './Main.scss';
 
 import {
 	BrowserRouter as Router,
 	Switch,
 	Route,
 } from 'react-router-dom';
+
+import {
+	CSSTransition,
+	TransitionGroup
+} from 'react-transition-group';
 
 import HomePage from './Pages/HomePage/HomePage';
 import StaffPage from './Pages/StaffPage/StaffPage';
@@ -22,36 +27,26 @@ import Lectures from './Info/Notes/Lectures/Lectures';
 import Workshops from './Info/Notes/Workshops/Workshops';
 
 function App() {
-  return (
-	<Router>
-		<Switch>
-			<Route path="/homeworks">
-				<AssignmentsPage assignments={Homeworks} activeTab="Homeworks"/>
-			</Route>
-			<Route path="/labs">
-				<AssignmentsPage assignments={Labs} activeTab="Labs"/>
-			</Route>
-			<Route path="/projects">
-				<AssignmentsPage assignments={Projects} activeTab="Projects"/>
-			</Route>
-			<Route path="/lectures">
-				<NotesPage notes={Lectures} activeTab="Lectures"/>
-			</Route>
-			<Route path="/workshops">
-				<NotesPage notes={Workshops} activeTab="Workshops"/>
-			</Route>
-			<Route path="/staff">
-				<StaffPage/>
-			</Route>
-			<Route path="/resources">
-				<ResourcesPage/>
-			</Route>
-			<Route path="/">
-				<HomePage/>
-			</Route>
-		</Switch>
-	</Router>
-  );
+	return (
+		<Router>
+			<Route render={({location}) => (
+				<TransitionGroup>
+					<CSSTransition key={location.key} timeout={300} classNames="fade">
+						<Switch location={location}>
+							<Route path="/homeworks"><AssignmentsPage assignments={Homeworks} activeTab="Homeworks"/></Route>
+							<Route path="/labs"><AssignmentsPage assignments={Labs} activeTab="Labs"/></Route>
+							<Route path="/projects"><AssignmentsPage assignments={Projects} activeTab="Projects"/></Route>
+							<Route path="/lectures"><NotesPage notes={Lectures} activeTab="Lectures"/></Route>
+							<Route path="/workshops"><NotesPage notes={Workshops} activeTab="Workshops"/></Route>
+							<Route path="/staff"><StaffPage/></Route>
+							<Route path="/resources"><ResourcesPage/></Route>
+							<Route path="/"><HomePage/></Route>
+						</Switch>
+					</CSSTransition>
+				</TransitionGroup>
+			)}/>
+		</Router>
+	);
 }
 
 export default App;
