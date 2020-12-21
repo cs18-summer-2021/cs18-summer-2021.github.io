@@ -76,8 +76,8 @@
 
 		display: grid;
 		width: 100%;
-		grid-template-columns: repeat(4, unquote("calc((100% - 6em)/4)"));
-		grid-template-rows: min-content;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(3, min-content);
 		gap: 2em;
 		padding-right: 2em;
 		padding-top: 0.5em;
@@ -85,5 +85,23 @@
 		overflow: visible;
 
 		.assignments-card { height: 100%; }
+	}
+}
+
+.assignments-resize {
+	.assignments-wrapper {
+		grid-template-columns: 1fr;
+		grid-template-rows: min-content min-content;
+
+		.assignments-left-wrapper {
+			border-radius: 0em;
+		}
+
+		.assignments-right-wrapper {
+			padding: 0em 2em 2em 2em;
+
+			// if we have multiple breakpoints, then we can make 2 column for mid-sized screens
+			grid-template-columns: 1fr;
+		}
 	}
 }
