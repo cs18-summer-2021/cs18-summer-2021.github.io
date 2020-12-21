@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/cs17-website-spring-2021/static/css/main.1c782138.chunk.css",
+    "main.js": "/cs17-website-spring-2021/static/js/main.0e8f543f.chunk.js",
+    "main.js.map": "/cs17-website-spring-2021/static/js/main.0e8f543f.chunk.js.map",
+    "runtime-main.js": "/cs17-website-spring-2021/static/js/runtime-main.c5469734.js",
+    "runtime-main.js.map": "/cs17-website-spring-2021/static/js/runtime-main.c5469734.js.map",
+    "static/js/2.93243fcf.chunk.js": "/cs17-website-spring-2021/static/js/2.93243fcf.chunk.js",
+    "static/js/2.93243fcf.chunk.js.map": "/cs17-website-spring-2021/static/js/2.93243fcf.chunk.js.map",
+    "index.html": "/cs17-website-spring-2021/index.html",
+    "static/css/main.1c782138.chunk.css.map": "/cs17-website-spring-2021/static/css/main.1c782138.chunk.css.map",
+    "static/js/2.93243fcf.chunk.js.LICENSE.txt": "/cs17-website-spring-2021/static/js/2.93243fcf.chunk.js.LICENSE.txt",
+    "static/media/CIT_Illustration.eeb19c86.svg": "/cs17-website-spring-2021/static/media/CIT_Illustration.eeb19c86.svg",
+    "static/media/CIT_Logo_1.8f7df26b.svg": "/cs17-website-spring-2021/static/media/CIT_Logo_1.8f7df26b.svg",
+    "static/media/CS17_Logo_1.113aa9aa.svg": "/cs17-website-spring-2021/static/media/CS17_Logo_1.113aa9aa.svg",
+    "static/media/CS17_Logo_2.0ddea8f8.svg": "/cs17-website-spring-2021/static/media/CS17_Logo_2.0ddea8f8.svg",
+    "static/media/CS17_Logo_3.376b4044.svg": "/cs17-website-spring-2021/static/media/CS17_Logo_3.376b4044.svg",
+    "static/media/timmy.47f9786a.png": "/cs17-website-spring-2021/static/media/timmy.47f9786a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5469734.js",
+    "static/js/2.93243fcf.chunk.js",
+    "static/css/main.1c782138.chunk.css",
+    "static/js/main.0e8f543f.chunk.js"
+  ]
+}
