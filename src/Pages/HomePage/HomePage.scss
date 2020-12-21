@@ -158,8 +158,7 @@
 		justify-content: space-evenly;
 		gap: 0.5em;
 
-		.home-due-soon-labels {
-			margin-top: 1em;
+		.home-due-soon-content {
 			width: 100%;
 			display: grid;
 			grid-template-columns: repeat(3, 1fr);
@@ -167,30 +166,30 @@
 			font-size: 1em;
 			font-weight: 500;
 
-			.home-due-soon-label {
-				padding: 0 1em;
+			.home-due-soon-section {
 				display: flex;
-				align-items: center;
-				justify-content: space-between;
+				flex-direction: column;
 
-				a {
-					color: $orange-dark;
-					font-weight: normal;
-					opacity: 0.5;
-					text-decoration: none;
+				width: 100%;
 
-					&:hover { opacity: 1; }
+				.home-due-soon-label {
+					padding: 0.5em 1em;
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+
+					a {
+						color: $orange-dark;
+						font-weight: normal;
+						opacity: 0.5;
+						text-decoration: none;
+	
+						&:hover { opacity: 1; }
+					}
 				}
+	
+				.assignments-card { width: 100%; }
 			}
-		}
-
-		.home-due-soon-cards {
-			width: 100%;
-			display: grid;
-			grid-template-columns: repeat(3, 1fr);
-			gap: 2em;
-
-			.assignments-card { width: 100%; }
 		}
 	}
 

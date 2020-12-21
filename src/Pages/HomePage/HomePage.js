@@ -36,7 +36,11 @@ class HomePage extends React.Component {
 			curP = Projects.filter((p) => !p.active)[0];
 		} else { curP = activeP[activeP.length - 1]; }
 
-		return {curH, curL, curP}
+		return [
+			{name: 'Homework', content: curH},
+			{name: 'Lab', content: curL},
+			{name: 'Project', content: curP},
+		]
 	}
 
 	renderHomeLinks() {
@@ -48,10 +52,26 @@ class HomePage extends React.Component {
 		)
 	}
 
-	render() {
+	renderDueSoonCards() {
 		const curA = this.getAssignments();
-		let curH = curA.curH; let curL = curA.curL; let curP = curA.curP; 
+		return (
+			<div className='home-due-soon-content'>
+				{curA.map(({name, content}) => {
+					return (
+						<div className="home-due-soon-section">
+							<div className="home-due-soon-label">
+								<p>{name}</p>
+								<Link to="/homeworks">See all...</Link>
+							</div>
+							<AssignmentsCard number={content.number} title={content.title} active={content.active} dueDate={content.dueDate} links={content.links}/>
+						</div>
+					)
+				})}
+			</div>
+		)
+	}
 
+	render() {
 		return (
 			<Page activeTab="Home" resizeStyle="home-resize">
 				<div className="home-wrapper">
@@ -78,25 +98,7 @@ class HomePage extends React.Component {
 					</div>
 					<div className="home-due-soon">
 						<h1>Current Assignments</h1>
-						<div className="home-due-soon-labels">
-							<div className="home-due-soon-label">
-								<p>Homework</p>
-								<Link to="/homeworks">See all...</Link>
-							</div>
-							<div className="home-due-soon-label">
-								<p>Lab</p>
-								<Link to="/labs">See all...</Link>
-							</div>
-							<div className="home-due-soon-label">
-								<p>Project</p>
-								<Link to="/projects">See all...</Link>
-							</div>
-						</div>
-						<div className="home-due-soon-cards">
-							<AssignmentsCard number={curH.number} title={curH.title} active={curH.active} dueDate={curH.dueDate} links={curH.links}/>
-							<AssignmentsCard number={curL.number} title={curL.title} active={curL.active} dueDate={curL.dueDate} links={curL.links}/>
-							<AssignmentsCard number={curP.number} title={curP.title} active={curP.active} dueDate={curP.dueDate} links={curP.links}/>
-						</div>
+						{this.renderDueSoonCards()}
 					</div>
 					<div className="home-hours">
 						<iframe src="https://calendar.google.com/calendar/embed?src=brown.edu_fechjhecobm9ec4c23lp12nfuk%40group.calendar.google.com&ctz=America%2FChicago" style={{border: 0}} frameborder="0" scrolling="no"></iframe>
