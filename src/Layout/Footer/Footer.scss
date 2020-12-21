@@ -10,11 +10,14 @@
 	color: $dark;
 
 	a { color: $dark; }
+	div { text-align: center; }
 }
 
 .footer-resize {
+	height: fit-content;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	gap: 1em;
 	padding: 2em;
 }
