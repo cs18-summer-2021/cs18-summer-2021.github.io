@@ -292,3 +292,41 @@
 		}
 	}
 }
+
+.home-resize-tablet {
+	.home-wrapper {
+		grid-template-columns: 1fr 1fr;
+
+		.home-left-wrapper {
+			padding: 2em;
+			grid-row: 1 / span 2;
+
+			border-bottom-right-radius: 2em;
+		}
+
+		.home-due-soon {
+			border-top-right-radius: 0em;
+			border-bottom-right-radius: 0em;
+			text-align: center;
+
+			.home-due-soon-content {
+				gap: 0em;
+				text-align: left;
+				grid-template-columns: 1fr;
+				grid-template-rows: repeat(3, 1fr);
+			}
+		}
+
+		.home-hours {
+			grid-column: 1 / span 2;
+			grid-row: 3;
+			width: 100%;
+			padding-right: 0em;
+
+			iframe {
+				margin: 0 2em;
+				width: unquote("calc(100% - 4em)");
+			}
+		}
+	}
+}
