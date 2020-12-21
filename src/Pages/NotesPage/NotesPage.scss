@@ -124,8 +124,9 @@
 		.notes-cards-wrapper {
 			display: grid;
 			width: 100%;
-			grid-template-columns: repeat(4, unquote("calc((100% - 6em)/4)"));
-			grid-template-rows: min-content;
+			grid-template-columns: repeat(4, 1fr);
+			// how many lectures will we have?
+			grid-template-rows: repeat(3, min-content);
 			gap: 2em;
 			padding-right: 2em;
 			padding-top: 0.5em;
@@ -133,6 +134,27 @@
 			overflow: visible;
 	
 			.notes-card { height: 100%; }
+		}
+	}
+}
+
+.notes-resize {
+	.notes-wrapper {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto;
+
+		.notes-left-wrapper {
+			border-radius: 0em;
+		}
+
+		.notes-right-wrapper {
+			padding: 0em 2em;
+
+			.notes-cards-wrapper {
+				padding: 0em;
+				// if we have multiple breakpoints, this can be two columns instead
+				grid-template-columns: 1fr;
+			}
 		}
 	}
 }
