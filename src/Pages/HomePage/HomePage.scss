@@ -259,6 +259,13 @@
 			grid-row: 3;
 
 			border-radius: 0em;
+			text-align: center;
+
+			.home-due-soon-content {
+				text-align: left;
+				grid-template-columns: 1fr;
+				grid-template-rows: repeat(3, 1fr);
+			}
 		}
 
 		.home-hours {
