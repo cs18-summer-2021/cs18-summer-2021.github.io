@@ -5,8 +5,6 @@ import './Page.scss';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 
-const resizeRatio = 1.2;
-
 class Page extends React.Component {
 	constructor(props) {
 		super(props);
@@ -24,8 +22,10 @@ class Page extends React.Component {
 
 	render() {
 		const aspectRatio = (this.state.width / this.state.height);
-		const resize = (aspectRatio < resizeRatio);
-		const resizeStyle = resize ? this.props.resizeStyle : ""
+		const resize = (aspectRatio < this.props.resizeRatios[0]);
+		const resizeNum = this.props.resizeRatios.map((x) => aspectRatio < x).lastIndexOf(true)
+		const resizeStyle = resize ? (this.props.resizeStyle + '-' + this.props.resizePrefixes[resizeNum]) : ""
+		console.log(resizeStyle)
 
 		return (
 			<div className="page-wrapper">
@@ -37,6 +37,12 @@ class Page extends React.Component {
 			</div>
 		);
 	}
+}
+
+Page.defaultProps = {
+	resizeStyle: 'resize',
+	resizeRatios: [1.33, 0.75],
+	resizePrefixes: ["tablet", "mobile"]
 }
 
 export default Page;

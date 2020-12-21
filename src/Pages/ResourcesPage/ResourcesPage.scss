@@ -6,7 +6,7 @@
 
 	display: grid;
 	grid-template-columns: 1fr 3fr;
-	gap: 0em;
+	gap: 2em;
 
 	.resources-left-wrapper {
 		background: $bg-color;
@@ -74,7 +74,6 @@
 		display: flex;
 		flex-direction: column;
 		gap: 2em;
-		padding-left: 2em;
 
 		.resources-section {
 			padding: 2em;
@@ -106,8 +105,7 @@
 	}
 }
 
-.resources-resize {
-
+.resources-resize-mobile {
 	.resources-wrapper {
 		grid-template-columns: 1fr;
 
