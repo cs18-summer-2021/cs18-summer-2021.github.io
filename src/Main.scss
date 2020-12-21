@@ -30,6 +30,16 @@ html, body, * {
 	transition: all ease 0.25s;
 }
 
+@mixin v-gap($size: 1em) {
+	&:nth-child(n) { margin-top: $size; }
+	&:nth-child(1) { margin-top: 0em; }
+}
+
+@mixin h-gap($size: 1em) {
+	&:nth-child(n) { margin-left: $size; }
+	&:nth-child(1) { margin-left: 0em; }
+}
+
 /* FADE ANIMATION */
 .fade-appear,
 .fade-enter {

@@ -23,14 +23,15 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-evenly;
-		gap: 2em;
+		& > * { @include h-gap(2em); }
 
 		.active {
 			color: $orange-dark !important;
 		}
 
-		a { text-decoration: none; user-select: none;}
+		a { text-decoration: none; user-select: none; }
 		.tab-wrapper {
+
 			font-size: 1em;
 			text-transform: uppercase;
 			color: $dark;
@@ -67,8 +68,9 @@
 				display: flex;
 				flex-direction: column;
 				align-items: flex-start;
-				gap: 0.5em;
 				overflow: hidden;
+
+				& > .tab-children-text { @include v-gap(0.5em); }
 
 				border-radius: 0.5em;
 
@@ -114,7 +116,7 @@
 
 		flex-direction: column;
 		justify-content: flex-start;
-		gap: 3em;
+		& > * { @include v-gap(3em); @include h-gap(0em); }
 		padding: 4em;
 
 		.tab-wrapper {
