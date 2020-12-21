@@ -140,3 +140,23 @@
 		}
 	}
 }
+
+.staff-resize-tablet {
+	.staff-wrapper {
+		grid-template-columns: 1fr 2fr;
+
+		.staff-left-wrapper {
+			padding: 2em;
+
+			.staff-main-image {
+				width: 60%;
+			}
+		}
+
+		.staff-right-wrapper {
+			.staff-grid {
+				grid-template-columns: repeat(4, 1fr);
+			}
+		}
+	}
+}
