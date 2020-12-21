@@ -48,7 +48,8 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		gap: 1em;
+		// gap: 1em;
+		& > * { @include h-gap(1em); }
 
 		.notes-card-link {
 			font-size: 1.25em;
@@ -70,7 +71,8 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		gap: 1em;
+		// gap: 1em;
+		& > * { @include h-gap(1em); }
 
 		p {
 			font-size: 1em;
