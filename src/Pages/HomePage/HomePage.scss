@@ -107,7 +107,8 @@
 		grid-row: 1;
 
 		padding: 1em;
-		border-radius: 2em;
+		border-top-left-radius: 2em;
+		border-bottom-left-radius: 2em;
 
 		background: $orange-medium;
 		color: $dark;
