@@ -20,12 +20,14 @@
 			height: fit-content;
 			display: flex;
 			flex-direction: column;
-			gap: 2em;
+			// gap: 2em;
+			& > * { @include v-gap(2em); }
 
 			.assignments-link-wrapper {
 				display: flex;
 				flex-direction: column;
-				gap: 0.5em;
+				// gap: 0.5em;
+				& > * { @include v-gap(0.5em); }
 
 				a { text-decoration: none; }
 
@@ -77,8 +79,8 @@
 		display: grid;
 		width: 100%;
 		grid-template-columns: repeat(4, 1fr);
-		grid-template-rows: repeat(3, auto);
-		gap: 2em;
+		grid-template-rows: repeat(3, min-content);
+		gap: 1em;
 		padding-right: 2em;
 		padding-top: 0.5em;
 		padding-bottom: 2em;

@@ -6,7 +6,8 @@
 
 	display: grid;
 	grid-template-columns: 1fr 3fr;
-	gap: 2em;
+	// gap: 2em;
+	& > * { @include h-gap(2em); }
 
 	.resources-left-wrapper {
 		background: $bg-color;
@@ -18,22 +19,23 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 2em;
 
 		.resources-important-links {
 			width: 100%;
 
 			display: flex;
 			flex-direction: column;
-			gap: 1em;
-			
+			// gap: 1em;
+			& > * { @include v-gap(1em); }
+
 			h1 { color: $dark; font-size: 1.5em; grid-column: 1/3; margin-bottom: 0.5em; }
 
 			.resources-important-link {
 				display: flex;
 				flex-direction: row;
 				flex-wrap: wrap;
-				gap: 0.5em;
+				// gap: 0.5em;
+				& > * { @include h-gap(0.5em); }
 				width: 100%;
 
 				.resources-important-link-icon {
@@ -73,13 +75,15 @@
 		height: 100%;
 		display: flex;
 		flex-direction: column;
-		gap: 2em;
+		// gap: 2em;
+		& > * { @include v-gap(2em); }
 
 		.resources-section {
 			padding: 2em;
 			display: flex;
 			flex-direction: column;
-			gap: 1em;
+			// gap: 1em;
+			& > * { @include v-gap(1em); }
 			
 			background-color: $bg-color;
 			border-top-left-radius: 2em;

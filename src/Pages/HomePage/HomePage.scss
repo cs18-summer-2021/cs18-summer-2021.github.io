@@ -22,7 +22,8 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		gap: 2em;
+		// gap: 2em;
+		& > * { @include v-gap(2em);}
 
 		.home-intro-images {
 			position: relative;
@@ -47,7 +48,8 @@
 			align-items: flex-start;
 			justify-content: center;
 			text-align: justify;
-			gap: 1em;
+			// gap: 1em;
+			& > * { @include v-gap(1em);}
 
 			h1 { color: $dark; font-size: 1.5em; }
 			p { color: $dark; }
@@ -67,7 +69,7 @@
 				display: flex;
 				flex-direction: row;
 				flex-wrap: wrap;
-				gap: 0.5em;
+				// gap: 0.5em;
 				width: 100%;
 
 				.home-link-icon {
@@ -76,6 +78,7 @@
 					font-size: 1em;
 					line-height: 0em;
 					padding: 0.5em;
+					margin-right: 0.5em;
 
 					background-color: $aqua-medium;
 					color: $light;
@@ -97,6 +100,7 @@
 
 				.home-link-description {
 					width: 100%;
+					margin-top: 0.5em;
 				}
 			}
 		}
