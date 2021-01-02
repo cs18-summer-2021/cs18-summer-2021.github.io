@@ -303,13 +303,17 @@
 .home-resize-tablet {
 	.home-wrapper {
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: min-content 1fr 1fr;
+		grid-template-rows: min-content min-content min-content;
 
 		.home-left-wrapper {
 			padding: 2em;
 			grid-row: 1 / span 2;
 
 			border-bottom-right-radius: 2em;
+
+			.home-intro-images {
+				width: 80%;
+			}
 		}
 
 		.home-due-soon {
