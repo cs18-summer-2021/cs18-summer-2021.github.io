@@ -244,13 +244,16 @@
 			.home-links {
 				display: flex;
 				flex-direction: column;
+				gap: 0;
 
 				.home-link {
 					flex-wrap: none;
 					width: 100%;
+					@include v-gap(1em);
 
 					.home-link-description {
 						width: fit-content;
+						margin-left: 1em;
 					}
 				}
 			}
