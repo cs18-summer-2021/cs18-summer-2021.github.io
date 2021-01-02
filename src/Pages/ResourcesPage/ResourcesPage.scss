@@ -139,16 +139,15 @@
 		}
 
 		.resources-right-wrapper {
-			padding: 0em;
-			padding-bottom: 1em;
-			gap: 0em;
+			padding: 2em;
+			margin-left: 0em;
 
 			* {
-				border-radius: 0em;
+				border-radius: 2em;
 			}
 
 			.resources-section {
-				margin-top: 1em;
+				@include v-gap(2em);
 				.resources-section-links {
 					grid-template-columns: 1fr;
 				}
