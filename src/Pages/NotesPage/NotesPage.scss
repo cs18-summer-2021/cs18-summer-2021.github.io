@@ -146,7 +146,7 @@
 .notes-resize-mobile {
 	.notes-wrapper {
 		grid-template-columns: 1fr;
-		grid-template-rows: auto auto;
+		grid-template-rows: auto min-content;
 
 		.notes-left-wrapper {
 			border-radius: 0em;
@@ -155,10 +155,12 @@
 
 		.notes-right-wrapper {
 			padding: 0em 2em;
+			padding-bottom: 2em;
 
 			.notes-cards-wrapper {
 				padding: 0em;
 				grid-template-columns: 1fr;
+				grid-template-rows: auto;
 			}
 		}
 	}
