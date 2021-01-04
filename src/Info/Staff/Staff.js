@@ -1,100 +1,105 @@
-import timmy from './Images/timmy.png';
+import staffImages from './StaffImages';
 
 const staff = [
 	{ 
-		name: "John Hughes", login: "jfh", image: timmy,
+		name: "John Hughes", login: "jfh", image: staffImages,
 		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
 		bio: "hello dis me" 
 	},
 	{ 
-		name: "Alexandra Christine Ryan", login: "aryan8", image: timmy,
+		name: "Alex Ryan", login: "aryan8", image: staffImages,
 		hometown: "Sammamish, WA", birthday: "June 23rd", pronouns: "she/her/hers", 
 		bio: "hello dis me" 
 	},
 	{ 
-		name: "Isabel Lai", login: "ilai2", image: timmy,
+		name: "Isabel Lai", login: "ilai2", image: staffImages,
 		hometown: "Springfield, MO", birthday: "July 18th", pronouns: "she/her/hers", 
 		bio: "hello dis me" 
 	},
 	{ 
-		name: "Sohum Gupta", login: "sgupta46", image: timmy,
+		name: "Sohum Gupta", login: "sgupta46", image: staffImages.SohumGupta,
 		hometown: "Aurora, IL", birthday: "July 18th", pronouns: "he/him/his", 
 		bio: "hello dis me" 
 	},
 	{ 
-		name: "Timothy Wang", login: "twang78", image: timmy,
+		name: "Timothy Wang", login: "twang78", image: staffImages.TimothyWang,
 		hometown: "Andover, MA", birthday: "July 18th", pronouns: "he/him/his", 
 		bio: "hello dis me" 
 	},
 	{ 
-		name: "First Last", login: "cslogin1", image: timmy,
+		name: "Andy Delworth", login: "adelwort", image: staffImages,
+		hometown: "Yardley, PA", birthday: "October 29th", pronouns: "he/him/his", 
+		bio: "Hey! I'm a sophomore from Yardley, PA (outside Philly) studying Applied Math and Computer Science. I really enjoy playing volleyball (indoor and outdoor), basketball, and spikeball, and you can often find me biking around campus or Providence. I'm super excited to be your TA :)" 
+	},
+	{ 
+		name: "Anna Dai", login: "adai10", image: staffImages,
+		hometown: "Acton, MA", birthday: "September 22nd", pronouns: "she/her/hers", 
+		bio: "Hello! I'm a sophomore from Boston, MA studying APMA-CS. In my free time I make food and eat food." 
+	},
+	{ 
+		name: "Arrington Harper", login: "aharper3", image: staffImages,
+		hometown: "Birmingham, AL", birthday: "June 1st", pronouns: "she/her/hers", 
+		bio: "I’m a sophomore possibly concentrating in computer science and linguistics. My hobbies include Animal Crossing and long walks on the beach. I'm in Mosaic+. My secret talent is that I can spin a pencil around my thumb." 
+	},
+	{ 
+		name: "Darren Fang", login: "dfang8", image: staffImages,
 		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
 		bio: "hello dis me" 
 	},
 	{ 
-		name: "First Last", login: "cslogin1", image: timmy,
+		name: "Harisen Luby", login: "hluby", image: staffImages,
+		hometown: "Phoenix, AZ", birthday: "November 18th", pronouns: "she/her/hers", 
+		bio: "Hi! I am a sophomore concentrating in CS. I like to watch really old movies and cooking videos (but never actually cook anything lol)! Super stoked to be your TA this semester :))" 
+	},
+	{ 
+		name: "Ian Layzer", login: "ilayzer", image: staffImages,
+		hometown: "Durham, NC", birthday: "February 26th", pronouns: "he/him/his", 
+		bio: "Outside of pandemic times, I love being a mediocre ultimate frisbee player and a slightly less mediocre inner-tube water poloist. I also enjoy watching student theater on campus!" 
+	},
+	{ 
+		name: "Justin Sanders", login: "jsander8", image: staffImages,
 		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
 		bio: "hello dis me" 
 	},
 	{ 
-		name: "First Last", login: "cslogin1", image: timmy,
+		name: "Kota Soda", login: "ksoda", image: staffImages,
 		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
 		bio: "hello dis me" 
 	},
 	{ 
-		name: "First Last", login: "cslogin1", image: timmy,
+		name: "Maceo Thompson", login: "mthomp13", image: staffImages,
 		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
 		bio: "hello dis me" 
 	},
 	{ 
-		name: "First Last", login: "cslogin1", image: timmy,
+		name: "Sahil Bansal", login: "sbansa12", image: staffImages,
 		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
 		bio: "hello dis me" 
 	},
 	{ 
-		name: "First Last", login: "cslogin1", image: timmy,
+		name: "Sean Zhan", login: "xzhan2", image: staffImages,
+		hometown: "Beijing, China", birthday: "March 19th", pronouns: "he/him/his", 
+		bio: "Hi! I'm a sophomore concentrating in APMA-CS. In my free time, I love playing the guitar, biking around Providence, and playing ultimate frisbee." 
+	},
+	{ 
+		name: "Stephanie Carrero", login: "scarrero", image: staffImages,
 		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
 		bio: "hello dis me" 
 	},
 	{ 
-		name: "First Last", login: "cslogin1", image: timmy,
-		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
-		bio: "hello dis me" 
+		name: "Stephen Chen", login: "schen211", image: staffImages,
+		hometown: "Plymouth, MN", birthday: "September 29th", pronouns: "he/him/his", 
+		bio: "Hi! I am a sophomore from Plymouth, Minnesota studying CS. In my free time, you can probably find me playing League of Legends or listening to the same three Taylor Swift songs on loop." 
 	},
 	{ 
-		name: "First Last", login: "cslogin1", image: timmy,
-		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
-		bio: "hello dis me" 
+		name: "Tali Bers", login: "tbers", image: staffImages,
+		hometown: "Winchester, MA", birthday: "May 15th", pronouns: "she/her/hers", 
+		bio: "Hi! I'm Tali from outside Boston, I'm a junior studying computer science. While I'm not coding, I like to spend time at Hillel, exploring outside, and hanging out with friends." 
 	},
 	{ 
-		name: "First Last", login: "cslogin1", image: timmy,
-		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
-		bio: "hello dis me" 
-	},
-	{ 
-		name: "First Last", login: "cslogin1", image: timmy,
-		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
-		bio: "hello dis me" 
-	},
-	{ 
-		name: "First Last", login: "cslogin1", image: timmy,
-		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
-		bio: "hello dis me" 
-	},
-	{ 
-		name: "First Last", login: "cslogin1", image: timmy,
-		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
-		bio: "hello dis me" 
-	},
-	{ 
-		name: "First Last", login: "cslogin1", image: timmy,
-		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
-		bio: "hello dis me" 
-	},
-	{ 
-		name: "First Last", login: "cslogin1", image: timmy,
-		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
-		bio: "hello dis me" 
+		name: "Thet Htay Zaw", login: "tzaw", image: staffImages,
+		hometown: "Brooklyn, NY", birthday: "April 6th", pronouns: "he/him/his", 
+		bio: "Hi everyone! I'm a sophomore concentrating in CS and Education Studies. My favorite pastime is staying up way past midnight reading and listening to podcasts." 
 	},
 ]
 
