@@ -58,18 +58,18 @@ const staff = [
 	},
 	{ 
 		name: "Justin Sanders", login: "jsander8", image: staffImages,
-		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
-		bio: "hello dis me" 
+		hometown: "Seattle, WA", birthday: "January 4th", pronouns: "he/him/his", 
+		bio: "Howdy! I'm a Junior from Seattle studying Computational Biology, and in my free time you'll either find me up skiing or getting tilted playing chess online. I'm looking forward to being your TA this semester :)" 
 	},
 	{ 
 		name: "Kota Soda", login: "ksoda", image: staffImages,
-		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
-		bio: "hello dis me" 
+		hometown: "Tokyo, Japan", birthday: "July 2nd", pronouns: "he/him/his", 
+		bio: "I'm a sophomore studying Apma-CS. I love anything baseball related and playing the guitar!" 
 	},
 	{ 
 		name: "Maceo Thompson", login: "mthomp13", image: staffImages,
-		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
-		bio: "hello dis me" 
+		hometown: "Brooklyn, NY", birthday: "June 29th", pronouns: "he/him/his", 
+		bio: "Hey! My name is Maceo, and I'm from Brooklyn, NY. I'm double concentrating in CS and Music. I love to take photos, play the piano, and (badly) play soccer." 
 	},
 	{ 
 		name: "Sahil Bansal", login: "sbansa12", image: staffImages,
@@ -77,7 +77,7 @@ const staff = [
 		bio: "hello dis me" 
 	},
 	{ 
-		name: "Sean Zhan", login: "xzhan2", image: staffImages,
+		name: "Sean Zhan", login: "xzhan2", image: staffImages.SeanZhan,
 		hometown: "Beijing, China", birthday: "March 19th", pronouns: "he/him/his", 
 		bio: "Hi! I'm a sophomore concentrating in APMA-CS. In my free time, I love playing the guitar, biking around Providence, and playing ultimate frisbee." 
 	},
