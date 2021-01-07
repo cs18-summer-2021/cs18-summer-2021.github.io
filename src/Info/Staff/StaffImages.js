@@ -4,7 +4,7 @@ import SeanZhan from './Images/SeanZhan.jpg';
 import ThetHtayZaw from './Images/ThetHtayZaw.jpg';
 
 const staffImages = {
-	TimothyWang, SohumGupta, SeanZhan, ThetHtayZaw
+	TimothyWang, SohumGupta, SeanZhan, ThetHtayZaw, IsabelLai
 }
 
 export default staffImages;

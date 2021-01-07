@@ -12,7 +12,7 @@ const staff = [
 		bio: "hello dis me" 
 	},
 	{ 
-		name: "Isabel Lai", login: "ilai2", image: staffImages,
+		name: "Isabel Lai", login: "ilai2", image: staffImages.IsabelLai,
 		hometown: "Springfield, MO", birthday: "July 18th", pronouns: "she/her/hers", 
 		bio: "hello dis me" 
 	},
