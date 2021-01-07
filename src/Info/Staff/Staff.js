@@ -24,7 +24,7 @@ const staff = [
 	{ 
 		name: "Timothy Wang", login: "twang78", image: staffImages.TimothyWang,
 		hometown: "Andover, MA", birthday: "July 18th", pronouns: "he/him/his", 
-		bio: "hello dis me" 
+		bio: "Hey there - I’m a junior from the Boston Area studying APMA-CS. I’m super into puzzle-y things like Rubik’s cubes and crosswords, and recently I’ve started doing jigsaw puzzles (they’re really fun and relaxing, I would highly recommend them!!!). I also enjoy spending my freetime playing board games like Catan, so if you want to play sometime online, hit me up!" 
 	},
 	{ 
 		name: "Andy Delworth", login: "adelwort", image: staffImages,
