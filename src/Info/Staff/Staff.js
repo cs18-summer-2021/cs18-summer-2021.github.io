@@ -73,8 +73,8 @@ const staff = [
 	},
 	{ 
 		name: "Sahil Bansal", login: "sbansa12", image: staffImages,
-		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
-		bio: "hello dis me" 
+		hometown: "Riyadh, Saudi Arabia", birthday: "May 27th", pronouns: "he/him/his", 
+		bio: "Hi! I'm a sophomore concentrating in CS. I'm from the US and grew up in Saudi Arabia and India. I love reading manga, being with family and friends, and watching cooking shows but never actually cooking anything!" 
 	},
 	{ 
 		name: "Sean Zhan", login: "xzhan2", image: staffImages.SeanZhan,
