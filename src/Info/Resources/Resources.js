@@ -1,12 +1,12 @@
 import { FaQuestion, FaSchool, FaShoePrints, FaComment, FaVideo, FaFileAlt } from 'react-icons/fa';
 
 export const ImportantLinks = [
-	{ label: "Syllabus", icon: <FaFileAlt/>, link: "", description: "This is our class syllabus!" },
-	{ label: "Zoom Link", icon: <FaVideo/>, link: "", description: "This is where all classes will be held." },
-	{ label: "Gradescope", icon: <FaSchool/>, link: "", description: "This is for hand-ins and grades." },
-	{ label: "Piazza", icon: <FaQuestion/>, link: "piazza.com/brown/spring2021/csci0170", description: "Ask questions here!" },
+	{ label: "Syllabus", icon: <FaFileAlt/>, link: "", description: "Our class syllabus!" },
+	{ label: "Zoom Link", icon: <FaVideo/>, link: "", description: "Zoom link for classes!." },
+	{ label: "Gradescope", icon: <FaSchool/>, link: "", description: "Hand-ins and grades :)" },
+	{ label: "Piazza", icon: <FaQuestion/>, link: "https://piazza.com/brown/spring2021/csci0170", description: "Ask questions here!" },
 	{ label: "SignMeUp", icon: <FaComment/>, link: "https://signmeup.cs.brown.edu/", description: "Hours sign-ups!" },
-	{ label: "Gather.town", icon: <FaShoePrints/>, link: "", description: "This is where labs will be held." },
+	{ label: "Gather.town", icon: <FaShoePrints/>, link: "", description: "Link for labs!" },
 ]
 
 export const Resources = [
