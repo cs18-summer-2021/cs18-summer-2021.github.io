@@ -43,8 +43,8 @@ const staff = [
 	},
 	{ 
 		name: "Darren Fang", login: "dfang8", image: staffImages,
-		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
-		bio: "hello dis me" 
+		hometown: "Taipei, Taiwan", birthday: "June 28th", pronouns: "he/him/his", 
+		bio: "Hey everyone, I'm a sophomore double-concentrating in CS and APMA-Econ (yes I know). I'm a major foodie so you'll often find me exploring food places and bars! (in Taipei). During the school year, I'm usually off competing at a debate tournament during the weekends :)" 
 	},
 	{ 
 		name: "Harisen Luby", login: "hluby", image: staffImages,
@@ -83,8 +83,8 @@ const staff = [
 	},
 	{ 
 		name: "Stephanie Carrero", login: "scarrero", image: staffImages,
-		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun", 
-		bio: "hello dis me" 
+		hometown: "Bronx, New York", birthday: "September 21st", pronouns: "she/her/hers", 
+		bio: "Hi! I’m a senior from the Bronx, New York currently studying CS and biology. In my free time I love reading, playing ultimate frisbee, and dancing." 
 	},
 	{ 
 		name: "Stephen Chen", login: "schen211", image: staffImages,

@@ -50,18 +50,6 @@
 		justify-content: center;
 		// gap: 1em;
 		& > * { @include h-gap(1em); }
-
-		.assignments-card-link {
-			font-size: 1.25em;
-			line-height: 0em;
-			padding: 0.5em;
-
-			background-color: $aqua-medium;
-			color: $light;
-			border-radius: 50%;
-
-			&:hover { background-color: $aqua-dark; }
-		}
 	}
 
 	.assignments-card-due-date {

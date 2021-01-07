@@ -5,24 +5,24 @@ const projects = [
 		number: 1, title: "Bignum", dueDate: "01-21-2021", active: false,
 		notes: "",
 		links: [
-			{ icon: <MdDescription/>, link: "" },
-			{ icon: <MdCode/>, link: "" },
+			{ icon: <MdDescription/>, link: "", label: "Handout" },
+			{ icon: <MdCode/>, link: "", label: "Source Code" },
 		]
 	},
 	{ 
 		number: 2, title: "Rackette", dueDate: "01-21-2021", active: false,
 		notes: "",
 		links: [
-			{ icon: <MdDescription/>, link: "" },
-			{ icon: <MdCode/>, link: "" },
+			{ icon: <MdDescription/>, link: "", label: "Handout" },
+			{ icon: <MdCode/>, link: "", label: "Source Code" },
 		]
 	},
 	{ 
 		number: 3, title: "Game", dueDate: "01-21-2021", active: false,
 		notes: "",
 		links: [
-			{ icon: <MdDescription/>, link: "" },
-			{ icon: <MdCode/>, link: "" },
+			{ icon: <MdDescription/>, link: "", label: "Handout" },
+			{ icon: <MdCode/>, link: "", label: "Source Code" },
 		]
 	},
 ]

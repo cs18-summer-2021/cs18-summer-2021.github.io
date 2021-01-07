@@ -1,0 +1,32 @@
+@import '../../Main.scss';
+
+.icon-link {
+	position: relative;
+	font-size: 1.25em;
+	line-height: 0em;
+	padding: 0.5em;
+
+	background-color: $aqua-medium;
+	color: $light;
+	border-radius: 50%;
+
+	&:hover { background-color: $aqua-dark; .icon-tooltip { opacity: 1 } }
+
+	.icon-tooltip{
+		position: absolute;
+		left: 50%; transform: translateX(-50%);
+		top: -2.5em;
+		width: max-content;
+		z-index: 100;
+
+		background: $light;
+		padding: 1em 0.5em;
+		border-radius: 0.25em;
+		box-shadow: 0 0 0.5em 0em rgba($dark, 0.5);
+		opacity: 0;
+
+		font-size: 0.75em;
+		color: $dark;
+		content: attr(title);
+	}
+}

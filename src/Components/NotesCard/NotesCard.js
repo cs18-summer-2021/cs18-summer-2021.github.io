@@ -1,11 +1,11 @@
 import React from 'react';
-import { MdTransferWithinAStation } from 'react-icons/md';
+import IconLink from '../../Components/IconLink/IconLink';
 
 import './NotesCard.scss';
 
 class NotesCard extends React.Component {
 	renderLinks() {
-		return this.props.links.map((l) => <a className="notes-card-link" href={l.link}>{l.icon}</a>)
+		return this.props.links.map((l) => <IconLink link={l.link} icon={l.icon} label={l.label}/>)
 	}
 
 	renderTags() {

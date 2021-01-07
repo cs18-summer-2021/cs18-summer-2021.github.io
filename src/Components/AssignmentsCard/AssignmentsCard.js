@@ -1,10 +1,11 @@
 import React from 'react';
+import IconLink from '../../Components/IconLink/IconLink';
 
 import './AssignmentsCard.scss';
 
 class AssignmentsCard extends React.Component {
 	renderLinks() {
-		return this.props.links.map((l) => <a className="assignments-card-link" href={l.link}>{l.icon}</a>)
+		return this.props.links.map((l) => <IconLink link={l.link} icon={l.icon} label={l.label}/>)
 	}
 
 	formatDate() {
