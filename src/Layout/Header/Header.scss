@@ -54,7 +54,7 @@
 			}
 
 			&:hover {
-				.tab-children { opacity: 1;	padding: 1em; }
+				.tab-children { opacity: 1;	padding: 1em; height: auto; overflow: auto; }
 				&:after { width: 100%; opacity: 1; }
 			}
 
@@ -64,6 +64,7 @@
 				left: -1em;
 				z-index: 10;
 				padding: 0 1em;
+				height: 0; overflow: hidden;
 
 				display: flex;
 				flex-direction: column;
@@ -75,7 +76,7 @@
 
 				background-color: $light;
 				box-shadow: 0 0.25em 0.5em 0em rgba($dark, 0.2);
-				opacity: 0;
+				opacity: 0; opacity: 1;
 
 				.tab-children-text {
 					color: $dark;

@@ -35,9 +35,11 @@ class Header extends React.Component {
 					<div className="header-wrapper header-resize">
 						<div className={"header-background-fill" + fillStyle} onClick={() => this.setState({ open: false })}/>
 						<MdMenu className="header-hamburger" onClick={() => this.setState({ open: true })} />
-						<div className="logo-wrapper">
-							<AnimatedImage/>
-						</div>
+						<Link to="/">
+							<div className="logo-wrapper">
+								<AnimatedImage/>
+							</div>
+						</Link>
 						<div className={"tabs-wrapper" + openStyle}>
 							{this.renderTabs()}
 						</div>
@@ -48,9 +50,11 @@ class Header extends React.Component {
 
 			return (
 				<div className="header-wrapper">
-					<div className="logo-wrapper">
-						<AnimatedImage/>
-					</div>
+					<Link to="/">
+						<div className="logo-wrapper">
+							<AnimatedImage/>
+						</div>
+					</Link>
 					<div className="tabs-wrapper">
 						{this.renderTabs()}
 					</div>
