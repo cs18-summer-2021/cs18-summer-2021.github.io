@@ -6,13 +6,13 @@
 
 	display: grid;
 	grid-template-columns: 2fr 3fr;
-	grid-template-rows: max-content max-content max-content;
+	grid-template-rows: max-content max-content max-content min-content;
 	gap: 2em;
 
 	.home-left-wrapper {
 		background: $bg-color;
 		grid-column: 1;
-		grid-row: 1 / span 3;
+		grid-row: 1 / span 4;
 
 		height: 100%;
 		border-top-right-radius: 2em;
