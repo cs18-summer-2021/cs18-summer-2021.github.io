@@ -129,7 +129,7 @@
 			display: grid;
 			width: 100%;
 			grid-template-columns: repeat(4, 1fr);
-			// how many lectures will we have?
+			// how many classes will we have?
 			grid-template-rows: repeat(3, min-content);
 			gap: 1em;
 			// & > * { @include h-gap(2em); }

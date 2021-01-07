@@ -23,7 +23,7 @@ import Projects from './Info/Assignments/Projects/Projects';
 import Labs from './Info/Assignments/Labs/Labs';
 
 import NotesPage from './Pages/NotesPage/NotesPage';
-import Lectures from './Info/Notes/Lectures/Lectures';
+import Classes from './Info/Notes/Classes/Classes';
 import Workshops from './Info/Notes/Workshops/Workshops';
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
 							<Route path="/homeworks"><AssignmentsPage assignments={Homeworks} activeTab="Homeworks"/></Route>
 							<Route path="/labs"><AssignmentsPage assignments={Labs} activeTab="Labs"/></Route>
 							<Route path="/projects"><AssignmentsPage assignments={Projects} activeTab="Projects"/></Route>
-							<Route path="/lectures"><NotesPage notes={Lectures} activeTab="Lectures"/></Route>
+							<Route path="/classes"><NotesPage notes={Classes} activeTab="Classes"/></Route>
 							<Route path="/workshops"><NotesPage notes={Workshops} activeTab="Workshops"/></Route>
 							<Route path="/staff"><StaffPage/></Route>
 							<Route path="/resources"><ResourcesPage/></Route>

@@ -1,6 +1,6 @@
 import { MdDescription, MdMovie, MdSlideshow } from 'react-icons/md';
 
-const lectures = [
+const classes = [
 	{ 
 		number: 1, title: "lect1", dueDate: "01-21-2021", active: true,
 		links: [
@@ -21,4 +21,4 @@ const lectures = [
 	},
 ]
 
-export default lectures;
+export default classes;

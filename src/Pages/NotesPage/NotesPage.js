@@ -74,8 +74,8 @@ class NotesPage extends React.Component {
 					<div className="notes-left-wrapper">
 						<div className="notes-nav-bar">
 							<div className="notes-link-wrapper">
-								<Link to="/lectures"><p className={"notes-link" + (this.props.activeTab == "Lectures" ? " notes-active-link" : "")}>Lectures</p></Link>
-								<p className="notes-link-description">these do be the lectures tho</p>
+								<Link to="/classes"><p className={"notes-link" + (this.props.activeTab == "Classes" ? " notes-active-link" : "")}>Classes</p></Link>
+								<p className="notes-link-description">these do be the classes tho</p>
 							</div>
 							<div className="notes-link-wrapper">
 								<Link to="/workshops"><p className={"notes-link" + (this.props.activeTab == "Workshops" ? " notes-active-link" : "")}>Workshops</p></Link>

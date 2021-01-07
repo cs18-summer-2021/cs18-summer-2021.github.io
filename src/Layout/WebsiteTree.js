@@ -2,9 +2,9 @@ import { MdNotificationsNone } from "react-icons/md";
 
 const tree = [
 	{ label: "Home", navigation: "/", children: [] },
-	{ label: "Notes", navigation: "/lectures", children: 
+	{ label: "Notes", navigation: "/classes", children: 
 		[
-			{ label: "Lectures", navigation: "/lectures", children: [] },
+			{ label: "Classes", navigation: "/classes", children: [] },
 			{ label: "Workshops", navigation: "/workshops", children: [] },
 		] 
 	},
