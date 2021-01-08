@@ -75,11 +75,11 @@ class NotesPage extends React.Component {
 						<div className="notes-nav-bar">
 							<div className="notes-link-wrapper">
 								<Link to="/classes"><p className={"notes-link" + (this.props.activeTab == "Classes" ? " notes-active-link" : "")}>Classes</p></Link>
-								<p className="notes-link-description">these do be the classes tho</p>
+								{/* <p className="notes-link-description">these do be the classes tho</p> */}
 							</div>
 							<div className="notes-link-wrapper">
 								<Link to="/workshops"><p className={"notes-link" + (this.props.activeTab == "Workshops" ? " notes-active-link" : "")}>Workshops</p></Link>
-								<p className="notes-link-description">this link go to workshops page!!</p>
+								{/* <p className="notes-link-description">this link go to workshops page!!</p> */}
 							</div>
 						</div>
 					</div>

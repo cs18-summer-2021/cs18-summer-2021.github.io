@@ -20,15 +20,15 @@ class AssignmentsPage extends React.Component {
 						<div className="assignments-nav-bar">
 							<div className="assignments-link-wrapper">
 								<Link to="/homeworks"><p className={"assignments-link" + (this.props.activeTab == "Homeworks" ? " assignments-active-link" : "")}>Homeworks</p></Link>
-								<p className="assignments-link-description">these do be the homeworks tho</p>
+								{/* <p className="assignments-link-description">these do be the homeworks tho</p> */}
 							</div>
 							<div className="assignments-link-wrapper">
 								<Link to="/labs"><p className={"assignments-link" + (this.props.activeTab == "Labs" ? " assignments-active-link" : "")}>Labs</p></Link>
-								<p className="assignments-link-description">this link go to labs page!!</p>
+								{/* <p className="assignments-link-description">this link go to labs page!!</p> */}
 							</div>
 							<div className="assignments-link-wrapper">
 								<Link to="/projects"><p className={"assignments-link" + (this.props.activeTab == "Projects" ? " assignments-active-link" : "")}>Projects</p></Link>
-								<p className="assignments-link-description">this link go to projects page!!</p>
+								{/* <p className="assignments-link-description">this link go to projects page!!</p> */}
 							</div>
 						</div>
 					</div>
