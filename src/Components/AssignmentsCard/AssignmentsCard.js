@@ -16,11 +16,12 @@ class AssignmentsCard extends React.Component {
 		const month = date.getMonth()
 		const day = date.getDate()
 
-		return `${month + 1}/${day}/${year}, 11:59 PM AOE`
+		return `${month + 1}/${day}/${year}, 11:59 PM EST`
 	}
 
 	render() {
 		const inactiveStyle = this.props.active ? "" : " assignments-inactive"
+		const inactiveText = this.props.active ? <></> : <div className="assignments-inactive-text"><p>Coming soon!</p></div>
 		return (
 			<div className={"assignments-card" + inactiveStyle}>
 				<div className="assignments-card-heading">
@@ -29,6 +30,7 @@ class AssignmentsCard extends React.Component {
 				</div>
 				<div className="assignments-card-links">{this.renderLinks()}</div>
 				<div className="assignments-card-due-date">{this.formatDate()}</div>
+				{inactiveText}
 			</div>
 		)
 	}

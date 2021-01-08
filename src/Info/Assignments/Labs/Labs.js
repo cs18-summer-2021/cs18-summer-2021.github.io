@@ -2,7 +2,7 @@ import { MdDescription, MdCode, MdSlideshow } from 'react-icons/md';
 
 const labs = [
 	{ 
-		number: 1, title: "Setup", dueDate: "01-21-2021", active: true,
+		number: 1, title: "Setup", dueDate: "01-21-2021", active: false,
 		links: [
 			{ icon: <MdDescription/>, link: "", label: "Handout" },
 			{ icon: <MdCode/>, link: "", label: "Source Code" },

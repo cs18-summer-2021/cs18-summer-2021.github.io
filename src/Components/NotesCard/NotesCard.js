@@ -20,11 +20,12 @@ class NotesCard extends React.Component {
 		const month = date.getMonth()
 		const day = date.getDate()
 
-		return `${month + 1}/${day}/${year}, 11:59 PM AOE`
+		return `${month + 1}/${day}/${year}, 11:59 PM EST`
 	}
 
 	render() {
 		const inactiveStyle = this.props.active ? "" : " notes-inactive"
+		const inactiveText = this.props.active ? <></> : <div className="notes-inactive-text"><p>Coming soon!</p></div>
 		return (
 			<div className={"notes-card" + inactiveStyle}>
 				<div className="notes-card-heading">
@@ -34,6 +35,7 @@ class NotesCard extends React.Component {
 				{this.props.tags !== undefined ? <div className="notes-card-tags">{this.renderTags()}</div> : <></>}
 				<div className="notes-card-links">{this.renderLinks()}</div>
 				<div className="notes-card-out-date">{this.formatDate()}</div>
+				{inactiveText}
 			</div>
 		)
 	}

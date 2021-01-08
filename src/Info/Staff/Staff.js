@@ -97,7 +97,7 @@ const staff = [
 		bio: "Hi! I'm Tali from outside Boston, I'm a junior studying computer science. While I'm not coding, I like to spend time at Hillel, exploring outside, and hanging out with friends." 
 	},
 	{ 
-		name: "Thet Htay Zaw", login: "tzaw", image: staffImages,
+		name: "Thet Htay Zaw", login: "tzaw", image: staffImages.ThetHtayZaw,
 		hometown: "Brooklyn, NY", birthday: "April 6th", pronouns: "he/him/his", 
 		bio: "Hi everyone! I'm a sophomore concentrating in CS and Education Studies. My favorite pastime is staying up way past midnight reading and listening to podcasts." 
 	},
