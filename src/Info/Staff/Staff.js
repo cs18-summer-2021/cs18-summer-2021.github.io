@@ -9,12 +9,12 @@ const staff = [
 	{ 
 		name: "Alex Ryan", login: "aryan8", image: staffImages,
 		hometown: "Sammamish, WA", birthday: "June 23rd", pronouns: "she/her/hers", 
-		bio: "hello dis me" 
+		bio: "Hi!! I'm a junior from Seattle studying computer science (although at this point I'm basically a polisci concentrator too). In my free time, I love solving crossword + sudoku puzzles and thinking about trains." 
 	},
 	{ 
 		name: "Isabel Lai", login: "ilai2", image: staffImages.IsabelLai,
 		hometown: "Springfield, MO", birthday: "July 18th", pronouns: "she/her/hers", 
-		bio: "hello dis me" 
+		bio: "Hi :D I'm Isabel!!! I'm a junior studying CS from Springfield, Missouri. I really, really LOVE TAing and helping people :D so seriously email me any time!!!! I love making stickers, doing crosswords, learning Turkish, the color yellow, meeting new people, and public speaking. So nice to meet you!!!!" 
 	},
 	{ 
 		name: "Sohum Gupta", login: "sgupta46", image: staffImages.SohumGupta,
