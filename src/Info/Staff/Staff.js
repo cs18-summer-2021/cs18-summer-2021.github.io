@@ -7,22 +7,22 @@ const staff = [
 		bio: "hello dis me"
 	},
 	{
-		name: "Alex Ryan", login: "aryan8", image: staffImages.AlexRyan,
+		name: "Alex Ryan (HTA)", login: "aryan8", image: staffImages.AlexRyan,
 		hometown: "Sammamish, WA", birthday: "June 23rd", pronouns: "she/her/hers",
 		bio: "Hi!! I'm a junior from Seattle studying computer science (although at this point I'm basically a polisci concentrator too). In my free time, I love solving crossword + sudoku puzzles and thinking about trains."
 	},
 	{
-		name: "Isabel Lai", login: "ilai2", image: staffImages.IsabelLai,
+		name: "Isabel Lai (HTA)", login: "ilai2", image: staffImages.IsabelLai,
 		hometown: "Springfield, MO", birthday: "July 18th", pronouns: "she/her/hers",
 		bio: "Hi :D I'm Isabel!!! I'm a junior studying CS from Springfield, Missouri. I really, really LOVE TAing and helping people :D so seriously email me any time!!!! I love making stickers, doing crosswords, learning Turkish, the color yellow, meeting new people, and public speaking. So nice to meet you!!!!"
 	},
 	{
-		name: "Sohum Gupta", login: "sgupta46", image: staffImages.SohumGupta,
+		name: "Sohum Gupta (HTA)", login: "sgupta46", image: staffImages.SohumGupta,
 		hometown: "Aurora, IL", birthday: "July 18th", pronouns: "he/him/his",
-		bio: "hello dis me"
+		bio: "Hello!! I'm a junior from Aurora, IL (an hour out of Chicago) studying CS and Art History. I like to cook (ask me for recipes!), window shop for cool clothes online 😎, and listen to music in bed with the lights off. Please send me song recs or tasty things that you've cooked!"
 	},
 	{
-		name: "Timothy Wang", login: "twang78", image: staffImages.TimothyWang,
+		name: "Timothy Wang (HTA)", login: "twang78", image: staffImages.TimothyWang,
 		hometown: "Andover, MA", birthday: "July 18th", pronouns: "he/him/his",
 		bio: "Hey there - I’m a junior from the Boston Area studying APMA-CS. I’m super into puzzle-y things like Rubik’s cubes and crosswords, and recently I’ve started doing jigsaw puzzles (they’re really fun and relaxing, I would highly recommend them!!!). I also enjoy spending my freetime playing board games like Catan, so if you want to play sometime online, hit me up!"
 	},
