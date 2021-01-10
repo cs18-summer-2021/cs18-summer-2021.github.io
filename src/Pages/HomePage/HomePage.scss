@@ -303,11 +303,11 @@
 .home-resize-tablet {
 	.home-wrapper {
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: min-content min-content min-content;
+		grid-template-rows: max-content max-content max-content max-content;
 
 		.home-left-wrapper {
 			padding: 2em;
-			grid-row: 1 / span 2;
+			grid-row: 1 / span 3;
 
 			border-bottom-right-radius: 2em;
 
@@ -331,7 +331,7 @@
 
 		.home-hours {
 			grid-column: 1 / span 2;
-			grid-row: 3;
+			grid-row: 4;
 			width: 100%;
 			padding-right: 0em;
 
