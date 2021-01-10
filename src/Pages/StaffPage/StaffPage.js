@@ -7,6 +7,7 @@ import Staff from '../../Info/Staff/Staff.js';
 
 import { MdCake, MdLocationCity, MdFace } from 'react-icons/md';
 import { FaBirthdayCake, FaCity, FaUserCircle } from 'react-icons/fa';
+import { FaExclamation } from 'react-icons/fa';
 
 class StaffCard extends React.Component {
 	render() {
@@ -55,6 +56,10 @@ class StaffPage extends React.Component {
 								<p className="staff-main-pronouns">{cur.pronouns}</p>
 							</div>
 							<p className="staff-main-bio">{cur.bio}</p>
+						</div>
+						<div className="staff-contact-description">
+							<div><FaExclamation/></div>
+							<p>Email <a href="mailto:jfh@cs.brown.edu" target="_blank" rel="noreferrer noopener">Spike</a> for grade questions, extenuating circumstances, and extension requests. Email the <a href="mailto:cs0170headtas@lists.brown.edu" target="_blank" rel="noreferrer noopener"> HTA List </a> for private course logistical questions, e.g. problems with partners, gradescope submission problems.</p>
 						</div>
 					</div>
 					<div className="staff-right-wrapper">
