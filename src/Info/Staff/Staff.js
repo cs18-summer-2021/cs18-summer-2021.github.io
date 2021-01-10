@@ -27,7 +27,7 @@ const staff = [
 		bio: "Hey there - I’m a junior from the Boston Area studying APMA-CS. I’m super into puzzle-y things like Rubik’s cubes and crosswords, and recently I’ve started doing jigsaw puzzles (they’re really fun and relaxing, I would highly recommend them!!!). I also enjoy spending my freetime playing board games like Catan, so if you want to play sometime online, hit me up!"
 	},
 	{
-		name: "Andy Delworth", login: "adelwort", image: staffImages,
+		name: "Andy Delworth", login: "adelwort", image: staffImages.AndyDelworth,
 		hometown: "Yardley, PA", birthday: "October 29th", pronouns: "he/him/his",
 		bio: "Hey! I'm a sophomore from Yardley, PA (outside Philly) studying Applied Math and Computer Science. I really enjoy playing volleyball (indoor and outdoor), basketball, and spikeball, and you can often find me biking around campus or Providence. I'm super excited to be your TA :)"
 	},
