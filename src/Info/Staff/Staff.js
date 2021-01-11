@@ -2,7 +2,7 @@ import staffImages from './StaffImages';
 
 const staff = [
 	{
-		name: "John Hughes", login: "jfh", image: staffImages,
+		name: "John Hughes (Professor)", login: "jfh", image: staffImages,
 		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun",
 		bio: "hello dis me"
 	},
