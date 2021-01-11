@@ -34,7 +34,7 @@ export const Resources = [
 	{ section: "Working from Home", links: 
 		[
 			{ label: "Work from Home Guide", link: "" }, { label: "SSH Guide", link: "" },
-			{ label: "Download DrRacket", link: "" }, { label: "CS17 Racket Teachpack", link: "" },
+			{ label: "Download DrRacket", link: "" }, { label: "CS17 Racket Teachpack", link: "https://drive.google.com/file/d/1Yc0e6P3WH-2iSKeCHqTImzAME13CkEAM/view?usp=sharing" },
 			{ label: "CS17 ReasonML Teachpack", link: "" }, { label: "ReasonML Installation and Compilation Guide", link: "" },
 		]
 	},
