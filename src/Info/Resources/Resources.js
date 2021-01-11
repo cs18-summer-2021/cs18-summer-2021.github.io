@@ -12,30 +12,41 @@ export const ImportantLinks = [
 export const Resources = [
 	{ section: "Course Documentation", links: 
 		[
-			{ label: "Course Policies/Collaboration Policy", link: "" }, { label: "Guide to TA Hours", link: "" },
-			{ label: "Pair Programming Guide", link: "" }, { label: "Design Recipe Guide", link: "" },
-			{ label: "Piazza Guide", link: "" }
+			{ label: "Course Policies/Collaboration Policy", link: "https://drive.google.com/file/d/1hWf7SbiKzixyK3B3H1Jryd9CgYajsOyZ/view?usp=sharing" }, 
+			{ label: "Guide to TA Hours", link: "https://drive.google.com/file/d/1cABC3l7NfIcoGJJ4v1kX9biy60creX8-/view?usp=sharing" },
+			{ label: "Pair Programming Guide", link: "https://drive.google.com/file/d/1tsxOA-v8KdLKRk3-gSnWMJpvSD5EmS_T/view?usp=sharing" }, 
+			{ label: "Design Recipe Guide", link: "https://drive.google.com/file/d/1SYMB8NLh5BptdaSnlPTbdwNokszjNN1X/view?usp=sharing" },
+			{ label: "Piazza Guide", link: "https://drive.google.com/file/d/1FhanZKhjaixiW3huPNS9uD8OyVgipLY0/view?usp=sharing" }
 		]
 	},
 	{ section: "CS17 Language Guides", links: 
 		[
-			{ label: "CS17 General Style Guide", link: "" }, { label: "CS17 Racket Style Guide", link: "" },
-			{ label: "Racket to ReasonML", link: "" }, { label: "CS17 ReasonML Style Guide", link: "" },
-			{ label: "ReasonML Debugging", link: "" }, { label: "CS17 Racket Built-in Procedures and Data", link: "" },
+			{ label: "CS17 General Style Guide", link: "https://drive.google.com/file/d/1vpQYJOJzFr5lUkodyuxzn_u-KVXAMAX1/view?usp=sharing" }, 
+			{ label: "CS17 Racket Style Guide", link: "https://drive.google.com/file/d/1CHuEpQ01N6LSUBeyZer5Di1QxFDIUsvl/view?usp=sharing" },
+			{ label: "Racket to ReasonML", link: "https://drive.google.com/file/d/1kk7qKwy7NLLZx-gqyZRSbw9MiTF5ExVP/view?usp=sharing" }, 
+			{ label: "CS17 ReasonML Style Guide", link: "https://drive.google.com/file/d/1olLwJEND7l6UR_NvehxaG1yzdPq3lmZ6/view?usp=sharing" },
+			{ label: "ReasonML Debugging", link: "https://drive.google.com/file/d/1SvePYEiHwqP6DMkdAcrus8UEZg3oe3QC/view?usp=sharing" }, 
+			{ label: "CS17 Racket Built-in Procedures and Data", link: "https://drive.google.com/file/d/1Aosl7flOkF0jdolTfrDABwrBVp2SSiQI/view?usp=sharing" },
 		]
 	},
 	{ section: "Supplementary Material", links: 
 		[
-			{ label: "Ergonomics Guide", link: "" }, { label: "Linux Commands", link: "" },
-			{ label: "Introduction to LaTeX2e", link: "" }, { label: "LaTeX Symbols", link: "" },
-			{ label: "Frequently Used Math Symbols", link: "" }, { label: "ReasonML Library Reference", link: "" },
+			{ label: "Ergonomics Guide", link: "https://cs.brown.edu/systems/ergo/" }, 
+			{ label: "Linux Commands", link: "https://drive.google.com/file/d/1_W0HBpP9M1p3C0Tf8Wz2V36swxxFYHzA/view?usp=sharing" },
+			{ label: "Introduction to LaTeX2e", link: "http://www.cs.brown.edu/system/software/latex/doc/lshort.pdf" }, 
+			{ label: "LaTeX Symbols", link: "http://www.cs.brown.edu/system/software/latex/doc/symbols.pdf" },
+			{ label: "Frequently Used Math Symbols", link: "https://drive.google.com/file/d/1DWTzHQ8NHLYlVSSBq5yI0DclMqY3dtC8/view?usp=sharing" }, 
+			{ label: "ReasonML Library Reference", link: "https://reasonml.github.io/docs/en/overview" },
 		]
 	},
 	{ section: "Working from Home", links: 
 		[
-			{ label: "Work from Home Guide", link: "" }, { label: "SSH Guide", link: "" },
-			{ label: "Download DrRacket", link: "" }, { label: "CS17 Racket Teachpack", link: "https://drive.google.com/file/d/1Yc0e6P3WH-2iSKeCHqTImzAME13CkEAM/view?usp=sharing" },
-			{ label: "CS17 ReasonML Teachpack", link: "" }, { label: "ReasonML Installation and Compilation Guide", link: "" },
+			{ label: "Work from Home Guide", link: "https://cs.brown.edu/about/system/connecting/ssh/" }, 
+			{ label: "SSH Guide", link: "https://drive.google.com/file/d/1PD9C5Bh7uT0dsLY0dhryPF5Kc1KG0GO_/view?usp=sharing" },
+			{ label: "Download DrRacket", link: "https://racket-lang.org/download/" }, 
+			{ label: "CS17 Racket Teachpack", link: "https://drive.google.com/file/d/1Yc0e6P3WH-2iSKeCHqTImzAME13CkEAM/view?usp=sharing" },
+			{ label: "CS17 ReasonML Teachpack", link: "https://drive.google.com/file/d/1v31kqpdPbmUX15kUSTwcp2hm0hYv_a35/view?usp=sharing" }, 
+			{ label: "ReasonML Installation and Compilation Guide", link: "https://drive.google.com/file/d/15EEZHR86owNFpyPWo2gVkimf4XrrrdOW/view?usp=sharing" },
 		]
 	},
 ]
