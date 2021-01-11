@@ -24,6 +24,31 @@
 		// gap: 2em;
 		& > * { @include v-gap(2em); }
 
+		.staff-contact-description {
+			align-self: flex-end;
+			font-size: 0.9em;
+
+			display: flex;
+			align-items: flex-start;
+			justify-content: center;
+			text-align: left;
+
+			font-weight: bold;
+			color: $aqua-dark;
+
+			div {
+				line-height: 0em;
+				font-size: 0.75em;
+				background: $aqua-dark;
+				border-radius: 50em;
+				padding: 0.5em;
+				color: $light;
+				margin-right: 0.5em;
+			}
+
+			a { color: $aqua-dark; &:hover { color: $dark;} }
+		}
+
 		.staff-main-image {
 			width: 40%;
 			background: $aqua-dark;
