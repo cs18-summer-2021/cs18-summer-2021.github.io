@@ -21,10 +21,10 @@ export const Resources = [
 	},
 	{ section: "CS17 Language Guides", links: 
 		[
-			{ label: "CS17 General Style Guide", link: "https://drive.google.com/file/d/1vpQYJOJzFr5lUkodyuxzn_u-KVXAMAX1/view?usp=sharing" }, 
-			{ label: "CS17 Racket Style Guide", link: "https://drive.google.com/file/d/1CHuEpQ01N6LSUBeyZer5Di1QxFDIUsvl/view?usp=sharing" },
+			{ label: "General Style Guide", link: "https://drive.google.com/file/d/1vpQYJOJzFr5lUkodyuxzn_u-KVXAMAX1/view?usp=sharing" }, 
+			{ label: "Racket Style Guide", link: "https://drive.google.com/file/d/1CHuEpQ01N6LSUBeyZer5Di1QxFDIUsvl/view?usp=sharing" },
 			{ label: "Racket to ReasonML", link: "https://drive.google.com/file/d/1kk7qKwy7NLLZx-gqyZRSbw9MiTF5ExVP/view?usp=sharing" }, 
-			{ label: "CS17 ReasonML Style Guide", link: "https://drive.google.com/file/d/1olLwJEND7l6UR_NvehxaG1yzdPq3lmZ6/view?usp=sharing" },
+			{ label: "ReasonML Style Guide", link: "https://drive.google.com/file/d/1olLwJEND7l6UR_NvehxaG1yzdPq3lmZ6/view?usp=sharing" },
 			{ label: "ReasonML Debugging", link: "https://drive.google.com/file/d/1SvePYEiHwqP6DMkdAcrus8UEZg3oe3QC/view?usp=sharing" }, 
 			{ label: "CS17 Racket Built-in Procedures and Data", link: "https://drive.google.com/file/d/1Aosl7flOkF0jdolTfrDABwrBVp2SSiQI/view?usp=sharing" },
 		]
