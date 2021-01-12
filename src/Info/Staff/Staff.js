@@ -37,7 +37,7 @@ const staff = [
 		bio: "Hello! I'm a sophomore from Boston, MA studying APMA-CS. In my free time I make food and eat food."
 	},
 	{
-		name: "Arrington Harper", login: "aharper3", image: staffImages,
+		name: "Arrington Harper", login: "aharper3", image: staffImages.ArringtonHarper,
 		hometown: "Birmingham, AL", birthday: "June 1st", pronouns: "she/her/hers",
 		bio: "I’m a sophomore possibly concentrating in computer science and linguistics. My hobbies include Animal Crossing and long walks on the beach. I'm in Mosaic+. My secret talent is that I can spin a pencil around my thumb."
 	},
@@ -57,7 +57,7 @@ const staff = [
 		bio: "Outside of pandemic times, I love being a mediocre ultimate frisbee player and a slightly less mediocre inner-tube water poloist. I also enjoy watching student theater on campus!"
 	},
 	{
-		name: "Justin Sanders", login: "jsander8", image: staffImages,
+		name: "Justin Sanders", login: "jsander8", image: staffImages.JustinSanders,
 		hometown: "Seattle, WA", birthday: "January 4th", pronouns: "he/him/his",
 		bio: "Howdy! I'm a Junior from Seattle studying Computational Biology, and in my free time you'll either find me up skiing or getting tilted playing chess online. I'm looking forward to being your TA this semester :)"
 	},
@@ -67,7 +67,7 @@ const staff = [
 		bio: "I'm a sophomore studying Apma-CS. I love anything baseball related and playing the guitar!"
 	},
 	{
-		name: "Maceo Thompson", login: "mthomp13", image: staffImages,
+		name: "Maceo Thompson", login: "mthomp13", image: staffImages.MaceoThompson,
 		hometown: "Brooklyn, NY", birthday: "June 29th", pronouns: "he/him/his",
 		bio: "Hey! My name is Maceo, and I'm from Brooklyn, NY. I'm double concentrating in CS and Music. I love to take photos, play the piano, and (badly) play soccer."
 	},
@@ -87,12 +87,12 @@ const staff = [
 		bio: "Hi! I’m a senior from the Bronx, New York currently studying CS and biology. In my free time I love reading, playing ultimate frisbee, and dancing."
 	},
 	{
-		name: "Stephen Chen", login: "schen211", image: staffImages,
+		name: "Stephen Chen", login: "schen211", image: staffImages.StephenChen,
 		hometown: "Plymouth, MN", birthday: "September 29th", pronouns: "he/him/his",
 		bio: "Hi! I am a sophomore from Plymouth, Minnesota studying CS. In my free time, you can probably find me playing League of Legends or listening to the same three Taylor Swift songs on loop."
 	},
 	{
-		name: "Tali Bers", login: "tbers", image: staffImages,
+		name: "Tali Bers", login: "tbers", image: staffImages.TaliBers,
 		hometown: "Winchester, MA", birthday: "May 15th", pronouns: "she/her/hers",
 		bio: "Hi! I'm Tali from outside Boston, I'm a junior studying computer science. While I'm not coding, I like to spend time at Hillel, exploring outside, and hanging out with friends."
 	},
