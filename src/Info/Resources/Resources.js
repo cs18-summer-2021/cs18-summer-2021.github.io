@@ -3,10 +3,10 @@ import { FaQuestion, FaSchool, FaShoePrints, FaComment, FaVideo, FaFileAlt } fro
 export const ImportantLinks = [
 	{ label: "Syllabus", icon: <FaFileAlt/>, link: "", description: "" },
 	{ label: "Zoom Link", icon: <FaVideo/>, link: "", description: "" },
-	{ label: "Gradescope", icon: <FaSchool/>, link: "", description: "" },
+	{ label: "Gradescope", icon: <FaSchool/>, link: "https://www.gradescope.com/", description: "" },
 	{ label: "Piazza", icon: <FaQuestion/>, link: "https://piazza.com/brown/spring2021/csci0170", description: "" },
 	{ label: "SignMeUp", icon: <FaComment/>, link: "https://signmeup.cs.brown.edu/", description: "" },
-	{ label: "Gather.town", icon: <FaShoePrints/>, link: "", description: "" },
+	{ label: "Gather.town", icon: <FaShoePrints/>, link: "https://gather.town/app/25flyuQ4CU2Z94O1/cs17lab", description: "" },
 ]
 
 export const Resources = [

@@ -32,7 +32,7 @@ const staff = [
 		bio: "Hey! I'm a sophomore from Yardley, PA (outside Philly) studying Applied Math and Computer Science. I really enjoy playing volleyball (indoor and outdoor), basketball, and spikeball, and you can often find me biking around campus or Providence. I'm super excited to be your TA :)"
 	},
 	{
-		name: "Anna Dai", login: "adai10", image: staffImages,
+		name: "Anna Dai", login: "adai10", image: staffImages.AnnaDai,
 		hometown: "Acton, MA", birthday: "September 22nd", pronouns: "she/her/hers",
 		bio: "Hello! I'm a sophomore from Boston, MA studying APMA-CS. In my free time I make food and eat food."
 	},
