@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7f419bc0.chunk.css",
-    "main.js": "/static/js/main.ce62c0b2.chunk.js",
-    "main.js.map": "/static/js/main.ce62c0b2.chunk.js.map",
+    "main.js": "/static/js/main.60d75e59.chunk.js",
+    "main.js.map": "/static/js/main.60d75e59.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.72cc274b.js",
     "runtime-main.js.map": "/static/js/runtime-main.72cc274b.js.map",
     "static/js/2.98edb734.chunk.js": "/static/js/2.98edb734.chunk.js",
@@ -12,6 +12,7 @@
     "static/js/2.98edb734.chunk.js.LICENSE.txt": "/static/js/2.98edb734.chunk.js.LICENSE.txt",
     "static/media/AlexRyan.05ca8fe8.png": "/static/media/AlexRyan.05ca8fe8.png",
     "static/media/AndyDelworth.07fea474.png": "/static/media/AndyDelworth.07fea474.png",
+    "static/media/AnnaDai.ec033973.jpg": "/static/media/AnnaDai.ec033973.jpg",
     "static/media/ArringtonHarper.bfcb26c7.png": "/static/media/ArringtonHarper.bfcb26c7.png",
     "static/media/CIT_Illustration.eeb19c86.svg": "/static/media/CIT_Illustration.eeb19c86.svg",
     "static/media/CIT_Logo_1.8f7df26b.svg": "/static/media/CIT_Logo_1.8f7df26b.svg",
@@ -32,6 +33,6 @@
     "static/js/runtime-main.72cc274b.js",
     "static/js/2.98edb734.chunk.js",
     "static/css/main.7f419bc0.chunk.css",
-    "static/js/main.ce62c0b2.chunk.js"
+    "static/js/main.60d75e59.chunk.js"
   ]
 }
