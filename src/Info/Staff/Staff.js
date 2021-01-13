@@ -2,9 +2,9 @@ import staffImages from './StaffImages';
 
 const staff = [
 	{
-		name: "John Hughes (Professor)", login: "jfh", image: staffImages,
-		hometown: "city, state", birthday: "July 18th", pronouns: "pronoun/pronoun",
-		bio: "hello dis me"
+		name: "John Hughes (Professor)", login: "jfh", image: staffImages.Spike,
+		hometown: "Barrington, RI", birthday: "July 7th", pronouns: "he/him/his",
+		bio: "'m John Hughes, but people call me Spike. I grew up in Boston and Miami. I've been at Brown since 1984, and still like starting work every morning. I enjoy cooking, messing about in small boats, and singing shape-note music. My children take endless delight in the fact that I once, preparing for class, searched for \"What is popular?\" on Google."
 	},
 	{
 		name: "Alex Ryan (HTA)", login: "aryan8", image: staffImages.AlexRyan,
