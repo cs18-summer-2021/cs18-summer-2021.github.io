@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7f419bc0.chunk.css",
-    "main.js": "/static/js/main.db16c4d0.chunk.js",
-    "main.js.map": "/static/js/main.db16c4d0.chunk.js.map",
+    "main.js": "/static/js/main.23a0cf98.chunk.js",
+    "main.js.map": "/static/js/main.23a0cf98.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.72cc274b.js",
     "runtime-main.js.map": "/static/js/runtime-main.72cc274b.js.map",
     "static/js/2.98edb734.chunk.js": "/static/js/2.98edb734.chunk.js",
@@ -24,6 +24,7 @@
     "static/media/MaceoThompson.43e47ea5.jpg": "/static/media/MaceoThompson.43e47ea5.jpg",
     "static/media/SeanZhan.96dc4642.jpg": "/static/media/SeanZhan.96dc4642.jpg",
     "static/media/SohumGupta.bc3915e0.jpg": "/static/media/SohumGupta.bc3915e0.jpg",
+    "static/media/Spike.526a3ddc.jpg": "/static/media/Spike.526a3ddc.jpg",
     "static/media/StephenChen.34bf88a9.jpg": "/static/media/StephenChen.34bf88a9.jpg",
     "static/media/TaliBers.ea6fdbff.jpg": "/static/media/TaliBers.ea6fdbff.jpg",
     "static/media/ThetHtayZaw.45605c3b.jpg": "/static/media/ThetHtayZaw.45605c3b.jpg",
@@ -33,6 +34,6 @@
     "static/js/runtime-main.72cc274b.js",
     "static/js/2.98edb734.chunk.js",
     "static/css/main.7f419bc0.chunk.css",
-    "static/js/main.db16c4d0.chunk.js"
+    "static/js/main.23a0cf98.chunk.js"
   ]
 }
