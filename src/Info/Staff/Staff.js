@@ -42,7 +42,7 @@ const staff = [
 		bio: "I’m a sophomore possibly concentrating in computer science and linguistics. My hobbies include Animal Crossing and long walks on the beach. I'm in Mosaic+. My secret talent is that I can spin a pencil around my thumb."
 	},
 	{
-		name: "Darren Fang", login: "dfang8", image: staffImages,
+		name: "Darren Fang", login: "dfang8", image: staffImages.DarrenFang,
 		hometown: "Taipei, Taiwan", birthday: "June 28th", pronouns: "he/him/his",
 		bio: "Hey everyone, I'm a sophomore double-concentrating in CS and APMA-Econ (yes I know). I'm a major foodie so you'll often find me exploring food places and bars! (in Taipei). During the school year, I'm usually off competing at a debate tournament during the weekends :)"
 	},
@@ -52,7 +52,7 @@ const staff = [
 		bio: "Hi! I am a sophomore concentrating in CS. I like to watch really old movies and cooking videos (but never actually cook anything lol)! Super stoked to be your TA this semester :))"
 	},
 	{
-		name: "Ian Layzer", login: "ilayzer", image: staffImages,
+		name: "Ian Layzer", login: "ilayzer", image: staffImages.IanLayzer,
 		hometown: "Durham, NC", birthday: "February 26th", pronouns: "he/him/his",
 		bio: "Outside of pandemic times, I love being a mediocre ultimate frisbee player and a slightly less mediocre inner-tube water poloist. I also enjoy watching student theater on campus!"
 	},
@@ -72,7 +72,7 @@ const staff = [
 		bio: "Hey! My name is Maceo, and I'm from Brooklyn, NY. I'm double concentrating in CS and Music. I love to take photos, play the piano, and (badly) play soccer."
 	},
 	{
-		name: "Sahil Bansal", login: "sbansa12", image: staffImages,
+		name: "Sahil Bansal", login: "sbansa12", image: staffImages.SahilBansal,
 		hometown: "Riyadh, Saudi Arabia", birthday: "May 27th", pronouns: "he/him/his",
 		bio: "Hi! I'm a sophomore concentrating in CS. I'm from the US and grew up in Saudi Arabia and India. I love reading manga, being with family and friends, and watching cooking shows but never actually cooking anything!"
 	},
@@ -82,7 +82,7 @@ const staff = [
 		bio: "Hi! I'm a sophomore concentrating in APMA-CS. In my free time, I love playing the guitar, biking around Providence, and playing ultimate frisbee."
 	},
 	{
-		name: "Stephanie Carrero", login: "scarrero", image: staffImages,
+		name: "Stephanie Carrero", login: "scarrero", image: staffImages.StephanieCarrero,
 		hometown: "Bronx, New York", birthday: "September 21st", pronouns: "she/her/hers",
 		bio: "Hi! I’m a senior from the Bronx, New York currently studying CS and biology. In my free time I love reading, playing ultimate frisbee, and dancing."
 	},
