@@ -47,7 +47,7 @@ const staff = [
 		bio: "Hey everyone, I'm a sophomore double-concentrating in CS and APMA-Econ (yes I know). I'm a major foodie so you'll often find me exploring food places and bars! (in Taipei). During the school year, I'm usually off competing at a debate tournament during the weekends :)"
 	},
 	{
-		name: "Harisen Luby", login: "hluby", image: staffImages,
+		name: "Harisen Luby", login: "hluby", image: staffImages.HarisenLuby,
 		hometown: "Phoenix, AZ", birthday: "November 18th", pronouns: "she/her/hers",
 		bio: "Hi! I am a sophomore concentrating in CS. I like to watch really old movies and cooking videos (but never actually cook anything lol)! Super stoked to be your TA this semester :))"
 	},
@@ -62,7 +62,7 @@ const staff = [
 		bio: "Howdy! I'm a Junior from Seattle studying Computational Biology, and in my free time you'll either find me up skiing or getting tilted playing chess online. I'm looking forward to being your TA this semester :)"
 	},
 	{
-		name: "Kota Soda", login: "ksoda", image: staffImages,
+		name: "Kota Soda", login: "ksoda", image: staffImages.KotaSoda,
 		hometown: "Tokyo, Japan", birthday: "July 2nd", pronouns: "he/him/his",
 		bio: "I'm a sophomore studying Apma-CS. I love anything baseball related and playing the guitar!"
 	},

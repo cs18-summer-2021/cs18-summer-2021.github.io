@@ -12,10 +12,13 @@ import ArringtonHarper from './Images/ArringtonHarper.png';
 import TaliBers from './Images/TaliBers.jpg';
 import AnnaDai from './Images/AnnaDai.jpg';
 import Spike from './Images/Spike.jpg';
+import KotaSoda from './Images/KotaSoda.jpg';
+import HarisenLuby from './Images/HarisenLuby.jpg';
 
 const staffImages = {
 	TimothyWang, SohumGupta, SeanZhan, ThetHtayZaw, IsabelLai, AlexRyan, AndyDelworth,
-	JustinSanders, MaceoThompson, StephenChen, ArringtonHarper, TaliBers, AnnaDai, Spike
+	JustinSanders, MaceoThompson, StephenChen, ArringtonHarper, TaliBers, AnnaDai, Spike,
+	KotaSoda, HarisenLuby
 }
 
 export default staffImages;
