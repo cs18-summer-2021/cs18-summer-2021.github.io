@@ -14,10 +14,10 @@ import AnnaDai from './Images/AnnaDai.jpg';
 import Spike from './Images/Spike.jpg';
 import KotaSoda from './Images/KotaSoda.jpg';
 import HarisenLuby from './Images/HarisenLuby.jpg';
+import SahilBansal from './Images/SahilBansal.jpg';
 
 import IanLayzer from './Images/Default.png';
 import DarrenFang from './Images/Default.png';
-import SahilBansal from './Images/Default.png';
 import StephanieCarrero from './Images/Default.png';
 
 const staffImages = {
