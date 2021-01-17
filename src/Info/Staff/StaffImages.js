@@ -15,6 +15,7 @@ import Spike from './Images/Spike.jpg';
 import KotaSoda from './Images/KotaSoda.jpg';
 import HarisenLuby from './Images/HarisenLuby.jpg';
 import SahilBansal from './Images/SahilBansal.jpg';
+import AdamWang from './Images/AdamWang.JPG';
 
 import IanLayzer from './Images/Default.png';
 import DarrenFang from './Images/Default.png';
@@ -23,7 +24,7 @@ import StephanieCarrero from './Images/Default.png';
 const staffImages = {
 	TimothyWang, SohumGupta, SeanZhan, ThetHtayZaw, IsabelLai, AlexRyan, AndyDelworth,
 	JustinSanders, MaceoThompson, StephenChen, ArringtonHarper, TaliBers, AnnaDai, Spike,
-	KotaSoda, HarisenLuby, IanLayzer, DarrenFang, SahilBansal, StephanieCarrero,
+	KotaSoda, HarisenLuby, IanLayzer, DarrenFang, SahilBansal, StephanieCarrero, AdamWang
 }
 
 export default staffImages;
