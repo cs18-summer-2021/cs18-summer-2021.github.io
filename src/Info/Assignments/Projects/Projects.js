@@ -2,7 +2,7 @@ import { MdDescription, MdCode, MdSlideshow } from 'react-icons/md';
 
 const projects = [
 	{ 
-		number: 1, title: "Bignum", dueDate: "Not yet!", active: false,
+		number: 1, title: "Bignum", dueDate: "2-25-2020", active: false,
 		notes: "",
 		links: [
 			{ icon: <MdDescription/>, link: "", label: "Handout" },

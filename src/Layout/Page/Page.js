@@ -29,7 +29,7 @@ class Page extends React.Component {
 
 		return (
 			<div className="page-wrapper">
-				<Header active={this.props.activeTab} resize={resize}/>
+				<Header active={this.props.activeTab} aspectRatio={aspectRatio}/>
 				<div className={"main-content" + " main-content-resize " + resizeStyle}>
 					{this.props.children}
 				</div>

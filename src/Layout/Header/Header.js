@@ -8,6 +8,8 @@ import AnimatedImage from '../../Components/AnimatedImage/AnimatedImage.js';
 
 import { MdMenu } from 'react-icons/md';
 
+const resizeRatio = 1;
+
 class Header extends React.Component {
 	constructor(props) {
 		super(props);
@@ -27,7 +29,7 @@ class Header extends React.Component {
 	}
 
 	render() {
-		if (this.props.resize) {
+		if (this.props.aspectRatio < resizeRatio) {
 			const openStyle = this.state.open ? " header-open" : ""
 			const fillStyle = this.state.open ? " header-fill" : ""
 
