@@ -9,14 +9,14 @@ const homeworks = [
 		]
 	},
 	{ 
-		number: 2, title: "Functions & Procedures", dueDate: "02-03-2021", active: true,
+		number: 2, title: "Functions & Procedures", dueDate: "02-03-2021", active: false,
 		links: [
 			{ icon: <MdDescription/>, link: "", label: "Handout" },
 			{ icon: <MdCode/>, link: "", label: "Source Code" },
 		]
 	},
 	{ 
-		number: 3, title: "Recursion", dueDate: "02-10-2021", active: true,
+		number: 3, title: "Recursion", dueDate: "02-10-2021", active: false,
 		links: [
 			{ icon: <MdDescription/>, link: "", label: "Handout" },
 			{ icon: <MdCode/>, link: "", label: "Source Code" },
