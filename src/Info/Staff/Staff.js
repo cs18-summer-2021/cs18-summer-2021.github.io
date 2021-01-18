@@ -26,11 +26,11 @@ const staff = [
 		hometown: "Andover, MA", birthday: "July 18th", pronouns: "he/him/his",
 		bio: "Hey there - I’m a junior from the Boston Area studying APMA-CS. I’m super into puzzle-y things like Rubik’s cubes and crosswords, and recently I’ve started doing jigsaw puzzles (they’re really fun and relaxing, I would highly recommend them!!!). I also enjoy spending my freetime playing board games like Catan, so if you want to play sometime online, hit me up!"
 	},
-	// {
-	// 	name: "Adam Wang", login: "awang158", image: staffImages.AdamWang,
-	// 	hometown: "Atlanta, GA", birthday: "June 8th", pronouns: "he/him/his",
-	// 	bio: "Hi! I’m a sophomore from Metro Atlanta studying CS, APMA, and Econ. In my free time, you can find me playing the cello, walking around parks, or indulging in one of many PC games (though it’s probably League of Legends)."
-	// },
+	{
+		name: "Adam Wang", login: "awang158", image: staffImages.AdamWang,
+		hometown: "Atlanta, GA", birthday: "June 8th", pronouns: "he/him/his",
+		bio: "Hi! I’m a sophomore from Metro Atlanta studying CS, APMA, and Econ. In my free time, you can find me playing the cello, walking around parks, or indulging in one of many PC games (though it’s probably League of Legends)."
+	},
 	{
 		name: "Andy Delworth", login: "adelwort", image: staffImages.AndyDelworth,
 		hometown: "Yardley, PA", birthday: "October 29th", pronouns: "he/him/his",
