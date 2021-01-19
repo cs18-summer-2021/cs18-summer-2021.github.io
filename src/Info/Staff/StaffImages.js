@@ -15,7 +15,7 @@ import Spike from './Images/Spike.jpg';
 import KotaSoda from './Images/KotaSoda.jpg';
 import HarisenLuby from './Images/HarisenLuby.jpg';
 import SahilBansal from './Images/SahilBansal.jpg';
-import AdamWang from './Images/AdamWang.JPG';
+import AdamWang from './Images/AdamWang.png';
 
 import IanLayzer from './Images/Default.png';
 import DarrenFang from './Images/Default.png';
