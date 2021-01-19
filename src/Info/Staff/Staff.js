@@ -56,11 +56,11 @@ const staff = [
 		hometown: "Phoenix, AZ", birthday: "November 18th", pronouns: "she/her/hers",
 		bio: "Hi! I am a sophomore concentrating in CS. I like to watch really old movies and cooking videos (but never actually cook anything lol)! Super stoked to be your TA this semester :))"
 	},
-	{
-		name: "Ian Layzer", login: "ilayzer", image: staffImages.IanLayzer,
-		hometown: "Durham, NC", birthday: "February 26th", pronouns: "he/him/his",
-		bio: "Outside of pandemic times, I love being a mediocre ultimate frisbee player and a slightly less mediocre inner-tube water poloist. I also enjoy watching student theater on campus!"
-	},
+	// {
+	// 	name: "Ian Layzer", login: "ilayzer", image: staffImages.IanLayzer,
+	// 	hometown: "Durham, NC", birthday: "February 26th", pronouns: "he/him/his",
+	// 	bio: "Outside of pandemic times, I love being a mediocre ultimate frisbee player and a slightly less mediocre inner-tube water poloist. I also enjoy watching student theater on campus!"
+	// },
 	{
 		name: "Justin Sanders", login: "jsander8", image: staffImages.JustinSanders,
 		hometown: "Seattle, WA", birthday: "January 4th", pronouns: "he/him/his",
