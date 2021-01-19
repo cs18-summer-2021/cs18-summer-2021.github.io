@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.23cbc868.chunk.css",
-    "main.js": "/static/js/main.789d93ac.chunk.js",
-    "main.js.map": "/static/js/main.789d93ac.chunk.js.map",
+    "main.css": "/static/css/main.15e2ee82.chunk.css",
+    "main.js": "/static/js/main.bc2bccde.chunk.js",
+    "main.js.map": "/static/js/main.bc2bccde.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.72cc274b.js",
     "runtime-main.js.map": "/static/js/runtime-main.72cc274b.js.map",
     "static/js/2.079a7126.chunk.js": "/static/js/2.079a7126.chunk.js",
     "static/js/2.079a7126.chunk.js.map": "/static/js/2.079a7126.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.23cbc868.chunk.css.map": "/static/css/main.23cbc868.chunk.css.map",
+    "static/css/main.15e2ee82.chunk.css.map": "/static/css/main.15e2ee82.chunk.css.map",
     "static/js/2.079a7126.chunk.js.LICENSE.txt": "/static/js/2.079a7126.chunk.js.LICENSE.txt",
     "static/media/AdamWang.1c32e458.png": "/static/media/AdamWang.1c32e458.png",
     "static/media/AlexRyan.05ca8fe8.png": "/static/media/AlexRyan.05ca8fe8.png",
@@ -20,6 +20,7 @@
     "static/media/CS17_Logo_1.113aa9aa.svg": "/static/media/CS17_Logo_1.113aa9aa.svg",
     "static/media/CS17_Logo_2.0ddea8f8.svg": "/static/media/CS17_Logo_2.0ddea8f8.svg",
     "static/media/CS17_Logo_3.376b4044.svg": "/static/media/CS17_Logo_3.376b4044.svg",
+    "static/media/DarrenFang.cc248540.jpg": "/static/media/DarrenFang.cc248540.jpg",
     "static/media/HarisenLuby.925f7e9d.jpg": "/static/media/HarisenLuby.925f7e9d.jpg",
     "static/media/IsabelLai.712483ae.JPG": "/static/media/IsabelLai.712483ae.JPG",
     "static/media/JustinSanders.484687fe.jpg": "/static/media/JustinSanders.484687fe.jpg",
@@ -29,6 +30,7 @@
     "static/media/SeanZhan.96dc4642.jpg": "/static/media/SeanZhan.96dc4642.jpg",
     "static/media/SohumGupta.bc3915e0.jpg": "/static/media/SohumGupta.bc3915e0.jpg",
     "static/media/Spike.5a1526bb.jpg": "/static/media/Spike.5a1526bb.jpg",
+    "static/media/StephanieCarrero.b904d092.JPG": "/static/media/StephanieCarrero.b904d092.JPG",
     "static/media/StephenChen.34bf88a9.jpg": "/static/media/StephenChen.34bf88a9.jpg",
     "static/media/TaliBers.ea6fdbff.jpg": "/static/media/TaliBers.ea6fdbff.jpg",
     "static/media/ThetHtayZaw.45605c3b.jpg": "/static/media/ThetHtayZaw.45605c3b.jpg",
@@ -37,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.72cc274b.js",
     "static/js/2.079a7126.chunk.js",
-    "static/css/main.23cbc868.chunk.css",
-    "static/js/main.789d93ac.chunk.js"
+    "static/css/main.15e2ee82.chunk.css",
+    "static/js/main.bc2bccde.chunk.js"
   ]
 }
