@@ -18,19 +18,19 @@ import { ImportantLinks } from '../../Info/Resources/Resources';
 
 class HomePage extends React.Component {
 	getAssignments() {
-		const activeH = Homeworks.filter((h) => h.active); 
+		const activeH = Homeworks.filter((h) => h.active);
 		let curH;
 		if (activeH.length === 0) {
-			curH = Homeworks.filter((h) => !h.active)[0]; 
+			curH = Homeworks.filter((h) => !h.active)[0];
 		} else { curH = activeH[activeH.length - 1]; }
-			
-		const activeL = Labs.filter((l) => l.active); 
+
+		const activeL = Labs.filter((l) => l.active);
 		let curL;
 		if (activeL.length === 0) {
 			curL = Labs.filter((l) => !l.active)[0];
 		} else { curL = activeL[activeL.length - 1] }
 
-		const activeP = Projects.filter((p) => p.active); 
+		const activeP = Projects.filter((p) => p.active);
 		let curP;
 		if (activeP.length === 0) {
 			curP = Projects.filter((p) => !p.active)[0];
@@ -102,7 +102,7 @@ class HomePage extends React.Component {
 					<div className="home-announcement">
 						<div>
 							<div><FaExclamation/></div>
-							<p><mark>Announcement:</mark> The first lecture will be held at&nbsp;<a href="https://brown.zoom.us/j/96484496047">this Zoom link</a>. We hope to see you there!</p>
+							<p><mark>Announcement:</mark> Lectures will be held at&nbsp;<a href="https://brown.zoom.us/j/96484496047">this Zoom link</a>. Fill out our setup form&nbsp;<a href="https://forms.gle/to4LScmRcpgaeTLS6">here</a>!</p>
 						</div>
 					</div>
 					<div className="home-due-soon">
