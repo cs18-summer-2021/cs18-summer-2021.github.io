@@ -14,13 +14,13 @@ class NotesCard extends React.Component {
 
 	formatDate() {
 		const months = ["Jan.", "Feb.", "Mar.", "Apr.", "May"]
-
-		const date = new Date(this.props.outDate)
+		// the .replace thing is needed for dates to work on Safari
+		const date = new Date(this.props.outDate.replace(/-/g, "/"))
 		const year = date.getFullYear().toString().substr(-2)
 		const month = date.getMonth()
 		const day = date.getDate()
 
-		return `${month + 1}/${day}/${year}, 11:59 PM EST`
+		return `${month + 1}/${day}/${year}, 11:50 AM EST`
 	}
 
 	render() {
@@ -46,7 +46,7 @@ NotesCard.defaultProps = {
 	title: "Assignment",
 	active: "false",
 	outDate: "01-01-2021",
-	links: []
+	links: [], 
 }
 
 export default NotesCard;

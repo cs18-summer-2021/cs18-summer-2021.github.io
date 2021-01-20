@@ -19,7 +19,7 @@ class NotesPage extends React.Component {
 	}
 
 	renderCards(notes) {
-		return notes.map((n) => <NotesCard number={n.number} title={n.title} dueDate={n.dueDate} active={n.active} links={n.links} tags={n.tags}/>)
+		return notes.map((n) => <NotesCard number={n.number} title={n.title} outDate={n.outDate} active={n.active} links={n.links} tags={n.tags}/>)
 	}
 
 	toggleTag(tag) {

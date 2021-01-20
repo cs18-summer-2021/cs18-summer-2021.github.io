@@ -2,13 +2,13 @@ import { MdSlideshow } from 'react-icons/md';
 
 const workshops = [
 	{ 
-		number: 1, title: "Workshop 1", dueDate: "01-21-2021", active: false,
+		number: 1, title: "Workshop 1", outDate: "01-23-2021", active: false,
 		links: [
 			{ icon: <MdSlideshow/>, link: "" },
 		]
 	},
 	// { 
-	// 	number: 2, title: "workshop2", dueDate: "01-21-2021", active: false,
+	// 	number: 2, title: "workshop2", outDate: "01-21-2021", active: false,
 	// 	links: [
 	// 		{ icon: <MdSlideshow/>, link: "" },
 	// 	]
