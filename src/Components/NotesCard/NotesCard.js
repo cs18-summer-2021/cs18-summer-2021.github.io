@@ -34,7 +34,7 @@ class NotesCard extends React.Component {
 				</div>
 				{this.props.tags !== undefined ? <div className="notes-card-tags">{this.renderTags()}</div> : <></>}
 				<div className="notes-card-links">{this.renderLinks()}</div>
-				<div className="notes-card-out-date">{this.formatDate()}</div>
+				<div className="notes-card-out-date">{this.props.outDate}</div>
 				{inactiveText}
 			</div>
 		)

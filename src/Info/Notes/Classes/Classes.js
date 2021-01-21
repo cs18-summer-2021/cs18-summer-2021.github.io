@@ -2,7 +2,7 @@ import { MdDescription, MdMovie, MdSlideshow } from 'react-icons/md';
 
 const classes = [
 	{ 
-		number: 1, title: "Welcome", outDate: "01-20-2021", active: true,
+		number: 1, title: "Welcome", outDate: "1/20/2021", active: true,
 		links: [
 			{ icon: <MdDescription/>, link: "https://drive.google.com/file/d/1WwjwOg_BqxoTCqSYvFrWZlUIXMyrv8Q2/view?usp=sharing", label: "Notes" },
 			{ icon: <MdMovie/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5407b5b3-9976-4b50-bcd1-acb6011d1f9c",  label: "Recording" },

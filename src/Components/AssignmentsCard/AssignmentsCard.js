@@ -29,7 +29,7 @@ class AssignmentsCard extends React.Component {
 					<p className="assignments-card-title">{this.props.title}</p>
 				</div>
 				<div className="assignments-card-links">{this.renderLinks()}</div>
-				<div className="assignments-card-due-date">{this.formatDate()}</div>
+				<div className="assignments-card-due-date">{this.props.dueDate}</div>
 				{inactiveText}
 			</div>
 		)
