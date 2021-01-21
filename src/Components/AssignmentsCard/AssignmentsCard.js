@@ -16,7 +16,7 @@ class AssignmentsCard extends React.Component {
 		const month = date.getMonth()
 		const day = date.getDate()
 
-		return `${month + 1}/${day}/${year}, 10:59 PM EST`
+		return `${month + 1}/${day}/${year}, 11:00 PM EST`
 	}
 
 	render() {

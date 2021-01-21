@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import tree from '../WebsiteTree';
 import AnimatedImage from '../../Components/AnimatedImage/AnimatedImage.js';
 
-import { MdMenu } from 'react-icons/md';
+import { FaBars } from 'react-icons/fa';
 
 const resizeRatio = 1;
 
@@ -36,7 +36,7 @@ class Header extends React.Component {
 			return (
 					<div className="header-wrapper header-resize">
 						<div className={"header-background-fill" + fillStyle} onClick={() => this.setState({ open: false })}/>
-						<MdMenu className="header-hamburger" onClick={() => this.setState({ open: true })} />
+						<FaBars className="header-hamburger" onClick={() => this.setState({ open: true })} />
 						<Link to="/">
 							<div className="logo-wrapper">
 								<AnimatedImage/>
