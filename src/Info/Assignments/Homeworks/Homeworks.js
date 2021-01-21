@@ -2,10 +2,9 @@ import { FaFileAlt, FaCode } from "react-icons/fa";
 
 const homeworks = [
 	{ 
-		number: 1, title: "Warmup", dueDate: "1/27/2021 11:00 PM EST", active: false,
+		number: 1, title: "Warmup", dueDate: "1/27/2021 11:00 PM EST", active: true,
 		links: [
-			{ icon: <FaFileAlt/>, link: "", label: "Handout" },
-			{ icon: <FaCode/>, link: "", label: "Source Code" },
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1CM9UxSoXK7fYM6TWang9DvxJ2rKrIRCM/view?usp=sharing", label: "Handout" },
 		]
 	},
 	{ 
