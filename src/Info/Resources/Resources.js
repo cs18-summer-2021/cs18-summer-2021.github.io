@@ -2,7 +2,7 @@ import { FaQuestion, FaSchool, FaShoePrints, FaComment, FaVideo, FaFileAlt } fro
 
 export const ImportantLinks = [
 	{ label: "Syllabus", icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1bq2CtI6MPb-UBnYUYjGlamD-Y673cAJ5/view?usp=sharing", description: "" },
-	{ label: "Zoom Link", icon: <FaVideo/>, link: "", description: "" },
+	{ label: "Zoom Link", icon: <FaVideo/>, link: "https://brown.zoom.us/j/96484496047", description: "" },
 	{ label: "Gradescope", icon: <FaSchool/>, link: "https://www.gradescope.com/", description: "" },
 	{ label: "Piazza", icon: <FaQuestion/>, link: "https://piazza.com/brown/spring2021/csci0170", description: "" },
 	{ label: "SignMeUp", icon: <FaComment/>, link: "https://signmeup.cs.brown.edu/", description: "" },
