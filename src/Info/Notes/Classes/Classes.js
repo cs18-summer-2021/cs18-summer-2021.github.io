@@ -1,15 +1,15 @@
 import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
-	// { 
-	// 	number: 3, title: "Class 3", outDate: "1/25/2021", active: true,
-	// 	links: [
-	// 		{ icon: <FaFileAlt/>, link: "", label: "Notes" },
-	// 		{ icon: <FaYoutube/>, link: "", label: "Recording" },
-	// 		{ icon: <FaFilePowerpoint/>, link: "", label: "Slides" },
-	// 	],
-	// 	tags: ["Racket"]
-	// },
+	{ 
+		number: 3, title: "Definitions and Functions", outDate: "1/25/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1cus1XJtdS74Dr3x8NtW98zig15-rigXa/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6e5d9140-4964-4ff7-8d87-acbb011bc1c1", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1Iyn5piEyhlIzbLeTszta5dOz79QlZxNl/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["Eval", "Racket", "Functions"]
+	},
 	{ 
 		number: 2, title: "BNF and Racket", outDate: "1/22/2021", active: true,
 		links: [
