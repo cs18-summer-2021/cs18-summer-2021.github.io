@@ -8,7 +8,7 @@ const classes = [
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6e5d9140-4964-4ff7-8d87-acbb011bc1c1", label: "Recording" },
 			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1Iyn5piEyhlIzbLeTszta5dOz79QlZxNl/view?usp=sharing", label: "Slides" },
 		],
-		tags: ["Eval", "Racket", "Functions"]
+		tags: ["Racket", "Functions"]
 	},
 	{ 
 		number: 2, title: "BNF and Racket", outDate: "1/22/2021", active: true,
