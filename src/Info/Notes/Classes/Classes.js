@@ -8,7 +8,7 @@ const classes = [
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=007d7cac-4bf8-436e-a88c-acbd011e7a0e", label: "Recording" },
 			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1bjZxUky5l5M5RgUiK-gJtKevG0ijfQZi/view?usp=sharing", label: "Slides" },
 		],
-		tags: ["Racket", "Functions"]
+		tags: ["Racket", "Procedures"]
 	},
 	{ 
 		number: 3, title: "Definitions and Functions", outDate: "1/25/2021", active: true,
@@ -17,7 +17,7 @@ const classes = [
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6e5d9140-4964-4ff7-8d87-acbb011bc1c1", label: "Recording" },
 			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1Iyn5piEyhlIzbLeTszta5dOz79QlZxNl/view?usp=sharing", label: "Slides" },
 		],
-		tags: ["Racket", "Functions"]
+		tags: ["Racket", "Functions", "Procedures"]
 	},
 	{ 
 		number: 2, title: "BNF and Racket", outDate: "1/22/2021", active: true,
