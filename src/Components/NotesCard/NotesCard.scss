@@ -75,8 +75,9 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		flex-wrap: wrap;
 		// gap: 1em;
-		& > * { @include h-gap(1em); }
+		& > * { margin: 0.25em; }
 
 		p {
 			font-size: 1em;
