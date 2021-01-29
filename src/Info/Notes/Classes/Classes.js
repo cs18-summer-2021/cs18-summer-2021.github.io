@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 5, title: "Design Recipe", outDate: "1/29/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1v1oTWgUufnYEhv3-EiNYl_nncIHafhAd/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=851583d0-8ed5-46af-9a73-acbf011bf119", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1SnjZdzT0w2mgnwESer6FmKNu8rPGCSBd/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["Design Recipe"]
+	},
+	{ 
 		number: 4, title: "Procedures", outDate: "1/27/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1E-_zi2UzcAaReEEe7uPxgA1YymDEQQBo/view?usp=sharing", label: "Notes" },
