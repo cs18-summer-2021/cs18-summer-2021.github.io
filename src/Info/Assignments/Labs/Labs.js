@@ -10,7 +10,7 @@ const labs = [
 		]
 	},
 	{ 
-		number: 1, title: "Racket Introduction", dueDate: "1/30/2021 - 2/1/2021", active: true,
+		number: 2, title: "Racket Introduction", dueDate: "1/30/2021 - 2/1/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1Rr6jxELllMUV9dJKGTWmadtfOVKm6U-N/view?usp=sharing", label: "Handout" },
 			{ icon: <FaCode/>, link: "https://drive.google.com/file/d/1R77Qt0Ya_-vW4rho2Oby_6KJKUIohRUS/view?usp=sharing", label: "Source Code" },
