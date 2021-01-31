@@ -9,30 +9,15 @@ const labs = [
 			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/1gR2_EKUr31w1vl8q8-wUb66OejRIN2xTDbXixwoGNtI/edit?usp=sharing", label: "Slides" },
 		]
 	},
-	// { 
-	// 	number: 2, title: "functions + procedures", dueDate: "01-21-2021", active: false,
-	// 	links: [
-	// 		{ icon: <FaFileAlt/>, link: "", label: "Handout" },
-	// 		{ icon: <FaCode/>, link: "", label: "Source Code" },
-	// 		{ icon: <FaFilePowerpoint/>, link: "", label: "Slides" },
-	// 	]
-	// },
-	// { 
-	// 	number: 3, title: "recursion", dueDate: "01-21-2021", active: false,
-	// 	links: [
-	// 		{ icon: <FaFileAlt/>, link: "", label: "Handout" },
-	// 		{ icon: <FaCode/>, link: "", label: "Source Code" },
-	// 		{ icon: <FaFilePowerpoint/>, link: "", label: "Slides" },
-	// 	]
-	// },
-	// { 
-	// 	number: 4, title: "more recursion", dueDate: "01-21-2021", active: false,
-	// 	links: [
-	// 		{ icon: <FaFileAlt/>, link: "", label: "Handout" },
-	// 		{ icon: <FaCode/>, link: "", label: "Source Code" },
-	// 		{ icon: <FaFilePowerpoint/>, link: "", label: "Slides" },
-	// 	]
-	// },
+	{ 
+		number: 1, title: "Racket Introduction", dueDate: "1/30/2021 - 2/1/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1Rr6jxELllMUV9dJKGTWmadtfOVKm6U-N/view?usp=sharing", label: "Handout" },
+			{ icon: <FaCode/>, link: "https://drive.google.com/file/d/1R77Qt0Ya_-vW4rho2Oby_6KJKUIohRUS/view?usp=sharing", label: "Source Code" },
+			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/1OyIHlxVeNfSC9_ZXpdcorC6zQTv-WvyUwtPm1b8m0YM/edit?usp=sharing", label: "Slides" },
+		]
+	},
+
 ]
 
 export default labs;
