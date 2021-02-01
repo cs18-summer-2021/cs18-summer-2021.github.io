@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 6, title: "Cond, If, And, Or, Lists", outDate: "2/1/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1knEWDShF7Pk_0rPP15T517Kg4OKO5lJ7/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=49ba2f2a-6c27-4299-9e72-acc2011dc6f0", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1XyPld4gSKYxYbHuqQcFblpMe4Ex6f73c/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["Cond", "Predicates", "Lists", "Racket"]
+	},
+	{ 
 		number: 5, title: "Design Recipe", outDate: "1/29/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1v1oTWgUufnYEhv3-EiNYl_nncIHafhAd/view?usp=sharing", label: "Notes" },
