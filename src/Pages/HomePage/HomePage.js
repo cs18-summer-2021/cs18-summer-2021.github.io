@@ -102,7 +102,7 @@ class HomePage extends React.Component {
 					<div className="home-announcement">
 						<div>
 							<div><FaExclamation/></div>
-							<p><mark>Announcement:</mark> Lectures will be held&nbsp;<a href="https://brown.zoom.us/j/96484496047">on Zoom</a>! Please use your Brown email address to join!</p>
+							<p><mark>Announcement:</mark> Class will be held&nbsp;<a href="https://brown.zoom.us/j/96484496047">on Zoom</a>! Please use your Brown email address to join!</p>
 						</div>
 					</div>
 					<div className="home-due-soon">
