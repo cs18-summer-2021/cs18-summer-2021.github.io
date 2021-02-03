@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 7, title: "Lists and List Recursion", outDate: "2/3/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1Fz9ct2s3SxjzlwdUFvtod1CUdWq7ZUJz/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d7e18cee-b9e9-4d44-b3ea-acc4011a88a3", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1jeyym1KjYpd1NZl15vgL44ZZv1VcqJ0d/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["Lists", "Recursion", "Racket"]
+	},
+	{ 
 		number: 6, title: "Cond, If, And, Or, Lists", outDate: "2/1/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1knEWDShF7Pk_0rPP15T517Kg4OKO5lJ7/view?usp=sharing", label: "Notes" },
