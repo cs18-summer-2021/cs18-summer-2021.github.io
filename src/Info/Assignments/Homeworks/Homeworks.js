@@ -14,10 +14,9 @@ const homeworks = [
 		]
 	},
 	{ 
-		number: 3, title: "Recursion", dueDate: "2/10/2021 11:00 PM EST", active: false,
+		number: 3, title: "Recursion", dueDate: "2/10/2021 11:00 PM EST", active: true,
 		links: [
-			{ icon: <FaFileAlt/>, link: "", label: "Handout" },
-			{ icon: <FaCode/>, link: "", label: "Source Code" },
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1xWYOCZjZrEKMcjGuWUa_kR_aaOr3NfOB/view?usp=sharing", label: "Handout" },
 		]
 	},
 	{ 
