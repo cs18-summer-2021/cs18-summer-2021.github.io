@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 8, title: "Recursion and Boolean Expressions", outDate: "2/5/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/10YHGH-p4t9DkoFa8w30pzHjpPrOAGXL1/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3c0b5c2b-ff14-46f3-8fd1-acc6011c2e17", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1m-arHDMs12ARx8HQJ2hy3v2m-1GZcS0_/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["Recursion", "Boolean Logic", "Racket"]
+	},
+	{ 
 		number: 7, title: "Lists and List Recursion", outDate: "2/3/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1Fz9ct2s3SxjzlwdUFvtod1CUdWq7ZUJz/view?usp=sharing", label: "Notes" },
