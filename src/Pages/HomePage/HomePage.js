@@ -102,7 +102,7 @@ class HomePage extends React.Component {
 					<div className="home-announcement">
 						<div>
 							<div><FaExclamation/></div>
-							<p><mark>Announcement:</mark> Class will be held&nbsp;<a href="https://brown.zoom.us/j/96484496047">on Zoom</a>! Please use your Brown email address to join!</p>
+							<p><mark>Announcement:</mark> Class will be held&nbsp;<a href="https://brown.zoom.us/j/96484496047">on Zoom</a>! Please use your Brown email address to join! Fill out the Bignum partner sign-up form&nbsp;<a href="https://forms.gle/nieR5osv2MMqEa6u6">here</a> by Feb. 6th at 12PM EST! Even if you plan to work alone or don't have a partner in mind, you still have to fill out this form!</p>
 						</div>
 					</div>
 					<div className="home-due-soon">
