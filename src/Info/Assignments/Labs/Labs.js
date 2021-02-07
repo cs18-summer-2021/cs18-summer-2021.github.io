@@ -17,6 +17,13 @@ const labs = [
 			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/1OyIHlxVeNfSC9_ZXpdcorC6zQTv-WvyUwtPm1b8m0YM/edit?usp=sharing", label: "Slides" },
 		]
 	},
+	{ 
+		number: 3, title: "Recursion", dueDate: "2/7/2021 - 2/9/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1h-7cghV5qIr98iJeddcmz_7ImXDQONo5/view?usp=sharing", label: "Handout" },
+			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/1ColymQG6aOgZl1zLxJB9H_r6y4J-dCAYLvnhruOJhIA/edit?usp=sharing", label: "Slides" },
+		]
+	},
 
 ]
 
