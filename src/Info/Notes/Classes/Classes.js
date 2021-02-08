@@ -8,7 +8,7 @@ const classes = [
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3693a4c7-b111-48d2-85e0-acc9011b0d78", label: "Recording" },
 			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1ZWLF_WcxgnNAaGf1hvjNeSAYiRBqLbRX/view?usp=sharing", label: "Slides" },
 		],
-		tags: ["Recursion", "Two-Argument Recursion", "Racket"]
+		tags: ["Recursion", "Racket"]
 	},
 	{ 
 		number: 8, title: "Recursion and Boolean Expressions", outDate: "2/5/2021", active: true,
@@ -17,7 +17,7 @@ const classes = [
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3c0b5c2b-ff14-46f3-8fd1-acc6011c2e17", label: "Recording" },
 			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1m-arHDMs12ARx8HQJ2hy3v2m-1GZcS0_/view?usp=sharing", label: "Slides" },
 		],
-		tags: ["Recursion", "Boolean Logic", "Racket"]
+		tags: ["Recursion", "Racket"]
 	},
 	{ 
 		number: 7, title: "Lists and List Recursion", outDate: "2/3/2021", active: true,
@@ -35,7 +35,7 @@ const classes = [
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=49ba2f2a-6c27-4299-9e72-acc2011dc6f0", label: "Recording" },
 			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1XyPld4gSKYxYbHuqQcFblpMe4Ex6f73c/view?usp=sharing", label: "Slides" },
 		],
-		tags: ["Cond", "Predicates", "Lists", "Racket"]
+		tags: ["Lists", "Racket", "Evaluation"]
 	},
 	{ 
 		number: 5, title: "Design Recipe", outDate: "1/29/2021", active: true,
@@ -44,7 +44,7 @@ const classes = [
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=851583d0-8ed5-46af-9a73-acbf011bf119", label: "Recording" },
 			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1SnjZdzT0w2mgnwESer6FmKNu8rPGCSBd/view?usp=sharing", label: "Slides" },
 		],
-		tags: ["Design Recipe"]
+		tags: ["Design Recipe", "Racket"]
 	},
 	{ 
 		number: 4, title: "Procedures", outDate: "1/27/2021", active: true,
@@ -53,7 +53,7 @@ const classes = [
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=007d7cac-4bf8-436e-a88c-acbd011e7a0e", label: "Recording" },
 			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1bjZxUky5l5M5RgUiK-gJtKevG0ijfQZi/view?usp=sharing", label: "Slides" },
 		],
-		tags: ["Racket", "Procedures"]
+		tags: ["Racket", "Procedures", "Evaluation"]
 	},
 	{ 
 		number: 3, title: "Definitions and Functions", outDate: "1/25/2021", active: true,
@@ -62,7 +62,7 @@ const classes = [
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6e5d9140-4964-4ff7-8d87-acbb011bc1c1", label: "Recording" },
 			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1Iyn5piEyhlIzbLeTszta5dOz79QlZxNl/view?usp=sharing", label: "Slides" },
 		],
-		tags: ["Racket", "Functions", "Procedures"]
+		tags: ["Racket", "Procedures", "Evaluation"]
 	},
 	{ 
 		number: 2, title: "BNF and Racket", outDate: "1/22/2021", active: true,
@@ -71,7 +71,7 @@ const classes = [
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6ea4ad77-a7f7-4c7d-ba53-acb8011c934d", label: "Recording" },
 			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1_gyZi5469rr-RotMh-Od8sbm3QMuc7CK/view?usp=sharing", label: "Slides" },
 		],
-		tags: ["Racket", "BNF"]
+		tags: ["Racket"]
 	},
 	{ 
 		number: 1, title: "Welcome", outDate: "1/20/2021", active: true,
@@ -80,7 +80,7 @@ const classes = [
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5407b5b3-9976-4b50-bcd1-acb6011d1f9c",  label: "Recording" },
 			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1yDSxs9cmu0kmaiuWbqdovtrhtpTLC1WT/view?usp=sharing",  label: "Slides" },
 		],
-		tags: ["Intro", "Racket"]
+		tags: ["Racket"]
 	},
 ]
 
