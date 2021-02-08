@@ -6,7 +6,7 @@ export const ImportantLinks = [
 	{ label: "Gradescope", icon: <FaSchool/>, link: "https://www.gradescope.com/", description: "" },
 	{ label: "Piazza", icon: <FaQuestion/>, link: "https://piazza.com/brown/spring2021/csci0170", description: "" },
 	{ label: "SignMeUp", icon: <FaComment/>, link: "https://signmeup.cs.brown.edu/", description: "" },
-	// { label: "Gather.town", icon: <FaShoePrints/>, link: "https://gather.town/app/25flyuQ4CU2Z94O1/cs17lab", description: "" },
+	{ label: "Lab Assignments", icon: <FaShoePrints/>, link: "https://docs.google.com/spreadsheets/d/1Jb5PvOzFnG6f8onm_bBKtLPuPf7KCGNvfzngioKhTlU/edit?usp=sharing", description: "" },
 ]
 
 export const Resources = [

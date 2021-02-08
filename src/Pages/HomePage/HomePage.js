@@ -83,16 +83,7 @@ class HomePage extends React.Component {
 						</div>
 						<div className="home-intro-text">
 							<h1>Welcome to CS17 :)</h1>
-							<h4>Will the class be fully online?</h4>
-							<p>All of the lectures will be recorded, so you are not required to show up for any live lectures — however, the class will still meet over Zoom during the scheduled time (MWF 11-11:50 a.m. EST) where Spike will present material, interleaved with students collaborating in small groups. We highly recommend coming to these sessions, as one of the best parts about CS17 and college in general is interacting with your peers and professors!</p>
-							<h4>Does that mean I can take another class that has lecture at the same time as CS17?</h4>
-							<p>Yes. But if you want to do so, Banner may object, in which case you should sign up for Section 2 of the course, which is listed as "asynchronous" (i.e., it has no official class hour). That requires instructor permission, which can probably be requested from within Banner, or you can email Spike (the professor) directly at jfh@cs.brown.edu. Because the lectures are recorded, you are free to take classes with conflicting times on CAB, but note that you will lose out on helpful discussions during the scheduled class time! If you go this direction, we recommend finding a "class buddy" with whom to view the classes so that you can do the work-together exercises as the class unfolds.</p>
-							<h4>I don't have any background in CS. Can I still take this class?</h4>
-							<p>Absolutely!! This is an introductory Computer Science course and requires no pre-requisite knowledge. We welcome anyone interested in exploring Computer Science! We have an awesome staff of Teaching Assistants that's ready to help you learn as much as possible, many of whom had no experience in CS before the class either :)</p>
-							<h4>I have prior CS experience. Is this class appropriate for me?</h4>
-							<p>Yes, but take a look through the website and come to the first lecture to make sure this class fits your needs. CS17 takes a different approach to teaching computer science than most high school CS classes (such as AP CS) and many students with prior experience often find CS17 valuable because of this. You'll find students in CS17 with varying levels of experience in CS, but everyone starts at the same place and learns a lot throughout the course!</p>
-							<h4>Wait, what are Teaching Assistants (TAs)? What do they do?</h4>
-							<p>TAs are a group of undergraduate students who are there to help you through the course — they hold hours every week to answer questions about class and assignments. All the TAs have taken CS17 previously; many of them took it just last year.</p>
+							<p>We want to make this the Best CS17 Ever™, and we can only do this if we know what’s best for you! We take your ideas very seriously and want to make a welcoming environment for everyone who wants to learn CS – fill out our <a href="https://forms.gle/dySMFrVgVo1iKz9Y8" target="_blank" rel="noopener noreferrer">anonymous feedback form</a> to let us know if we can do anything better!</p>
 						</div>
 						<div className="home-links">
 							<h1>Important Links</h1>
@@ -102,7 +93,7 @@ class HomePage extends React.Component {
 					<div className="home-announcement">
 						<div>
 							<div><FaExclamation/></div>
-							<p><mark>Announcement:</mark> Class will be held&nbsp;<a href="https://brown.zoom.us/j/96484496047">on Zoom</a>! Please use your Brown email address to join! Fill out the Bignum partner sign-up form&nbsp;<a href="https://forms.gle/nieR5osv2MMqEa6u6">here</a> by Feb. 6th at 12PM EST! Even if you plan to work alone or don't have a partner in mind, you still have to fill out this form!</p>
+							<p><mark>Announcement:</mark> Class will be held&nbsp;<a href="https://brown.zoom.us/j/96484496047">on Zoom</a>! Please use your Brown email address to join!</p>
 						</div>
 					</div>
 					<div className="home-due-soon">
