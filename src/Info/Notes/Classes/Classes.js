@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 10, title: "Introduction to Analysis", outDate: "2/10/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1nXp5jvtTk0hGP1rmeHjDbx3l26I3LG2z/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=269ef537-ef26-4e7c-96a2-accb011fce0f", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1_-n18D5WKtrWSa9_Q9M7lP8WxVtzBSyY/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["Analysis", "Racket"]
+	},
+	{ 
 		number: 9, title: "Two Argument Recursion", outDate: "2/8/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1yL_xlnkGfl21Z_FInjcXNIyXEQhhlut-/view?usp=sharing", label: "Notes" },
