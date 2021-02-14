@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 11, title: "Two Argument Recursion", outDate: "2/12/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1-EM8-XVQSDga95rnJUevLoMI5IOea0fm/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ec4e1e2c-a3ac-4844-8360-accd01182faf", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1cb2X38Iuto3SNGYpMEjIC-OnJ22zSOse/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["Recursion", "Racket"]
+	},
+	{ 
 		number: 10, title: "Introduction to Analysis", outDate: "2/10/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1nXp5jvtTk0hGP1rmeHjDbx3l26I3LG2z/view?usp=sharing", label: "Notes" },

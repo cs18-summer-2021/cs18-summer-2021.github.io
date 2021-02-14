@@ -24,7 +24,13 @@ const labs = [
 			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/1ColymQG6aOgZl1zLxJB9H_r6y4J-dCAYLvnhruOJhIA/edit?usp=sharing", label: "Slides" },
 		]
 	},
-
+	{ 
+		number: 4, title: "Natural Number Recursion", dueDate: "2/14/2021 - 2/17/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1X2P956LNMJ46HPJ3fapaMlcwcPIUF__6/view?usp=sharing", label: "Handout" },
+			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/1rgQ-q0S0E3pbXjAhwGPDu9VF-Opf3w304Cs9eAAMR0U/edit?usp=sharing", label: "Slides" },
+		]
+	},
 ]
 
 export default labs;
