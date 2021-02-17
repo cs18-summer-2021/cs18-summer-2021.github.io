@@ -2,7 +2,16 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
-		number: 11, title: "Two Argument Recursion", outDate: "2/12/2021", active: true,
+		number: 12, title: "Reverse and More Analysis", outDate: "2/17/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1aZWmxapuVaN16GcJ7AP-dqaVyY1gcOUA/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3fe05cfb-8539-40a9-b00f-acd2011bc869", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1JomOoM9X865ZV7vm2XjAdoyibxfP8bB9/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["Recursion", "Racket", "Analysis"]
+	},
+	{ 
+		number: 11, title: "Analysis, Two Argument Recursion pt. 2", outDate: "2/12/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1-EM8-XVQSDga95rnJUevLoMI5IOea0fm/view?usp=sharing", label: "Notes" },
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ec4e1e2c-a3ac-4844-8360-accd01182faf", label: "Recording" },
@@ -20,7 +29,7 @@ const classes = [
 		tags: ["Analysis", "Racket"]
 	},
 	{ 
-		number: 9, title: "Two Argument Recursion", outDate: "2/8/2021", active: true,
+		number: 9, title: "Two Argument Recursion pt. 1", outDate: "2/8/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1yL_xlnkGfl21Z_FInjcXNIyXEQhhlut-/view?usp=sharing", label: "Notes" },
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3693a4c7-b111-48d2-85e0-acc9011b0d78", label: "Recording" },
