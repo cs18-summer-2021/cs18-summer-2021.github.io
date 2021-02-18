@@ -26,10 +26,9 @@ const homeworks = [
 		]
 	},
 	{ 
-		number: 5, title: "Higher-Order Procedures", dueDate: "2/24/2021 11:00 PM EST", active: false,
+		number: 5, title: "Higher-Order Procedures", dueDate: "2/24/2021 11:00 PM EST", active: true,
 		links: [
-			{ icon: <FaFileAlt/>, link: "", label: "Handout" },
-			{ icon: <FaCode/>, link: "", label: "Source Code" },
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1HapsHQ6dLOiNT8vZmGaH3cAAt4bAYvii/view?usp=sharing", label: "Handout" },
 		]
 	},
 	{ 
