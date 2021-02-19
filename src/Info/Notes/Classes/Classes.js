@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 13, title: "More Analysis and Intro to Lambda", outDate: "2/19/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1dfO2tNR9HT5cta7jW03R0pQt92FeFLqt/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c8d6aae4-eda5-410b-86bf-acd4011c3cd7", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1P3nulCWDQnABBZwG-4dhzNtl_s7oVJjS/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["Racket", "Analysis", "Lambda"]
+	},
+	{ 
 		number: 12, title: "Reverse and More Analysis", outDate: "2/17/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1aZWmxapuVaN16GcJ7AP-dqaVyY1gcOUA/view?usp=sharing", label: "Notes" },
