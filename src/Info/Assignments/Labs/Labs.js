@@ -31,6 +31,13 @@ const labs = [
 			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/1rgQ-q0S0E3pbXjAhwGPDu9VF-Opf3w304Cs9eAAMR0U/edit?usp=sharing", label: "Slides" },
 		]
 	},
+	{ 
+		number: 5, title: "Search", dueDate: "2/21/2021 - 2/23/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/101DymqcjKYvSI_QLo58HhKaOq_CoHA_e/view?usp=sharing", label: "Handout" },
+			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/1fOq3U8yFAvVJgyv0yVC8GPCi6rFfqGP_3IU_SOQ-aA0/edit?usp=sharing", label: "Slides" },
+		]
+	},
 ]
 
 export default labs;
