@@ -2,6 +2,12 @@ import { FaFilePowerpoint } from "react-icons/fa";
 
 const workshops = [
 	{
+		number: 5, title: "Analysis, Lambda Expressions, and HOPs", outDate: "2/19 - 2/20/2021", active: true,
+		links: [
+			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/1T5gniCdUjZDYBm-QCMQOAuuHWnqtxsI3dkKE8Sp4vBo/edit?usp=sharing", label: "Slides" },
+		]
+	},
+	{
 		number: 4, title: "Recurrence Relations", outDate: "2/12 - 2/13/2021", active: true,
 		links: [
 			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/15SsYVNs1aV2Eya2-brOkwKRyhKtA6Yolu7z84wzVxA0/edit?usp=sharing", label: "Slides" },
