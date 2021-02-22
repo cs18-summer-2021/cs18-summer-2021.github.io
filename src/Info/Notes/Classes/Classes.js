@@ -8,7 +8,7 @@ const classes = [
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ff8bb7aa-87f7-4366-a7ff-acd7011b5a27", label: "Recording" },
 			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1Gc7MMekYpL-GCFilBI9f8LIn8Xz0lv2m/view?usp=sharing", label: "Slides" },
 		],
-		tags: ["Racket", "Analysis", "Lambda", "HOPs"]
+		tags: ["Racket", "Lambda", "HOPs"]
 	},
 	{ 
 		number: 13, title: "More Analysis and Intro to Lambda", outDate: "2/19/2021", active: true,
