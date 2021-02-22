@@ -6,7 +6,7 @@ const classes = [
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1yhmTiOBVDNDDQMOvR-hKQzCdoOC9ODxZ/view?usp=sharing", label: "Notes" },
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ff8bb7aa-87f7-4366-a7ff-acd7011b5a27", label: "Recording" },
-			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1Gc7MMekYpL-GCFilBI9f8LIn8Xz0lv2m/view?usp=sharing", label: "Slides" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1P-7xJoxGp-A9QZZxlUFkGzE4jdHp37pr/view?usp=sharing", label: "Slides" },
 		],
 		tags: ["Racket", "Lambda", "HOPs"]
 	},
