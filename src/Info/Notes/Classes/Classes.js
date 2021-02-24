@@ -2,7 +2,16 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
-		number: 14, title: "More Analysis and Intro to Lambda", outDate: "2/12/2021", active: true,
+		number: 15, title: "Let and Intro to Reason", outDate: "2/24/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1ydJL2V_YW1Y7frd3a1iPNerGAyNUJnR2/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=545f8be7-0028-4031-ba79-acd9011e0fec", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/15Qk6bxzGyyUw1pmqigUj9jJ4gs32H5fL/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["Racket", "Let", "ReasonML"]
+	},
+	{ 
+		number: 14, title: "More Analysis and Intro to Lambda", outDate: "2/22/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1yhmTiOBVDNDDQMOvR-hKQzCdoOC9ODxZ/view?usp=sharing", label: "Notes" },
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ff8bb7aa-87f7-4366-a7ff-acd7011b5a27", label: "Recording" },
