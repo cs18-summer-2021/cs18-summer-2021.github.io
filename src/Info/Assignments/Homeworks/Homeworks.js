@@ -32,10 +32,10 @@ const homeworks = [
 		]
 	},
 	{ 
-		number: 6, title: "Subsets", dueDate: "3/03/2021 11:00 PM EST", active: false,
+		number: 6, title: "Subsets", dueDate: "3/03/2021 11:00 PM EST", active: true,
 		links: [
-			{ icon: <FaFileAlt/>, link: "", label: "Handout" },
-			{ icon: <FaCode/>, link: "", label: "Source Code" },
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1qRpjRyraEz_bOsegEQprsdLaT-u4YObC/view?usp=sharing", label: "Handout" },
+			{ icon: <FaCode/>, link: "https://drive.google.com/file/d/1GJ-TgdlFINyXHE_mWBNd9giBVIJcoO1A/view?usp=sharing", label: "Source Code" },
 		]
 	},
 	{ 
