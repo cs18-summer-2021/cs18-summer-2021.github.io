@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 16, title: "Combinatorics and ReasonML", outDate: "2/26/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1YbQTjF8cRx3Oe3TuxvVqfGgNQ01x40Lj/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=eaf7dc73-388b-40dd-9a51-acdb011b58d8", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1BRulLnTbluoAZw12HcMEgXiTG0YHqWXE/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["Combinatorics", "ReasonML"]
+	},
+	{ 
 		number: 15, title: "Let and Intro to Reason", outDate: "2/24/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1ydJL2V_YW1Y7frd3a1iPNerGAyNUJnR2/view?usp=sharing", label: "Notes" },
