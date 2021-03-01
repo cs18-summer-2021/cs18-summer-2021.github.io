@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 17, title: "Types, Pattern Matching, and Even More Analysis", outDate: "3/1/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1ho320jPE7pesBRVK2WD0v5M-0yaFVG1v/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://drive.google.com/file/d/1weqRIGQERuZBFtHHf4D0cSbXRFUF2GpZ/view?usp=sharing", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1PzMozTeUf8uUNPTZgEtbyC7X9LaFVfqK/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["ReasonML", "Analysis"]
+	},
+	{ 
 		number: 16, title: "Combinatorics and ReasonML", outDate: "2/26/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1YbQTjF8cRx3Oe3TuxvVqfGgNQ01x40Lj/view?usp=sharing", label: "Notes" },
@@ -17,16 +26,16 @@ const classes = [
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=545f8be7-0028-4031-ba79-acd9011e0fec", label: "Recording" },
 			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/15Qk6bxzGyyUw1pmqigUj9jJ4gs32H5fL/view?usp=sharing", label: "Slides" },
 		],
-		tags: ["Racket", "Let", "ReasonML"]
+		tags: ["Racket", "ReasonML"]
 	},
 	{ 
-		number: 14, title: "More Analysis and Intro to Lambda", outDate: "2/22/2021", active: true,
+		number: 14, title: "HOPs and Analysis", outDate: "2/22/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1yhmTiOBVDNDDQMOvR-hKQzCdoOC9ODxZ/view?usp=sharing", label: "Notes" },
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ff8bb7aa-87f7-4366-a7ff-acd7011b5a27", label: "Recording" },
 			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1P-7xJoxGp-A9QZZxlUFkGzE4jdHp37pr/view?usp=sharing", label: "Slides" },
 		],
-		tags: ["Racket", "Lambda", "HOPs"]
+		tags: ["Racket", "Lambda", "HOPs", "Analysis"]
 	},
 	{ 
 		number: 13, title: "More Analysis and Intro to Lambda", outDate: "2/19/2021", active: true,
