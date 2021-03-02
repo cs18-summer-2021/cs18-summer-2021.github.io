@@ -5,7 +5,7 @@ const classes = [
 		number: 17, title: "Types, Pattern Matching, and Even More Analysis", outDate: "3/1/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1ho320jPE7pesBRVK2WD0v5M-0yaFVG1v/view?usp=sharing", label: "Notes" },
-			{ icon: <FaYoutube/>, link: "https://drive.google.com/file/d/1weqRIGQERuZBFtHHf4D0cSbXRFUF2GpZ/view?usp=sharing", label: "Recording" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e87a64b9-20d5-45b6-9bc0-acde015a590c", label: "Recording" },
 			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1PzMozTeUf8uUNPTZgEtbyC7X9LaFVfqK/view?usp=sharing", label: "Slides" },
 		],
 		tags: ["ReasonML", "Analysis"]
