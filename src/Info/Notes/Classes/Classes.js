@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 18, title: "Generic Types, Set Equality, and Even More Analysis", outDate: "3/3/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1rLrTm6vJtUqdhti6MTx3o8m-C41ap_86/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=779ef478-3ef3-4085-bd05-ace0011c4a36", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1wHpKE45Xrh5BkWNzW5Q6iTjFV-Gj93lz/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["ReasonML", "Analysis"]
+	},
+	{ 
 		number: 17, title: "Types, Pattern Matching, and Even More Analysis", outDate: "3/1/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1ho320jPE7pesBRVK2WD0v5M-0yaFVG1v/view?usp=sharing", label: "Notes" },
