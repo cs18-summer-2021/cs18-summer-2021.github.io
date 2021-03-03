@@ -8,7 +8,7 @@ const classes = [
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=779ef478-3ef3-4085-bd05-ace0011c4a36", label: "Recording" },
 			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1wHpKE45Xrh5BkWNzW5Q6iTjFV-Gj93lz/view?usp=sharing", label: "Slides" },
 		],
-		tags: ["ReasonML", "Analysis"]
+		tags: ["Design Recipe", "Analysis"]
 	},
 	{ 
 		number: 17, title: "Types, Pattern Matching, and Even More Analysis", outDate: "3/1/2021", active: true,
