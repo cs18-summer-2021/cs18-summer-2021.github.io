@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 19, title: "Recurrence and Big-O", outDate: "3/5/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1mfRM9kKkYzviQYctD-aYRZy2M2HZWiJz/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5bcb5379-bdd2-40b0-81ea-ace2011d6a95", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1ojc3wII-C-9_0KBOwTjZerQw6gZk7pYG/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["Analysis", "Big-O"]
+	},
+	{ 
 		number: 18, title: "Generic Types, Set Equality, and Even More Analysis", outDate: "3/3/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1rLrTm6vJtUqdhti6MTx3o8m-C41ap_86/view?usp=sharing", label: "Notes" },
