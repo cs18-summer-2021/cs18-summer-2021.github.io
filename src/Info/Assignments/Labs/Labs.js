@@ -45,6 +45,13 @@ const labs = [
 			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/1DPVvaAQ8jsN1JzGVw-VSygZW-CKLYAOEq_fJhaeGf_s/edit?usp=sharing", label: "Slides" },
 		]
 	},
+	{ 
+		number: 7, title: "Environments", dueDate: "3/7/2021 - 3/9/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1Rleua9k28ilyYN-IUEZ4awN61CIocLXo/view?usp=sharing", label: "Handout" },
+			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/1CgvgaUe6JGKUfiXIfKhXAoddJ_lK42W-USuWCwKjUqk/edit?usp=sharing", label: "Slides" },
+		]
+	},
 ]
 
 export default labs;
