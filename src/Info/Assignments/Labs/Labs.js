@@ -49,6 +49,7 @@ const labs = [
 		number: 7, title: "Environments", dueDate: "3/7/2021 - 3/9/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1Rleua9k28ilyYN-IUEZ4awN61CIocLXo/view?usp=sharing", label: "Handout" },
+			{ icon: <FaCode/>, link: "https://drive.google.com/drive/folders/1yk6N0b7CFMyErYxoYkqQYz_C7JQJ8jcV?usp=sharing", label: "Source Code" },
 			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/1CgvgaUe6JGKUfiXIfKhXAoddJ_lK42W-USuWCwKjUqk/edit?usp=sharing", label: "Slides" },
 		]
 	},
