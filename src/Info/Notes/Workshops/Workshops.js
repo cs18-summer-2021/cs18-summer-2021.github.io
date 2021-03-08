@@ -2,6 +2,12 @@ import { FaFilePowerpoint } from "react-icons/fa";
 
 const workshops = [
 	{
+		number: 7, title: "More ReasonML", outDate: "3/5 - 3/6/2021", active: true,
+		links: [
+			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/1cbcht4D5Lx5yo1Vi7srlV-rPFBVGELGog43K-jdFt64/edit?usp=sharing", label: "Slides" },
+		]
+	},
+	{
 		number: 6, title: "Let Expressions and Intro to ReasonML", outDate: "2/26 - 2/27/2021", active: true,
 		links: [
 			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/1y6T1iZY_0-X0uRM2UgOpU92taVSzeU0HvHMVhPZr2lY/edit?usp=sharing", label: "Slides" },

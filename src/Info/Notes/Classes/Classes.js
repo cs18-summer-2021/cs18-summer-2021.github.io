@@ -35,7 +35,7 @@ const classes = [
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=eaf7dc73-388b-40dd-9a51-acdb011b58d8", label: "Recording" },
 			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1BRulLnTbluoAZw12HcMEgXiTG0YHqWXE/view?usp=sharing", label: "Slides" },
 		],
-		tags: ["Combinatorics", "ReasonML"]
+		tags: ["Recursion", "ReasonML"]
 	},
 	{ 
 		number: 15, title: "Let and Intro to Reason", outDate: "2/24/2021", active: true,

@@ -32,8 +32,8 @@ class NotesCard extends React.Component {
 					<p className="notes-card-number">{this.props.number}</p>
 					<p className="notes-card-title">{this.props.title}</p>
 				</div>
-				{this.props.tags !== undefined ? <div className="notes-card-tags">{this.renderTags()}</div> : <></>}
 				<div className="notes-card-links">{this.renderLinks()}</div>
+				{this.props.tags !== undefined ? <div className="notes-card-tags">{this.renderTags()}</div> : <></>}
 				<div className="notes-card-out-date">{this.props.outDate}</div>
 				{inactiveText}
 			</div>
