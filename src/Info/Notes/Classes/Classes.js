@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 21, title: "Big-Theta and ADTs", outDate: "3/10/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1kB55mwk4ePtG63asMCn-RwK-HIeiacyr/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bbad9c4d-b6e1-4f86-abad-ace701203329", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1G9CzI9U11e38GN-CtaDHZgJjI3XhEc0h/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["ReasonML", "Big-O"]
+	},
+	{ 
 		number: 20, title: "Big-O, Modules, Reason", outDate: "3/8/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1o_IvW20J2MKUvADo36Sg75daSM6o6UmM/view?usp=sharing", label: "Notes" },
