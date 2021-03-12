@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 22, title: "Rackette Overview", outDate: "3/12/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1yD9ythg5RISemj9Oy4QH5vTfEGBuBaNL/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c746c31a-5e2b-4a61-961a-ace9011a5db2", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1AEoi1lh2zUbHXNlk71CEBag61eIaAi7A/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["ReasonML"]
+	},
+	{ 
 		number: 21, title: "Big-Theta and ADTs", outDate: "3/10/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1kB55mwk4ePtG63asMCn-RwK-HIeiacyr/view?usp=sharing", label: "Notes" },
