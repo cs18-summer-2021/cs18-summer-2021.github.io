@@ -12,11 +12,11 @@ const projects = [
 		]
 	},
 	{ 
-		number: 2, title: "Rackette", dueDate: "03/26/2021 11:00 PM EST", active: false,
+		number: 2, title: "Rackette", dueDate: "03/26/2021 11:00 PM EST", active: true,
 		notes: "",
 		links: [
-			{ icon: <FaFileAlt/>, link: "", label: "Handout" },
-			{ icon: <FaCode/>, link: "", label: "Source Code" },
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1PreiLyxN5YiRN_G9zPEKwCpRhwYqHprJ/view?usp=sharing", label: "Handout" },
+			{ icon: <FaCode/>, link: "https://drive.google.com/drive/folders/1BFtO38_OYq_pIyqOqFSliYWrk5cNg1B0?usp=sharing", label: "Source Code" },
 		]
 	},
 	{ 
