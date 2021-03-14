@@ -23,7 +23,8 @@ const classes = [
 		number: 20, title: "Big-O, Modules, Reason", outDate: "3/8/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1o_IvW20J2MKUvADo36Sg75daSM6o6UmM/view?usp=sharing", label: "Notes" },
-			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=efd555b9-d1c3-4876-9299-ace501175002", label: "Recording" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7a511d44-e6fc-41cf-8351-acea01080811", label: "Recording Pt. 1" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=efd555b9-d1c3-4876-9299-ace501175002", label: "Recording Pt. 2" },
 			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1MZlFZ_KVaxELr0vKidDTswepYZj-vH9V/view?usp=sharing", label: "Slides" },
 		],
 		tags: ["ReasonML", "Big-O"]
