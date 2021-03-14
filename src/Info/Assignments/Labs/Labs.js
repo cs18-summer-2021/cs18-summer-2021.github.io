@@ -53,6 +53,14 @@ const labs = [
 			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/1CgvgaUe6JGKUfiXIfKhXAoddJ_lK42W-USuWCwKjUqk/edit?usp=sharing", label: "Slides" },
 		]
 	},
+	{ 
+		number: 8, title: "ADTs", dueDate: "3/14/2021 - 3/16/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1V8PyChitw9Wuy5ouHiBPAp-i4JoKPKg9/view?usp=sharing", label: "Handout" },
+			{ icon: <FaCode/>, link: "https://drive.google.com/drive/folders/10YO1f-b_EtsUfSBNMMVJaZHH1Sqi5f3f?usp=sharing", label: "Source Code" },
+			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/17MblxNUvy5dRQUOdoE1dxj750_EubRRSwc-RFERlPng/edit?usp=sharing", label: "Slides" },
+		]
+	},
 ]
 
 export default labs;
