@@ -46,28 +46,28 @@ const homeworks = [
 		]
 	},
 	{ 
-		number: 8, title: "Rackettecita", dueDate: "3/17/2021 11:00 PM EST", active: true,
+		number: 8, title: "Rackettecita", dueDate: "3/17/2021 11:00 PM EDT", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1uWx4kWP5LEePRNzDNrl8yJWzrnhHm5Z2/view?usp=sharing", label: "Handout" },
 			{ icon: <FaCode/>, link: "https://drive.google.com/file/d/1rK9triCby7Kmh9snQdwkNhAr7nVVMak4/view?usp=sharing", label: "Source Code" },
 		]
 	},
 	{ 
-		number: 9, title: "Homework 9", dueDate: "3/24/2021 11:00 PM EST", active: false,
+		number: 9, title: "Homework 9", dueDate: "3/24/2021 11:00 PM EDT", active: false,
 		links: [
 			{ icon: <FaFileAlt/>, link: "", label: "Handout" },
 			{ icon: <FaCode/>, link: "", label: "Source Code" },
 		]
 	},
 	{ 
-		number: 10, title: "Homework 10", dueDate: "3/31/2021 11:00 PM EST", active: false,
+		number: 10, title: "Homework 10", dueDate: "3/31/2021 11:00 PM EDT", active: false,
 		links: [
 			{ icon: <FaFileAlt/>, link: "", label: "Handout" },
 			{ icon: <FaCode/>, link: "", label: "Source Code" },
 		]
 	},
 	{ 
-		number: 11, title: "Homework 11", dueDate: "4/07/2021 11:00 PM EST", active: false,
+		number: 11, title: "Homework 11", dueDate: "4/07/2021 11:00 PM EDT", active: false,
 		links: [
 			{ icon: <FaFileAlt/>, link: "", label: "Handout" },
 			{ icon: <FaCode/>, link: "", label: "Source Code" },

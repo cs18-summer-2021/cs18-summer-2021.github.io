@@ -12,7 +12,7 @@ const projects = [
 		]
 	},
 	{ 
-		number: 2, title: "Rackette", dueDate: "03/26/2021 11:00 PM EST", active: true,
+		number: 2, title: "Rackette", dueDate: "03/26/2021 11:00 PM EDT", active: true,
 		notes: "",
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1PreiLyxN5YiRN_G9zPEKwCpRhwYqHprJ/view?usp=sharing", label: "Handout" },
@@ -22,7 +22,7 @@ const projects = [
 		]
 	},
 	{ 
-		number: 3, title: "Game", dueDate: "04/08/2021 11:00 PM EST", active: false,
+		number: 3, title: "Game", dueDate: "04/08/2021 11:00 PM EDT", active: false,
 		notes: "",
 		links: [
 			{ icon: <FaFileAlt/>, link: "", label: "Handout" },
