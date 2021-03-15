@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 23, title: "Rackette, VSCode, ReasonML", outDate: "3/15/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1wkykd26ImDnjIgLnyBIWVAoJbh4mMqgI/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b33422af-f8d6-46ed-aa63-acec010a57db", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1ojmwgwiYWhkrIuj2Uj8SfuuqV7SDh-XV/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["ReasonML"]
+	},
+	{ 
 		number: 22, title: "Rackette Overview", outDate: "3/12/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1yD9ythg5RISemj9Oy4QH5vTfEGBuBaNL/view?usp=sharing", label: "Notes" },
