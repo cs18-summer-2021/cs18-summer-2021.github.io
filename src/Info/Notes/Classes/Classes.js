@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 24, title: "ReasonML Syntax and Trees", outDate: "3/17/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/13Rzt8LjGmzGfK9iQyAjIhY8nwsKB591t/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=146ffa0e-4177-4369-b4b2-acee010d60ca", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1Ss6ueiCgRunXuc0PokzuEVS6w4nC5vjv/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["ReasonML", "Trees"]
+	},
+	{ 
 		number: 23, title: "Rackette, VSCode, ReasonML", outDate: "3/15/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1wkykd26ImDnjIgLnyBIWVAoJbh4mMqgI/view?usp=sharing", label: "Notes" },
