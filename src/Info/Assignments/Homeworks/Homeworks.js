@@ -53,10 +53,10 @@ const homeworks = [
 		]
 	},
 	{ 
-		number: 9, title: "Homework 9", dueDate: "3/24/2021 11:00 PM EDT", active: false,
+		number: 9, title: "ADTs", dueDate: "3/24/2021 11:00 PM EDT", active: true,
 		links: [
-			{ icon: <FaFileAlt/>, link: "", label: "Handout" },
-			{ icon: <FaCode/>, link: "", label: "Source Code" },
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1T2h7lfc8QtddGCD43ngk90FEJqoR45qf/view?usp=sharing", label: "Handout" },
+			{ icon: <FaCode/>, link: "https://drive.google.com/drive/folders/1pSY8QpjXLcku8hdWabmPaAuQzZf-ftdM?usp=sharing", label: "Source Code" },
 		]
 	},
 	{ 
