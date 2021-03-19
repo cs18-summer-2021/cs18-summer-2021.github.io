@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 25, title: "Sorting and Mutual Recursion", outDate: "3/19/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/15Ww1bp-KSAa3t7uEKrT4Oxe14fe_7cJu/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=47fdc07e-4153-4cc1-b9b6-acf0010b663c", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/13JLWXviEoG77vdrxlPqLe4T_hQ6E133w/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["ReasonML", "Recursion"]
+	},
+	{ 
 		number: 24, title: "ReasonML Syntax and Trees", outDate: "3/17/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/13Rzt8LjGmzGfK9iQyAjIhY8nwsKB591t/view?usp=sharing", label: "Notes" },
