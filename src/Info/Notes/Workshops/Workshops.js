@@ -2,6 +2,12 @@ import { FaFilePowerpoint } from "react-icons/fa";
 
 const workshops = [
 	{
+		number: 9, title: "Debugging Tips, Modules, and Trees", outDate: "3/19 - 3/20/2021", active: true,
+		links: [
+			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/11OrVTok8PDq7veWCr-jPw9GZECHc5QzOU_HL-fXEZgI/edit?usp=sharing", label: "Slides" },
+		]
+	},
+	{
 		number: 7, title: "More ReasonML", outDate: "3/5 - 3/6/2021", active: true,
 		links: [
 			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/1cbcht4D5Lx5yo1Vi7srlV-rPFBVGELGog43K-jdFt64/edit?usp=sharing", label: "Slides" },
