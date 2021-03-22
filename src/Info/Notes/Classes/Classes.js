@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 25, title: "Environments, Contexts, and Lets", outDate: "3/22/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/17ItRQjTSj6V65tTGMpXTs_6W23DIBLHA/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2dec1fd2-9307-4a14-a235-acf3010c9ae8", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1BnW4wwAlLbm972Sgh-J17N2C47_lfrrI/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["Lambda"]
+	},
+	{ 
 		number: 25, title: "Sorting and Mutual Recursion", outDate: "3/19/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/15Ww1bp-KSAa3t7uEKrT4Oxe14fe_7cJu/view?usp=sharing", label: "Notes" },
