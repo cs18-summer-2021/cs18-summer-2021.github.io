@@ -2,7 +2,7 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
-		number: 25, title: "Environments, Contexts, and Lets", outDate: "3/22/2021", active: true,
+		number: 26, title: "Environments, Contexts, and Lets", outDate: "3/22/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/17ItRQjTSj6V65tTGMpXTs_6W23DIBLHA/view?usp=sharing", label: "Notes" },
 			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2dec1fd2-9307-4a14-a235-acf3010c9ae8", label: "Recording" },
