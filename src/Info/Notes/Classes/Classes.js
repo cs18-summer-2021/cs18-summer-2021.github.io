@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 28, title: "More Sorting and Intro to Game", outDate: "3/26/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1uEcobQ4pt-3I6O_hYKAhCSecSjkkVlqp/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=44981f13-376f-40e3-b17f-acf7010d8e3a", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/19BMwMKY6OAB5afBNFuVpfdWcCEvIA_ox/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["Sorting", "Analysis", "Game"]
+	},
+	{ 
 		number: 27, title: "Insertion Sort, Selection Sort, and Merge Sort", outDate: "3/24/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/18X-u8flZdYT8s8tRnshKJSBGjCAQcFXT/view?usp=sharing", label: "Notes" },
