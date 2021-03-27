@@ -22,11 +22,11 @@ const projects = [
 		]
 	},
 	{ 
-		number: 3, title: "Game", dueDate: "04/08/2021 11:00 PM EDT", active: false,
+		number: 3, title: "Game", dueDate: "04/08/2021 11:00 PM EDT", active: true,
 		notes: "",
 		links: [
-			{ icon: <FaFileAlt/>, link: "", label: "Handout" },
-			{ icon: <FaCode/>, link: "", label: "Source Code" },
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1Fb6ZI5hRme9EPHQPZym5TighM7Sz7OM1/view?usp=sharing", label: "Handout" },
+			{ icon: <FaCode/>, link: "https://drive.google.com/drive/folders/1wUMVBjvzwI32j3sOLHnbMH2PR877Z7WH?usp=sharing", label: "Source Code" },
 		]
 	}
 ]
