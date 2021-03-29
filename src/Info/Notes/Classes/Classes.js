@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 29, title: "Game - MiniMax", outDate: "3/29/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1SqR4-eVP1marC5m1kb-PjFJH27VwZL8V/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4c4e87ae-8743-431e-bb13-acfa010c30c4", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1h3qhl65554CvpAv4GSawd0eozMjuCRYK/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["Game"]
+	},
+	{ 
 		number: 28, title: "More Sorting and Intro to Game", outDate: "3/26/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1uEcobQ4pt-3I6O_hYKAhCSecSjkkVlqp/view?usp=sharing", label: "Notes" },
