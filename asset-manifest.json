@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.22c12bb8.chunk.css",
-    "main.js": "/static/js/main.40ae8c2e.chunk.js",
-    "main.js.map": "/static/js/main.40ae8c2e.chunk.js.map",
+    "main.css": "/static/css/main.e8dcf501.chunk.css",
+    "main.js": "/static/js/main.50dc9215.chunk.js",
+    "main.js.map": "/static/js/main.50dc9215.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.72cc274b.js",
     "runtime-main.js.map": "/static/js/runtime-main.72cc274b.js.map",
     "static/js/2.50756f4b.chunk.js": "/static/js/2.50756f4b.chunk.js",
     "static/js/2.50756f4b.chunk.js.map": "/static/js/2.50756f4b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.22c12bb8.chunk.css.map": "/static/css/main.22c12bb8.chunk.css.map",
+    "static/css/main.e8dcf501.chunk.css.map": "/static/css/main.e8dcf501.chunk.css.map",
     "static/js/2.50756f4b.chunk.js.LICENSE.txt": "/static/js/2.50756f4b.chunk.js.LICENSE.txt",
     "static/media/AdamWang.1c32e458.png": "/static/media/AdamWang.1c32e458.png",
     "static/media/AlexRyan.05ca8fe8.png": "/static/media/AlexRyan.05ca8fe8.png",
@@ -16,10 +16,10 @@
     "static/media/AnnaDai.ec033973.jpg": "/static/media/AnnaDai.ec033973.jpg",
     "static/media/ArringtonHarper.bfcb26c7.png": "/static/media/ArringtonHarper.bfcb26c7.png",
     "static/media/CIT_Illustration.eeb19c86.svg": "/static/media/CIT_Illustration.eeb19c86.svg",
-    "static/media/CIT_Logo_1.8f7df26b.svg": "/static/media/CIT_Logo_1.8f7df26b.svg",
-    "static/media/CS17_Logo_1.113aa9aa.svg": "/static/media/CS17_Logo_1.113aa9aa.svg",
-    "static/media/CS17_Logo_2.0ddea8f8.svg": "/static/media/CS17_Logo_2.0ddea8f8.svg",
-    "static/media/CS17_Logo_3.376b4044.svg": "/static/media/CS17_Logo_3.376b4044.svg",
+    "static/media/CIT_Logo_1.bb39d0f9.svg": "/static/media/CIT_Logo_1.bb39d0f9.svg",
+    "static/media/CS17_Logo_1.fbdc0fc1.svg": "/static/media/CS17_Logo_1.fbdc0fc1.svg",
+    "static/media/CS17_Logo_2.054f853f.svg": "/static/media/CS17_Logo_2.054f853f.svg",
+    "static/media/CS17_Logo_3.fd3d3b08.svg": "/static/media/CS17_Logo_3.fd3d3b08.svg",
     "static/media/DarrenFang.cc248540.jpg": "/static/media/DarrenFang.cc248540.jpg",
     "static/media/HarisenLuby.925f7e9d.jpg": "/static/media/HarisenLuby.925f7e9d.jpg",
     "static/media/IsabelLai.712483ae.JPG": "/static/media/IsabelLai.712483ae.JPG",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.72cc274b.js",
     "static/js/2.50756f4b.chunk.js",
-    "static/css/main.22c12bb8.chunk.css",
-    "static/js/main.40ae8c2e.chunk.js"
+    "static/css/main.e8dcf501.chunk.css",
+    "static/js/main.50dc9215.chunk.js"
   ]
 }
