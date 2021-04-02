@@ -62,6 +62,11 @@ const staff = [
 	// 	bio: "Outside of pandemic times, I love being a mediocre ultimate frisbee player and a slightly less mediocre inner-tube water poloist. I also enjoy watching student theater on campus!"
 	// },
 	{
+		name: "Jefferson Bernard", login: "jbernar3", image: staffImages.JeffersonBernard,
+		hometown: "Brooklyn, NY", birthday: "October 26th", pronouns: "he/him/his",
+		bio: "Hi! I'm Jefferson, a Junior from Brooklyn studying Computer Science. In my free time I usually go on long walks around Providence, read, knit, listen to music and watch basketball/baseball highlights."
+	},
+	{
 		name: "Justin Sanders", login: "jsander8", image: staffImages.JustinSanders,
 		hometown: "Seattle, WA", birthday: "January 4th", pronouns: "he/him/his",
 		bio: "Howdy! I'm a Junior from Seattle studying Computational Biology, and in my free time you'll either find me up skiing or getting tilted playing chess online. I'm looking forward to being your TA this semester :)"

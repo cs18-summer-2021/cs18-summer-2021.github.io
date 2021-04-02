@@ -18,12 +18,14 @@ import SahilBansal from './Images/SahilBansal.jpg';
 import AdamWang from './Images/AdamWang.png';
 import DarrenFang from './Images/DarrenFang.jpg';
 import StephanieCarrero from './Images/StephanieCarrero.JPG';
+import JeffersonBernard from './Images/JeffersonBernard.jpeg';
 // import IanLayzer from './Images/Default.png';
 
 const staffImages = {
 	TimothyWang, SohumGupta, SeanZhan, ThetHtayZaw, IsabelLai, AlexRyan, AndyDelworth,
 	JustinSanders, MaceoThompson, StephenChen, ArringtonHarper, TaliBers, AnnaDai, Spike,
-	KotaSoda, HarisenLuby, DarrenFang, SahilBansal, StephanieCarrero, AdamWang, //IanLayzer
+	KotaSoda, HarisenLuby, DarrenFang, SahilBansal, StephanieCarrero, AdamWang, //IanLayzer, 
+	JeffersonBernard
 }
 
 export default staffImages;
