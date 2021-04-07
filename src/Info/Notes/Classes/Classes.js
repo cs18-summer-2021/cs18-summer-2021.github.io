@@ -2,6 +2,15 @@ import { FaFileAlt, FaYoutube, FaFilePowerpoint } from 'react-icons/fa';
 
 const classes = [
 	{ 
+		number: 33, title: "Limits of Computation", outDate: "4/7/2021", active: true,
+		links: [
+			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1G1KW-5wJ6tKI_GBver2xR9_9EK2hnx9A/view?usp=sharing", label: "Notes" },
+			{ icon: <FaYoutube/>, link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b1956a78-8ba2-4b63-9b2d-ad03010478a5", label: "Recording" },
+			{ icon: <FaFilePowerpoint/>, link: "https://drive.google.com/file/d/1G8zyR6A1H04tBFzN-vqRg3ETtg1RW3Sm/view?usp=sharing", label: "Slides" },
+		],
+		tags: ["Game"]
+	},
+	{ 
 		number: 32, title: "Diagonals, Limits of Computation", outDate: "4/5/2021", active: true,
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1ojleh3VZaAJ2QsEN0whKl7wKeKsa25d1/view?usp=sharing", label: "Notes" },
