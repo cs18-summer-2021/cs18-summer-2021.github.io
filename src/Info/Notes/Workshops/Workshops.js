@@ -2,7 +2,7 @@ import { FaFilePowerpoint, FaYoutube } from "react-icons/fa";
 
 const workshops = [
 	{
-		number: 10, title: "Final Exam Review", outDate: "4/19 - 3/20/2021", active: true,
+		number: 10, title: "Final Exam Review", outDate: "4/10/2021", active: true,
 		links: [
 			{ icon: <FaFilePowerpoint/>, link: "https://docs.google.com/presentation/d/1SIS1vCOdcW4yANC9VSawF9izI9nUD9Nmff-jjewiAFU/edit?usp=sharing", label: "Slides" },
 			{ icon: <FaYoutube/>, link: "https://drive.google.com/file/d/1Mkt8_oNfCLR5RZyqGgrFCWLmof2HxLWP/view?usp=sharing", label: "Recording" },
