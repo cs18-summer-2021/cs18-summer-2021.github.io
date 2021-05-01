@@ -4,7 +4,7 @@ const homeworks = [
 	{
 		number: 0, title: "Socially Responsible Computing", dueDate: "1/27/2021 11:00 p.m. EDT", active: true,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1CM9UxSoXK7fYM6TWang9DvxJ2rKrIRCM/view?usp=sharing", label: "Handout" },
+			{ icon: <FaFileAlt />, link: "", label: "Handout" },
 		]
 	},
 	{
