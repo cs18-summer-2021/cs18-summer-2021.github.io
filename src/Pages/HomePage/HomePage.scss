@@ -27,18 +27,18 @@
 
 		.home-intro-images {
 			position: relative;
-			height: fit-content;
+			height: 50%;
 			width: 100%;
-			margin-bottom: 2em;
+			margin-bottom: 0%;
 
 			.cit-illustration {
-				width: 100%;
+				width: 80%;
 			}
 
-			.animated-image-wrapper {
-				position: absolute;
-				top: 3em;
-			}
+			// .animated-image-wrapper {
+			// 	position: absolute;
+			// 	top: 0;
+			// }
 		}
 
 		.home-intro-text {
@@ -115,7 +115,7 @@
 		border-top-left-radius: 2em;
 		border-bottom-left-radius: 2em;
 
-		background: $orange-medium;
+		background: rgba($orange-medium, 0.5);
 		color: $dark;
 
 		display: flex;
@@ -164,6 +164,8 @@
 		justify-content: space-evenly;
 		gap: 0.5em;
 
+		h1 { color: $dark; }
+		p { color: $dark; }
 		.home-due-soon-content {
 			width: 100%;
 			display: grid;
@@ -207,7 +209,7 @@
 
 		background: $light;
 		width: 100%;
-		height: 100%;
+		height: 110%;
 		// min-height: fit-content;
 
 		iframe {
@@ -234,7 +236,7 @@
 			border-radius: 0em;
 			
 			.home-intro-images {
-				width: 80%;
+				width: 50%;
 			}
 
 			.home-intro-text {

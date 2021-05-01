@@ -1,9 +1,9 @@
 import React from 'react';
 import './AnimatedImage.scss';
 
-import { ReactComponent as CS17_Logo_1 } from '../../Assets/CS17_Logo/CS17_Logo_1.svg';
-import { ReactComponent as CS17_Logo_2 } from '../../Assets/CS17_Logo/CS17_Logo_2.svg';
-import { ReactComponent as CS17_Logo_3 } from '../../Assets/CS17_Logo/CS17_Logo_3.svg';
+import { ReactComponent as CS18_Logo_1 } from '../../Assets/CS18_Logo/CS18_Logo_1.svg';
+import { ReactComponent as CS18_Logo_2 } from '../../Assets/CS18_Logo/CS18_Logo_2.svg';
+import { ReactComponent as CS18_Logo_3 } from '../../Assets/CS18_Logo/CS18_Logo_3.svg';
 
 class AnimatedImage extends React.Component {
 	constructor(props) {
@@ -19,7 +19,7 @@ class AnimatedImage extends React.Component {
 	}
 
 	componentDidMount() {
-		this.setState({images: this.props.images})
+		this.setState({ images: this.props.images })
 		setInterval(this.switchImage, 200);
 	}
 
@@ -33,7 +33,7 @@ class AnimatedImage extends React.Component {
 }
 
 AnimatedImage.defaultProps = {
-	images: [<CS17_Logo_1/>, <CS17_Logo_2/>, <CS17_Logo_3/>]
+	images: [<CS18_Logo_1 />, <CS18_Logo_2 />, <CS18_Logo_3 />]
 }
 
 export default AnimatedImage;

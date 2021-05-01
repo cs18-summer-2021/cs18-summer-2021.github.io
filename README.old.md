@@ -1,2 +1,2 @@
-# cs17.github.io
-CS17 Website :)
+# cs18-summer-2021.github.io
+CS18 Website :0

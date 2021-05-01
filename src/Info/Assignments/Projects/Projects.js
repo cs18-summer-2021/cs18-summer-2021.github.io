@@ -2,7 +2,7 @@ import { FaFileAlt, FaCode, FaFilePowerpoint, FaYoutube } from 'react-icons/fa';
 
 const projects = [
 	{ 
-		number: 1, title: "Bignum", dueDate: "2/25/2021 11:00 PM EST", active: true,
+		number: 1, title: "Recommender", dueDate: "2/25/2021 11:00 PM EST", active: false,
 		notes: "",
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1eLKa8fre_OL8OsuFG2t9gRN23uFUpiom/view?usp=sharing", label: "Handout" },
@@ -12,7 +12,7 @@ const projects = [
 		]
 	},
 	{ 
-		number: 2, title: "Rackette", dueDate: "03/26/2021 11:00 PM EDT", active: true,
+		number: 2, title: "Search", dueDate: "03/26/2021 11:00 PM EDT", active: false,
 		notes: "",
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1PreiLyxN5YiRN_G9zPEKwCpRhwYqHprJ/view?usp=sharing", label: "Handout" },
@@ -22,7 +22,7 @@ const projects = [
 		]
 	},
 	{ 
-		number: 3, title: "Game", dueDate: "04/08/2021 11:00 PM EDT", active: true,
+		number: 3, title: "Model Checking", dueDate: "04/08/2021 11:00 PM EDT", active: false,
 		notes: "",
 		links: [
 			{ icon: <FaFileAlt/>, link: "https://drive.google.com/file/d/1Fb6ZI5hRme9EPHQPZym5TighM7Sz7OM1/view?usp=sharing", label: "Handout" },

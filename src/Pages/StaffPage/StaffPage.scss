@@ -6,7 +6,8 @@
 	width: 100%;
 
 	display: grid;
-	grid-template-columns: 2fr 3fr;
+	// grid-template-columns: 45% 55%;
+	grid-template-columns: 35% 65%;
 	// gap: 2em;
 	& > * { @include h-gap(2em); }
 
@@ -50,7 +51,7 @@
 		}
 
 		.staff-main-image {
-			width: 40%;
+			width: 45%;
 			background: $aqua-dark;
 			background-size: cover;
 			background-position: center;
@@ -74,6 +75,10 @@
 				font-size: 1.5em;
 				font-weight: 700;
 				color: $aqua-dark;
+				// margin-left: -100%;
+				// margin-right: -100%;
+				text-align: center;
+				overflow-wrap: break-word;
 			}
 
 			.staff-main-bio {

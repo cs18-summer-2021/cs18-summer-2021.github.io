@@ -3,18 +3,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap');
 $main-font: 'Poppins', sans-serif;
 
-$aqua-light: #53D2DC;
-$aqua-medium: #12BBBA;
-$aqua-dark: #18A2A5;
+$aqua-light: #66ccff;
+$aqua-medium: #36b8ea;
+$aqua-dark: #3091b8;
 
-$orange-light: #FFF0AA;
-$orange-medium: #FFC060;
-$orange-dark: #FF826C;
+$orange-light: #ffbfc5;
+$orange-medium: #ffd900;
+$orange-dark: #ff8c96;
+
+// $aqua-light: #46c8f5;
+// $aqua-medium: #158fb8;
+// $aqua-dark: #2491bc;
+
+// $orange-light: #dbedc1;
+// $orange-medium: #ff8b94;
+// $orange-dark: #f6d100;
 
 $light: #FFFFFF;
-$dark: #000000;
+$dark: #3b3b3b;
 
-$bg-color: rgba($aqua-light, 0.4);
+$bg-color: rgba($aqua-light, 0.2);
 
 html, body, #root{
 	height: 100vh;

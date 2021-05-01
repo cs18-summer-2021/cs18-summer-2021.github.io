@@ -7,7 +7,7 @@ import { FaExclamation } from 'react-icons/fa';
 
 import Page from '../../Layout/Page/Page';
 import AnimatedImage from '../../Components/AnimatedImage/AnimatedImage';
-import { ReactComponent as CIT_Illustration } from '../../Assets/CIT_Logo/CIT_Illustration.svg';
+import { ReactComponent as CIT_Illustration } from '../../Assets/CIT_Logo/blueno.svg';
 import { ReactComponent as CIT_Logo_1 } from '../../Assets/CIT_Logo/CIT_Logo_1.svg';
 import AssignmentsCard from '../../Components/AssignmentsCard/AssignmentsCard';
 
@@ -37,9 +37,9 @@ class HomePage extends React.Component {
 		} else { curP = activeP[activeP.length - 1]; }
 
 		return [
-			{name: 'Homework', content: curH, navigation: "/homeworks"},
-			{name: 'Lab', content: curL, navigation: "/labs"},
-			{name: 'Project', content: curP, navigation: "/projects"},
+			{ name: 'Homework', content: curH, navigation: "/homeworks" },
+			{ name: 'Lab', content: curL, navigation: "/labs" },
+			{ name: 'Project', content: curP, navigation: "/projects" },
 		]
 	}
 
@@ -56,14 +56,14 @@ class HomePage extends React.Component {
 		const curA = this.getAssignments();
 		return (
 			<div className='home-due-soon-content'>
-				{curA.map(({name, content, navigation}) => {
+				{curA.map(({ name, content, navigation }) => {
 					return (
 						<div className="home-due-soon-section">
 							<div className="home-due-soon-label">
 								<p>{name}</p>
 								<Link to={navigation}>See all...</Link>
 							</div>
-							<AssignmentsCard number={content.number} title={content.title} active={content.active} dueDate={content.dueDate} links={content.links}/>
+							<AssignmentsCard number={content.number} title={content.title} active={content.active} dueDate={content.dueDate} links={content.links} />
 						</div>
 					)
 				})}
@@ -77,13 +77,11 @@ class HomePage extends React.Component {
 				<div className="home-wrapper">
 					<div className="home-left-wrapper">
 						<div className="home-intro-images">
-							<CIT_Illustration className="cit-illustration"/>
-							{/* <AnimatedImage images={[<CIT_Logo_1/>]}/> */}
-							<AnimatedImage/>
+							<CIT_Illustration className="cit-illustration" />
 						</div>
 						<div className="home-intro-text">
-							<h1>Welcome to CS17 :)</h1>
-							<p>We want to make this the Best CS17 Ever™, and we can only do this if we know what’s best for you! We take your ideas very seriously and want to make a welcoming environment for everyone who wants to learn CS – fill out our <a href="https://forms.gle/dySMFrVgVo1iKz9Y8" target="_blank" rel="noopener noreferrer">anonymous feedback form</a> to let us know if we can do anything better!</p>
+							<h1>Welcome to CS18 :D</h1>
+							<p>Hope you're having a good day!! We take your ideas very seriously and want to make a welcoming environment for everyone who wants to learn CS – fill out our <a href="https://forms.gle/dySMFrVgVo1iKz9Y8" target="_blank" rel="noopener noreferrer">anonymous feedback form</a> to let us know if we can do anything better!</p>
 						</div>
 						<div className="home-links">
 							<h1>Important Links</h1>
@@ -92,8 +90,8 @@ class HomePage extends React.Component {
 					</div>
 					<div className="home-announcement">
 						<div>
-							<div><FaExclamation/></div>
-							<p><mark>Announcement:</mark> Class will be held&nbsp;<a href="https://brown.zoom.us/j/96484496047">on Zoom</a>! Please use your Brown email address to join!</p>
+							<div><FaExclamation /></div>
+							<p><mark>Announcement:</mark> The first class will be held at <mark>11 a.m. EDT, May 12</mark>&nbsp;<a href="https://brown.zoom.us/j/96484496047">on Zoom</a>!</p>
 						</div>
 					</div>
 					<div className="home-due-soon">
@@ -101,7 +99,7 @@ class HomePage extends React.Component {
 						{this.renderDueSoonCards()}
 					</div>
 					<div className="home-hours">
-						<iframe title={"Google Calendar"} src="https://calendar.google.com/calendar/embed?src=brown.edu_fechjhecobm9ec4c23lp12nfuk%40group.calendar.google.com&ctz=America%2FNew_York" style={{border: 0}} frameborder="0" scrolling="no"></iframe>
+						<iframe title={"Google Calendar"} src="https://calendar.google.com/calendar/embed?src=c_go4ruve51ln77qucucambr79n0%40group.calendar.google.com&amp;&ctz=America%2FNew_York&mode=WEEK&amp;&showPrint=0&showCalendars=0&color=%23BE6D00" style={{ border: 0 }} frameborder="0" scrolling="no"></iframe>
 					</div>
 				</div>
 			</Page>
