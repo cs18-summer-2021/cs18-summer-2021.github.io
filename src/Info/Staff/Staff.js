@@ -23,8 +23,8 @@ const staff = [
 	},
 	{
 		name: "Peter Zubiago (HTA)", login: "pzubiago", image: staffImages.PeterZubiago,
-		hometown: "East Greenwich, RI", birthday: "???", pronouns: "he/him/his",
-		bio: "???"
+		hometown: "East Greenwich, RI", birthday: "May 4th", pronouns: "he/him/his",
+		bio: "Hello! I'm a rising senior studying English and Computer Science. In my spare time, I love swimming, watching (and writing about!) TV, acting, and learning new languages!"
 	},
 	{
 		name: "Annie Cimack", login: "acimack", image: staffImages.AnnieCimack,
