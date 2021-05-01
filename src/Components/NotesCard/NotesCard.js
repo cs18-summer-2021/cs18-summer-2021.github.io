@@ -5,7 +5,7 @@ import './NotesCard.scss';
 
 class NotesCard extends React.Component {
 	renderLinks() {
-		return this.props.links.map((l) => <IconLink link={l.link} icon={l.icon} label={l.label}/>)
+		return this.props.links.map((l) => <IconLink link={l.link} icon={l.icon} label={l.label} />)
 	}
 
 	renderTags() {
@@ -20,12 +20,12 @@ class NotesCard extends React.Component {
 		const month = date.getMonth()
 		const day = date.getDate()
 
-		return `${month + 1}/${day}/${year}, 11:50 AM EST`
+		return `${month + 1}/${day}/${year}, 11:50 AM EDT`
 	}
 
 	render() {
 		const inactiveStyle = this.props.active ? "" : " notes-inactive"
-		const inactiveText = this.props.active ? <></> : <div className="notes-inactive-text"><p>Coming soon!</p></div>
+		const inactiveText = this.props.active ? <></> : <div className="notes-inactive-text"><p>&nbsp;&nbsp;Coming soon!&nbsp;&nbsp;</p></div>
 		return (
 			<div className={"notes-card" + inactiveStyle}>
 				<div className="notes-card-heading">
@@ -46,7 +46,7 @@ NotesCard.defaultProps = {
 	title: "Assignment",
 	active: "false",
 	outDate: "01-01-2021",
-	links: [], 
+	links: [],
 }
 
 export default NotesCard;

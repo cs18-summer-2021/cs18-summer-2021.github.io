@@ -5,7 +5,7 @@ import './AssignmentsCard.scss';
 
 class AssignmentsCard extends React.Component {
 	renderLinks() {
-		return this.props.links.map((l) => <IconLink link={l.link} icon={l.icon} label={l.label}/>)
+		return this.props.links.map((l) => <IconLink link={l.link} icon={l.icon} label={l.label} />)
 	}
 
 	formatDate() {
@@ -16,12 +16,12 @@ class AssignmentsCard extends React.Component {
 		const month = date.getMonth()
 		const day = date.getDate()
 
-		return `${month + 1}/${day}/${year}, 11:00 PM EST`
+		return `${month + 1}/${day}/${year}, 11:00 p.m. EDT`
 	}
 
 	render() {
 		const inactiveStyle = this.props.active ? "" : " assignments-inactive"
-		const inactiveText = this.props.active ? <></> : <div className="assignments-inactive-text"><p>Coming soon!</p></div>
+		const inactiveText = this.props.active ? <></> : <div className="assignments-inactive-text"><p>&nbsp;&nbsp;Coming soon!&nbsp;&nbsp;</p></div>
 		return (
 			<div className={"assignments-card" + inactiveStyle}>
 				<div className="assignments-card-heading">

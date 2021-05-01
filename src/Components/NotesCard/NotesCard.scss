@@ -13,10 +13,11 @@
 		backdrop-filter: saturate(0.4) brightness(1.25);
 
 		p {
-			color: $orange-dark;
+			color: rgba($dark, 0.6);
+			background-color: $orange-light;
 			font-weight: bold;
-			font-size: 1.5em;
-			transform: rotate(-30deg);
+			font-size: 1.3em;
+			transform: rotate(-20deg);
 		}
 	}
 }
