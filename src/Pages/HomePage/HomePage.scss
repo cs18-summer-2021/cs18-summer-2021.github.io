@@ -200,13 +200,14 @@
         display: flex;
         flex-direction: column;
 
-        width: 100%;
+        flex: 1;
 
         .home-due-soon-label {
           padding: 0.5em 1em;
           display: flex;
           align-items: center;
           justify-content: space-between;
+          width: 100%;
 
           a {
             color: $orange-dark;

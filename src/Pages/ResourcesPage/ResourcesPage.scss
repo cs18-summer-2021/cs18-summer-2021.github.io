@@ -1,158 +1,179 @@
-@import '../../Main.scss';
+@import "../../Main.scss";
 
 .resources-wrapper {
-	height: 100%; min-height: 75vh;
-	width: 100%;
+  height: 100%;
+  min-height: 75vh;
+  width: 100%;
 
-	display: grid;
-	grid-template-columns: 1fr 3fr;
-	// gap: 2em;
-	& > * { @include h-gap(2em); }
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  // gap: 2em;
+  & > * {
+    @include h-gap(2em);
+  }
 
-	.resources-left-wrapper {
-		background: $bg-color;
+  .resources-left-wrapper {
+    background: $bg-color;
 
-		height: 100%;
-		border-top-right-radius: 2em;
-		padding: 4em;
+    height: 100%;
+    border-top-right-radius: 2em;
+    padding: 4em;
 
-		display: flex;
-		flex-direction: column;
-		align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-		.resources-important-links {
-			width: 100%;
+    .resources-important-links {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      // gap: 1em;
+      & > * {
+        @include v-gap(1em);
+      }
 
-			display: flex;
-			flex-direction: column;
-			// gap: 1em;
-			& > * { @include v-gap(1em); }
+      h1 {
+        color: $dark;
+        font-size: 1.5em;
+        grid-column: 1/3;
+        margin-bottom: 0.5em;
+      }
 
-			h1 { color: $dark; font-size: 1.5em; grid-column: 1/3; margin-bottom: 0.5em; }
+      .resources-important-link {
+        display: flex;
+        flex-direction: row;
 
-			.resources-important-link {
-				display: flex;
-				flex-direction: row;
-				flex-wrap: wrap;
-				// gap: 0.5em;
-				& > * { @include h-gap(0.5em); }
-				width: 100%;
+        flex: none;
+        // gap: 0.5em;
+        & > * {
+          @include h-gap(0.5em);
+        }
+        width: 100%;
 
-				.resources-important-link-icon {
-					width: fit-content;
-					text-decoration: none;
-					font-size: 1em;
-					line-height: 0em;
-					padding: 0.5em;
+        .resources-important-link-icon {
+          width: fit-content;
+          text-decoration: none;
+          font-size: 1em;
+          line-height: 0em;
+          padding: 0.5em;
 
-					background-color: $aqua-medium;
-					color: $light;
-					border-radius: 50%;
-				}
+          background-color: $aqua-medium;
+          color: $light;
+          border-radius: 50%;
+        }
 
-				a { 
-					width: fit-content;
-					text-decoration: none;
-					font-size: 1em;
-					padding: 0.25em 0.5em;
+        a {
+          width: fit-content;
+          text-decoration: none;
+          font-size: 1em;
+          padding: 0.25em 0.5em;
 
-					background-color: $aqua-medium;
-					color: $light;
-					border-radius: 0.25em;
+          background-color: $aqua-medium;
+          color: $light;
+          border-radius: 0.25em;
+          flex: none;
 
-					&:hover { background-color: $aqua-dark; }
-				}
+          &:hover {
+            background-color: $aqua-dark;
+          }
+        }
 
-				.resources-important-link-description {
-					width: 100%;
-				}
-			}
-		}
-	}
+        .resources-important-link-description {
+          width: 100%;
+        }
+      }
+    }
+  }
 
-	.resources-right-wrapper {
-		padding-bottom: 2em;
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-		// gap: 2em;
-		& > * { @include v-gap(2em); }
+  .resources-right-wrapper {
+    padding-bottom: 2em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    // gap: 2em;
+    & > * {
+      @include v-gap(2em);
+    }
 
-		.resources-section {
-			padding: 2em;
-			display: flex;
-			flex-direction: column;
-			// gap: 1em;
-			& > * { @include v-gap(1em); }
-			
-			background-color: $bg-color;
-			border-top-left-radius: 2em;
-			border-bottom-left-radius: 2em;
+    .resources-section {
+      padding: 2em;
+      display: flex;
+      flex-direction: column;
+      // gap: 1em;
+      & > * {
+        @include v-gap(1em);
+      }
 
-			.resources-section-title {
-				font-size: 1.5em;
-				font-weight: 700;
-				color: $dark;
-			}
+      background-color: $bg-color;
+      border-top-left-radius: 2em;
+      border-bottom-left-radius: 2em;
 
-			.resources-section-links {
-				display: grid;
-				grid-template-columns: 50% 50%;
+      .resources-section-title {
+        font-size: 1.5em;
+        font-weight: 700;
+        color: $dark;
+      }
 
-				.resources-section-link {
-					font-weight: 500;
-					color: $aqua-dark;
+      .resources-section-links {
+        display: grid;
+        grid-template-columns: 50% 50%;
 
-					&:hover { color: $dark; }
-				}
-			}
-		}
-	}
+        .resources-section-link {
+          font-weight: 500;
+          color: $aqua-dark;
+
+          &:hover {
+            color: $dark;
+          }
+        }
+      }
+    }
+  }
 }
 
 .resources-resize-tablet {
-	.resources-wrapper {
-		grid-template-columns: 1fr 2fr;
-	}
+  .resources-wrapper {
+    grid-template-columns: 1fr 2fr;
+  }
 }
 
 .resources-resize-mobile {
-	.resources-wrapper {
-		grid-template-columns: 1fr;
+  .resources-wrapper {
+    grid-template-columns: 1fr;
 
-		.resources-left-wrapper {
-			border-radius: 0em;
-			padding: 2em;
+    .resources-left-wrapper {
+      border-radius: 0em;
+      padding: 2em;
 
-			.resources-important-links {
-				display: flex;
-				flex-direction: column;
+      .resources-important-links {
+        display: flex;
+        flex-direction: column;
 
-				.resources-important-link {
-					flex-wrap: none;
-					width: 100%;
+        .resources-important-link {
+          flex-wrap: none;
+          width: 100%;
 
-					.resources-important-link-description {
-						width: fit-content;
-					}
-				}
-			}
-		}
+          .resources-important-link-description {
+            width: fit-content;
+          }
+        }
+      }
+    }
 
-		.resources-right-wrapper {
-			padding: 2em;
-			margin-left: 0em;
+    .resources-right-wrapper {
+      padding: 2em;
+      margin-left: 0em;
 
-			* {
-				border-radius: 2em;
-			}
+      * {
+        border-radius: 2em;
+      }
 
-			.resources-section {
-				@include v-gap(2em);
-				.resources-section-links {
-					grid-template-columns: 1fr;
-				}
-			}
-		}
-	}
+      .resources-section {
+        @include v-gap(2em);
+        .resources-section-links {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+  }
 }

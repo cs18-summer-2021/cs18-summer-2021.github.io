@@ -1,86 +1,92 @@
-@import '../../Main.scss';
+@import "../../Main.scss";
 
 .assignments-inactive {
-	pointer-events: none;
-	overflow: hidden;
+  pointer-events: none;
+  overflow: hidden;
 
-	.assignments-inactive-text {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		display: flex;
-		align-items: center; justify-content: center;
-		backdrop-filter: saturate(0.4) brightness(1.25);
+  .assignments-inactive-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: saturate(0.4) brightness(1.25);
 
-		p {
-			color: $orange-dark;
-			font-weight: bold;
-			font-size: 1.5em;
-			transform: rotate(-30deg);
-		}
-	}
+    p {
+      color: $orange-dark;
+      font-weight: bold;
+      font-size: 1.5em;
+      transform: rotate(-30deg);
+    }
+  }
 }
 
 .assignments-card {
-	height: fit-content;
-	width: 100%;
+  height: fit-content;
+  width: 100%;
+  flex: 1;
 
-	border-radius: 1em;
-	box-shadow: 0 0 0.5em 0em rgba($dark, 0.25);
-	&:hover { box-shadow: 0 0 0.5em 0em rgba($dark, 0.5); }
-	background-color: $light;
-	// overflow: hidden;
+  border-radius: 1em;
+  box-shadow: 0 0 0.5em 0em rgba($dark, 0.25);
+  &:hover {
+    box-shadow: 0 0 0.5em 0em rgba($dark, 0.5);
+  }
+  background-color: $light;
+  // overflow: hidden;
 
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: space-between;
-	position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
 
-	.assignments-card-heading {
-		padding: 0.75em 1em;
-		display: grid;
-		grid-template-columns: min-content auto;
-		gap: 0.5em;
-		width: 100%;
+  .assignments-card-heading {
+    padding: 0.75em 1em;
+    display: grid;
+    grid-template-columns: min-content auto;
+    gap: 0.5em;
+    width: 100%;
 
-		.assignments-card-number {
-			font-size: 1.5em;
-			font-weight: 700;
-			color: $orange-medium;
-		}
+    .assignments-card-number {
+      font-size: 1.5em;
+      font-weight: 700;
+      color: $orange-dark;
+    }
 
-		.assignments-card-title {
-			font-size: 1em;
-			font-weight: 500;
-			color: $orange-dark;
-			line-height: 1.25em;
-			margin-top: 0.25em;
-		}
-	}
+    .assignments-card-title {
+      font-size: 1em;
+      font-weight: 500;
+      color: $orange-dark;
+      line-height: 1.25em;
+      margin-top: 0.25em;
+    }
+  }
 
-	.assignments-card-links {
-		padding-bottom: 1em;
-		width: 100%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		// gap: 1em;
-		& > * { @include h-gap(1em); }
-	}
+  .assignments-card-links {
+    padding-bottom: 1em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // gap: 1em;
+    & > * {
+      @include h-gap(1em);
+    }
+  }
 
-	.assignments-card-due-date {
-		width: 100%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0.75em 1em;
-		
-		font-weight: 500;
-		font-size: 0.9em;
-		color: $light;
-		background: $aqua-medium;
-		border-bottom-left-radius: 1em;
-		border-bottom-right-radius: 1em;
-	}
+  .assignments-card-due-date {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75em 1em;
+
+    font-weight: 500;
+    font-size: 0.9em;
+    color: $light;
+    background: $aqua-medium;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+  }
 }
