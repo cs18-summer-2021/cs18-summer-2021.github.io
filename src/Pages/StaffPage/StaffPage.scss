@@ -132,7 +132,7 @@
 				align-items: flex-end;
 				font-weight: 500;
 				color: $light;
-				overflow-wrap: break-word;
+				overflow-wrap: anywhere;
 				&:after {
 					content: "";
 					display: block;
