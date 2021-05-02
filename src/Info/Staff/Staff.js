@@ -8,8 +8,8 @@ const staff = [
 	},
 	{
 		name: "Ethan Mullen (HTA)", login: "emullen2", image: staffImages.EthanMullen,
-		hometown: "Atlanta, GA", birthday: "???", pronouns: "he/him/his",
-		bio: "???"
+		hometown: "Atlanta, GA", birthday: "February 7th",  pronouns: "he/him/his",
+		bio: "Helloo! I'm a rising junior concentrating in Computer Science and Theatre Arts. Likes: fairy lights, fake plants, Schitt’s Creek. Dislikes: the big light, res life, merge conflicts. Looking forward to a great semester! HAGS!"
 	},
 	{
 		name: "Ian Layzer (HTA)", login: "ilayzer", image: staffImages.IanLayzer,
