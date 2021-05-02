@@ -5,13 +5,13 @@ import ThetHtayZaw from './Images/ThetHtayZaw.jpg';
 import IsabelLai from './Images/IsabelLai.JPG';
 import EthanMullen from './Images/EthanMullen.JPG';
 import PeterZubiago from './Images/PeterZubiago.png';
-import GayaGupta from './Images/Default.png';
+import GayaGupta from './Images/GayaGupta.png';
 import MarioCamacho from './Images/MarioCamacho.jpg';
 import CarolynZech from './Images/CarolynZech.jpeg';
 import GraceLee from './Images/GraceLee.jpeg';
 import MorgannThain from './Images/MorgannThain.jpg';
 import StephenChen from './Images/StephenChen.jpg';
-import IanLayzer from './Images/Default.png';
+import IanLayzer from './Images/IanLayzer.jpg';
 import Kathi from './Images/kathi.jpg'
 
 const staffImages = {

@@ -9,7 +9,12 @@
 	padding: 2em;
 	color: $dark;
 
-	a { color: $dark; }
+	a { 
+		color: $aqua-dark; 
+		&:hover {
+			color: $orange-dark
+		}
+	}
 	div { text-align: center; }
 }
 

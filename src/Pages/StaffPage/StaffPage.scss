@@ -56,7 +56,6 @@
 			background-size: cover;
 			background-position: center;
 			border-radius: 1em;
-
 			&:after {
 				content: "";
 				display: block;
@@ -70,6 +69,7 @@
 			align-items: center;
 			justify-content: center;
 			gap: 0.5em;
+
 
 			.staff-main-name {
 				font-size: 1.5em;
@@ -93,7 +93,8 @@
 				justify-content: center;
 				* { @include h-gap(1em); }
 				// gap: 1em;
-				
+				margin-left: -100%;
+				margin-right: -100%;
 				p {
 					color: $aqua-dark;
 					font-weight: 500;
@@ -131,7 +132,7 @@
 				align-items: flex-end;
 				font-weight: 500;
 				color: $light;
-	
+				overflow-wrap: break-word;
 				&:after {
 					content: "";
 					display: block;

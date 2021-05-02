@@ -1,23 +1,19 @@
 import { FaQuestion, FaSchool, FaShoePrints, FaComment, FaVideo, FaFileAlt } from 'react-icons/fa';
 
 export const ImportantLinks = [
-	{ label: "Syllabus", icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1bq2CtI6MPb-UBnYUYjGlamD-Y673cAJ5/view?usp=sharing", description: "" },
-	{ label: "Zoom Link", icon: <FaVideo />, link: "https://brown.zoom.us/j/96484496047", description: "" },
+	{ label: "Syllabus", icon: <FaFileAlt />, link: "", description: "" },
+	{ label: "Zoom Link", icon: <FaVideo />, link: "", description: "" },
 	{ label: "Gradescope", icon: <FaSchool />, link: "https://www.gradescope.com/", description: "" },
-	{ label: "Piazza", icon: <FaQuestion />, link: "https://piazza.com/brown/spring2021/csci0170", description: "" },
+	{ label: "Piazza", icon: <FaQuestion />, link: "https://piazza.com/brown/summer2021/csci0180", description: "" },
 	{ label: "SignMeUp", icon: <FaComment />, link: "https://signmeup.cs.brown.edu/", description: "" },
-	{ label: "Lab Assignments", icon: <FaShoePrints />, link: "https://docs.google.com/spreadsheets/d/1Jb5PvOzFnG6f8onm_bBKtLPuPf7KCGNvfzngioKhTlU/edit?usp=sharing", description: "" },
+	{ label: "Lab Assignments", icon: <FaShoePrints />, link: "", description: "" },
 ]
 
 export const Resources = [
 	{
 		section: "Course Documentation", links:
 			[
-				{ label: "Course Policies/Collaboration Policy", link: "https://drive.google.com/file/d/1hWf7SbiKzixyK3B3H1Jryd9CgYajsOyZ/view?usp=sharing" },
-				{ label: "Guide to TA Hours", link: "https://drive.google.com/file/d/1cABC3l7NfIcoGJJ4v1kX9biy60creX8-/view?usp=sharing" },
-				{ label: "Pair Programming Guide", link: "https://drive.google.com/file/d/1tsxOA-v8KdLKRk3-gSnWMJpvSD5EmS_T/view?usp=sharing" },
-				{ label: "Design Recipe Guide", link: "https://drive.google.com/file/d/1SYMB8NLh5BptdaSnlPTbdwNokszjNN1X/view?usp=sharing" },
-				{ label: "Piazza Guide", link: "https://drive.google.com/file/d/1FhanZKhjaixiW3huPNS9uD8OyVgipLY0/view?usp=sharing" }
+				{ label: "Syllabus", link: "" },
 			]
 	},
 	{
