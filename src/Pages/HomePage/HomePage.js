@@ -97,7 +97,6 @@ class HomePage extends React.Component {
 					<div className="home-left-wrapper">
 						<div className="home-intro-images">
 							<CIT_Illustration className="cit-illustration" />
-							{/* <CIT_Logo_1 className="cit-illustration" /> */}
 						</div>
 						<div className="home-intro-text">
 							{/* <h1>Welcome to CS18 :D</h1> */}
@@ -128,7 +127,7 @@ class HomePage extends React.Component {
 							<p>
 								<mark>Announcement:</mark> The first class will be held at{" "}
 								<mark>11 a.m. EDT, May 12</mark>&nbsp;
-                <a href="https://brown.zoom.us/j/96484496047">on Zoom</a>!
+                <a href="https://cs18-summer-2021.github.io/">on Zoom</a>!
               </p>
 						</div>
 					</div>
