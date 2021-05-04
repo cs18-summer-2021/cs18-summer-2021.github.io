@@ -8,12 +8,12 @@ const staff = [
 	},
 	{
 		name: "Ethan Mullen (HTA)", login: "emullen2", image: staffImages.EthanMullen,
-		hometown: "Atlanta, GA", birthday: "February 7th",  pronouns: "he/him/his",
+		hometown: "Atlanta, GA", birthday: "Feb. 7th",  pronouns: "he/him/his",
 		bio: "Helloo! I'm a rising junior concentrating in Computer Science and Theatre Arts. Likes: fairy lights, fake plants, Schitt’s Creek. Dislikes: the big light, res life, merge conflicts. Looking forward to a great semester! HAGS!"
 	},
 	{
 		name: "Ian Layzer (HTA)", login: "ilayzer", image: staffImages.IanLayzer,
-		hometown: "Durham, NC", birthday: "February 26th", pronouns: "he/him/his",
+		hometown: "Durham, NC", birthday: "Feb. 26th", pronouns: "he/him/his",
 		bio: "Outside of pandemic times, I love being a mediocre ultimate frisbee player and a slightly less mediocre inner-tube water poloist. I also enjoy watching student theater on campus!"
 	},
 	{
@@ -28,7 +28,7 @@ const staff = [
 	},
 	{
 		name: "Annie Cimack", login: "acimack", image: staffImages.AnnieCimack,
-		hometown: "Mt. Prospect, IL", birthday: "March 7th", pronouns: "she/her",
+		hometown: "Mt. Prospect, IL", birthday: "Mar. 7th", pronouns: "she/her",
 		bio: "Hi!! I'm a junior studying CS, and fun fact, my legal name is Annie, not Anne. Away from CS, I write for the Brown Noser, play in the band, and I love old movies and music."
 	},
 	{
@@ -53,27 +53,27 @@ const staff = [
 	},
 	{
 		name: "Mario Camacho", login: "mcamach6", image: staffImages.MarioCamacho,
-		hometown: "Chicago, IL", birthday: "November 10th", pronouns: "he/him/his",
+		hometown: "Chicago, IL", birthday: "Nov. 10th", pronouns: "he/him/his",
 		bio: "Hi! I’m a sophomore concentrating in CS(systems + software). In my free time I like losing at chess, playing games(monster hunter!!), and watching basketball."
 	},
 	{
 		name: "Morgann Thain", login: "mthain", image: staffImages.MorgannThain,
-		hometown: "Abington, PA", birthday: "October 20th", pronouns: "he/him",
+		hometown: "Abington, PA", birthday: "Oct. 20th", pronouns: "he/him",
 		bio: "Hi! I'm senior living above Mister Sister. I love playing frisbee, dancing in daebak, and flying through rocket league"
 	},
 	{
 		name: "Stephen Chen", login: "schen211", image: staffImages.StephenChen,
-		hometown: "Plymouth, MN", birthday: "September 29th", pronouns: "he/him/his",
+		hometown: "Plymouth, MN", birthday: "Sept. 29th", pronouns: "he/him/his",
 		bio: "Hi! I am a rising junior from Plymouth, Minnesota (right outside the Twin Cities) studying CS. In my free time, you can probably find me losing in League of Legends or listening to the same three Taylor Swift songs on loop."
 	},
 	{
 		name: "Thet Htay Zaw", login: "tzaw", image: staffImages.ThetHtayZaw,
-		hometown: "Brooklyn, NY", birthday: "April 6th", pronouns: "he/him/his",
+		hometown: "Brooklyn, NY", birthday: "Apr. 6th", pronouns: "he/him/his",
 		bio: "Hi everyone! I'm a sophomore concentrating in CS and Education Studies. If you don't find me doing work, I'm probably sitting around way past midnight playing video games or reading."
 	},
 	{
 		name: "Carolyn Zech (STA)", login: "czech", image: staffImages.CarolynZech,
-		hometown: "Weston, CT", birthday: "September 11th", pronouns: "she/her/hers",
+		hometown: "Weston, CT", birthday: "Sept. 11th", pronouns: "she/her/hers",
 		bio: "Hi! I’m a sophomore studying CS. Outside of TAing, I’m on the mock trial team and watch way too many comedy sitcoms. Excited to meet you all!"
 	},
 ]
