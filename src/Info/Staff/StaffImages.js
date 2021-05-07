@@ -16,7 +16,7 @@ import Kathi from './Images/kathi.jpg'
 
 const staffImages = {
 	AnnieCimack, JackRiley, HarshiniVenkatachalam, ThetHtayZaw, IsabelLai,
-	EthanMullen, PeterZubiago, GayaGupta, MarioCamacho, CarolynZech, GraceLee,
+	EthanMullen, PeterZubiago, AhmadAlkhatib, MarioCamacho, CarolynZech, GraceLee,
 	MorgannThain, StephenChen, IanLayzer, Kathi
 }
 
