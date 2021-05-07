@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.788ef8a5.chunk.css",
-    "main.js": "/static/js/main.30b53ce6.chunk.js",
-    "main.js.map": "/static/js/main.30b53ce6.chunk.js.map",
+    "main.js": "/static/js/main.b5769fb0.chunk.js",
+    "main.js.map": "/static/js/main.b5769fb0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e61b9cc0.js",
     "runtime-main.js.map": "/static/js/runtime-main.e61b9cc0.js.map",
     "static/js/2.660c81b7.chunk.js": "/static/js/2.660c81b7.chunk.js",
@@ -10,6 +10,7 @@
     "index.html": "/index.html",
     "static/css/main.788ef8a5.chunk.css.map": "/static/css/main.788ef8a5.chunk.css.map",
     "static/js/2.660c81b7.chunk.js.LICENSE.txt": "/static/js/2.660c81b7.chunk.js.LICENSE.txt",
+    "static/media/AhmadAlkhatib.94f1809b.jpeg": "/static/media/AhmadAlkhatib.94f1809b.jpeg",
     "static/media/AnnieCimack.8f24c56f.png": "/static/media/AnnieCimack.8f24c56f.png",
     "static/media/CIT_Logo_1.8f7df26b.svg": "/static/media/CIT_Logo_1.8f7df26b.svg",
     "static/media/CS18_Logo_1.52ba607b.svg": "/static/media/CS18_Logo_1.52ba607b.svg",
@@ -17,7 +18,6 @@
     "static/media/CS18_Logo_3.52ba607b.svg": "/static/media/CS18_Logo_3.52ba607b.svg",
     "static/media/CarolynZech.d53a1367.jpeg": "/static/media/CarolynZech.d53a1367.jpeg",
     "static/media/EthanMullen.fdc5562d.JPG": "/static/media/EthanMullen.fdc5562d.JPG",
-    "static/media/GayaGupta.c2c98a8d.jpg": "/static/media/GayaGupta.c2c98a8d.jpg",
     "static/media/GraceLee.6240d7f4.jpeg": "/static/media/GraceLee.6240d7f4.jpeg",
     "static/media/HarshiniVenkatachalam.0ac0bf96.jpg": "/static/media/HarshiniVenkatachalam.0ac0bf96.jpg",
     "static/media/IanLayzer.27f469b5.jpg": "/static/media/IanLayzer.27f469b5.jpg",
@@ -35,6 +35,6 @@
     "static/js/runtime-main.e61b9cc0.js",
     "static/js/2.660c81b7.chunk.js",
     "static/css/main.788ef8a5.chunk.css",
-    "static/js/main.30b53ce6.chunk.js"
+    "static/js/main.b5769fb0.chunk.js"
   ]
 }
