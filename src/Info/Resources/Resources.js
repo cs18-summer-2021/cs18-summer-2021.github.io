@@ -49,6 +49,7 @@ export const Resources = [
 				{ label: "LaTeX Symbols", link: "http://www.cs.brown.edu/system/software/latex/doc/symbols.pdf" },
 				{ label: "Frequently Used Math Symbols", link: "https://drive.google.com/file/d/1DWTzHQ8NHLYlVSSBq5yI0DclMqY3dtC8/view?usp=sharing" },
 				{ label: "ReasonML Library Reference", link: "https://reasonml.github.io/docs/en/overview" },
+				{ label: "RegEx Guide", link: "https://drive.google.com/file/d/1KbEclOrZHuH9TusaprXqcC4IoTymcA8d/view?usp=sharing"},
 			]
 	},
 	{
