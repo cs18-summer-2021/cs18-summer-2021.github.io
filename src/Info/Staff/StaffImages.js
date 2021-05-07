@@ -5,7 +5,7 @@ import ThetHtayZaw from './Images/ThetHtayZaw.jpg';
 import IsabelLai from './Images/IsabelLai.JPG';
 import EthanMullen from './Images/EthanMullen.JPG';
 import PeterZubiago from './Images/PeterZubiago.png';
-import AhmadAlkhatib from './Image/AhmadAlkhatib.jpg';
+import AhmadAlkhatib from './Image/AhmadAlkhatib.jpeg';
 import MarioCamacho from './Images/MarioCamacho.jpg';
 import CarolynZech from './Images/CarolynZech.jpeg';
 import GraceLee from './Images/GraceLee.jpeg';
