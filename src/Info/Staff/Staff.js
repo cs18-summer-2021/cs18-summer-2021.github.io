@@ -32,9 +32,9 @@ const staff = [
 		bio: "Hi!! I'm a junior studying CS, and fun fact, my legal name is Annie, not Anne. Away from CS, I write for the Brown Noser, play in the band, and I love old movies and music."
 	},
 	{
-		name: "Gaya Gupta", login: "ggupta3", image: staffImages.GayaGupta,
-		hometown: "Palo Alto, CA", birthday: "May 18th", pronouns: "she/her/hers",
-		bio: "Hi everyone! I'm a junior from the Bay Area studying CS and English (a very fun combo that I love to talk about!). Outside of TAing, I write for the Brown Daily Herald and am on one of Brown's dance teams. Excited to meet you all!"
+		name: "Ahmad Jamal Ahmad Alkhatib", login: "aalkhati", image: staffImages.AhmadAlkhatib,
+		hometown: "Amman, Jordan", birthday: "July 4th", pronouns: "he/him/his",
+		bio: "Hi!!! I am Palestinian-Jordanian currently in Amman, Jordan. I am a rising junior concentrating in Computational Biology on the CS track. I like to sing and do A Capella (Harmonic Motion >>) and I also love making and sharing playlists!"
 	},
 	{
 		name: "Grace Lee", login: "glee73", image: staffImages.GraceLee,

@@ -5,7 +5,7 @@ import ThetHtayZaw from './Images/ThetHtayZaw.jpg';
 import IsabelLai from './Images/IsabelLai.JPG';
 import EthanMullen from './Images/EthanMullen.JPG';
 import PeterZubiago from './Images/PeterZubiago.png';
-import GayaGupta from './Images/GayaGupta.jpg';
+import AhmadAlkhatib from './Images/AhmadAlkhatib.jpeg';
 import MarioCamacho from './Images/MarioCamacho.jpg';
 import CarolynZech from './Images/CarolynZech.jpeg';
 import GraceLee from './Images/GraceLee.jpeg';
@@ -16,7 +16,7 @@ import Kathi from './Images/kathi.jpg'
 
 const staffImages = {
 	AnnieCimack, JackRiley, HarshiniVenkatachalam, ThetHtayZaw, IsabelLai,
-	EthanMullen, PeterZubiago, GayaGupta, MarioCamacho, CarolynZech, GraceLee,
+	EthanMullen, PeterZubiago, AhmadAlkhatib, MarioCamacho, CarolynZech, GraceLee,
 	MorgannThain, StephenChen, IanLayzer, Kathi
 }
 
