@@ -2,7 +2,7 @@ import { FaQuestion, FaSchool, FaShoePrints, FaComment, FaVideo, FaFileAlt } fro
 
 export const ImportantLinks = [
 	{ label: "Syllabus", icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/syllabus-summer", description: "For late day and grading policy" },
-	{ label: "Zoom Link", icon: <FaVideo />, link: "", description: "" },
+	{ label: "Zoom Link", icon: <FaVideo />, link: "https://brown.zoom.us/j/97494424082?pwd=QW1EckRVU2lPVVhZbnRFdnAxVjBDZz09", description: "" },
 	{ label: "Gradescope", icon: <FaSchool />, link: "https://www.gradescope.com/", description: "Submit homework, projects, and exams" },
 	{ label: "EdStem", icon: <FaQuestion />, link: "https://edstem.org/us/courses/5623/discussion/", description: "Ask clarification, debugging, and conceptual questions" },
 	{ label: "SignMeUp", icon: <FaComment />, link: "https://signmeup.cs.brown.edu/", description: "Sign up for TA hours" },

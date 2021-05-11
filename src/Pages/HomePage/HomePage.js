@@ -111,9 +111,23 @@ class HomePage extends React.Component {
 									rel="noopener noreferrer"
 								>
 									anonymous feedback form
-                </a>{" "}
-                to let us know if we can do anything better!
-              </p>
+                				</a>{" "}
+                				to let us know if we can do anything better!
+              				</p>
+
+							<p>
+								Email{" "}<a href="mailto:kfisler@cs.brown.edu" target="_blank" rel="noreferrer noopener">Kathi</a>{" "}
+							  for grade questions, extenuating circumstances, and extension requests.
+							  Email the{" "}
+								<a
+									href="mailto:cs0180headtas@lists.brown.edu"
+									target="_blank"
+									rel="noreferrer noopener"
+								>
+									HTA List</a>{" "}
+								for private course logistical questions, e.g.
+								problems with partners, gradescope submission problems.
+							</p>
 						</div>
 						<div className="home-links">
 							<h1>Important Links</h1>
@@ -128,7 +142,7 @@ class HomePage extends React.Component {
 							<p>
 								<mark>Announcement:</mark> The first class will be held at{" "}
 								<mark>11 a.m. EDT, May 12</mark>&nbsp;
-                				<a href="https://cs18-summer-2021.github.io/">on Zoom</a>!
+                				<a href="https://brown.zoom.us/j/97494424082?pwd=QW1EckRVU2lPVVhZbnRFdnAxVjBDZz09">on Zoom</a>!
               				</p>
 						</div>
 					</div>
