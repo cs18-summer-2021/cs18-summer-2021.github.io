@@ -31,7 +31,7 @@ const homeworks = [
 	{
 		number: 4, title: "Hashtables, Iterator", dueDate: "June 28 (AoE)", active: false,
 		links: [
-			{ icon: <FaFileAlt />, link: "", label: "Handout" },
+			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/rydGGMX_d", label: "Handout" },
 			{ icon: <FaCode />, link: "", label: "Source Code" },
 		]
 	},

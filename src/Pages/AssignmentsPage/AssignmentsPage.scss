@@ -89,10 +89,25 @@
   }
   .assignments-right-note {
     grid-column: 2;
-    width: 98%;
+    height: min-content;
+
+    padding: 1em;
+    border-top-left-radius: 1.5em;
+    border-bottom-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+    width: 97%;
+
+    background: $orange-light;
+    color: $dark;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
       p {
         font-size: 0.9em;
-	color: $dark;
+	      color: $dark;
         
         mark {
           color: $dark;
@@ -120,7 +135,7 @@
     grid-template-rows: repeat(3, min-content);
     gap: 1em;
     padding-right: 2em;
-    padding-top: 0.5em;
+    padding-top: 0em;
     padding-bottom: 2em;
     overflow: visible;
 

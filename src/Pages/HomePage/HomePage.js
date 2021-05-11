@@ -55,12 +55,13 @@ class HomePage extends React.Component {
 				<div>
 					<p className="home-link-icon">{l.icon}</p>
 				</div>
-				<div>
-					<p className="home-link-description">{l.description}</p>
-				</div>
 				<a href={l.link} target="_blank" rel="noopener noreferrer">
 					{l.label}
 				</a>
+				<p></p>
+				<div>
+					<p className="home-link-description">{l.description}</p>
+				</div>
 			</div>
 		));
 	}
@@ -105,7 +106,7 @@ class HomePage extends React.Component {
 								We want to make a welcoming environment for everyone
                 				who wants to learn CS – fill out our{" "}
 								<a
-									href="https://forms.gle/dySMFrVgVo1iKz9Y8"
+									href="https://cs.brown.edu/courses/cs018/feedback"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
@@ -127,8 +128,8 @@ class HomePage extends React.Component {
 							<p>
 								<mark>Announcement:</mark> The first class will be held at{" "}
 								<mark>11 a.m. EDT, May 12</mark>&nbsp;
-                <a href="https://cs18-summer-2021.github.io/">on Zoom</a>!
-              </p>
+                				<a href="https://cs18-summer-2021.github.io/">on Zoom</a>!
+              				</p>
 						</div>
 					</div>
 					<div className="home-due-soon">

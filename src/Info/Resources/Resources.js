@@ -1,62 +1,69 @@
 import { FaQuestion, FaSchool, FaShoePrints, FaComment, FaVideo, FaFileAlt } from 'react-icons/fa';
 
 export const ImportantLinks = [
-	{ label: "Syllabus", icon: <FaFileAlt />, link: "", description: "" },
+	{ label: "Syllabus", icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/syllabus-summer", description: "For late day and grading policy" },
 	{ label: "Zoom Link", icon: <FaVideo />, link: "", description: "" },
-	{ label: "Gradescope", icon: <FaSchool />, link: "https://www.gradescope.com/", description: "" },
-	{ label: "Piazza", icon: <FaQuestion />, link: "https://piazza.com/brown/summer2021/csci0180", description: "" },
-	{ label: "SignMeUp", icon: <FaComment />, link: "https://signmeup.cs.brown.edu/", description: "" },
-	{ label: "Lab Assignments", icon: <FaShoePrints />, link: "", description: "" },
+	{ label: "Gradescope", icon: <FaSchool />, link: "https://www.gradescope.com/", description: "Submit homework, projects, and exams" },
+	{ label: "EdStem", icon: <FaQuestion />, link: "https://edstem.org/us/courses/5623/discussion/", description: "Ask clarification, debugging, and conceptual questions" },
+	{ label: "SignMeUp", icon: <FaComment />, link: "https://signmeup.cs.brown.edu/", description: "Sign up for TA hours" },
+	{ label: "Lab Form", icon: <FaShoePrints />, link: "", description: "Make a temporary or permanent lab switch" },
 ]
 
 export const Resources = [
 	{
-		section: "Course Documentation", links:
+		section: "Course Documentation", note: "", links:
 			[
-				{ label: "Syllabus", link: "" },
+				{ label: "Syllabus", link: "https://hackmd.io/@cs18-spring-2021/syllabus-summer" },
+				{ label: "Collaboration Policy", link: "https://hackmd.io/@cs18-spring-2021/H1bI7WX1d" },
+				{ label: "TA Hours Guide", link: "https://hackmd.io/@cs18-spring-2021/H1-qgOkkO" },
+				{ label: "Pair Programming Guide", link: "https://hackmd.io/@cs18-spring-2021/rk1u3BZk_" },
+				{ label: "Debugging Guide", link: "https://hackmd.io/@cs18-spring-2021/rkkNS5kkd" },
 			]
 	},
 	{
-		section: "Software Installation And Setup", links:
+		section: "Software Installation And Setup", note: "", links:
 			[
 				{ label: "IntelliJ Setup Guide", link: "https://hackmd.io/@cs18-spring-2021/rkqhvPyy_" },
 				{ label: "Github Guide", link: "https://hackmd.io/@cs18-spring-2021/BkfI_Pky_" },
+				{ label: "IntelliJ Common Problems", link: "https://hackmd.io/@cs18-spring-2021/SJgen0L_d" },
 				{ label: "Download tester.jar (If prompted, press 'Keep')", link: "" },
 				{ label: "Connecting to Department Machines", link: "https://cs.brown.edu/about/system/connecting/ssh/" },
 			]
 	},
 	{
-		section: "Working from Home", links:
+		section: "Coding Guidelines", note: "", links:
 			[
-				// { label: "Work from Home Guide", link: "https://cs.brown.edu/about/system/connecting/ssh/" }, 
-				// { label: "SSH Guide", link: "https://drive.google.com/file/d/1PD9C5Bh7uT0dsLY0dhryPF5Kc1KG0GO_/view?usp=sharing" },
-				{ label: "Download DrRacket", link: "https://racket-lang.org/download/" },
-				{ label: "ReasonML Installation and Compilation Guide", link: "https://drive.google.com/file/d/15EEZHR86owNFpyPWo2gVkimf4XrrrdOW/view?usp=sharing" },
-				{ label: "CS17 Racket Installation Video Guide (Mac)", link: "https://drive.google.com/file/d/1wy482mD0ZCqfl8Jcz_25sKV7FeBBGML6/view?usp=sharing" },
-				{ label: "CS17 ReasonML Installation Video Guide (Mac)", link: "https://drive.google.com/file/d/1OS-7KPUnBxAquAZsez1L7N_RhjEjtjoT/view?usp=sharing" },
-				{ label: "CS17 Racket Installation Video Guide (Windows)", link: "https://drive.google.com/file/d/1GfrL5xz7HQhBbkTxKvHJ5yH4lfQk3lpv/view?usp=sharing" },
-				{ label: "CS17 ReasonML Installation Video Guide (Windows)", link: "https://drive.google.com/file/d/15Sw2_5MRtTy5vBe373VP8M4g84LCImSy/view?usp=sharing" },
-				{ label: "CS17 Racket Teachpack", link: "https://drive.google.com/file/d/1Yc0e6P3WH-2iSKeCHqTImzAME13CkEAM/view?usp=sharing" },
-				// { label: "CS17 ReasonML Teachpack", link: "https://drive.google.com/file/d/1v31kqpdPbmUX15kUSTwcp2hm0hYv_a35/view?usp=sharing" }, 
+				{ label: "Java Good Coding Practices", link: "https://hackmd.io/@cs18-spring-2021/S1H3RpLd_" },
+				{ label: "Scala Good Coding Practices", link: "" },
+				{ label: "Java Style Guide", link: "" },
+				{ label: "Scala Style Guide", link: "" },
+				{ label: "Java Documentation", link: "https://docs.oracle.com/javase/8/docs/api/" },
+				{ label: "Scala Documentation", link: "http://www.scala-lang.org/api/current/index.html" },
+				{ label: "Tester Documentation", link: "https://course.ccs.neu.edu/cs2510/tester-doc.html" },
 			]
 	},
 	{
-		section: "Supplementary Material", links:
+		section: "Supplementary Material", note: "", links:
 			[
 				{ label: "Ergonomics Guide", link: "https://cs.brown.edu/systems/ergo/" },
-				{ label: "Linux Commands", link: "https://drive.google.com/file/d/1_W0HBpP9M1p3C0Tf8Wz2V36swxxFYHzA/view?usp=sharing" },
+				{ label: "Using the Terminal / vim / git", link: "https://hackmd.io/@cs18-spring-2021/H1Ss36L_d" },
 				{ label: "Introduction to LaTeX2e", link: "http://www.cs.brown.edu/system/software/latex/doc/lshort.pdf" },
+				{ label: "Detailed Linux Commands", link: "https://drive.google.com/file/d/1_W0HBpP9M1p3C0Tf8Wz2V36swxxFYHzA/view?usp=sharing" },
 				{ label: "LaTeX Symbols", link: "http://www.cs.brown.edu/system/software/latex/doc/symbols.pdf" },
-				{ label: "Frequently Used Math Symbols", link: "https://drive.google.com/file/d/1DWTzHQ8NHLYlVSSBq5yI0DclMqY3dtC8/view?usp=sharing" },
-				{ label: "ReasonML Library Reference", link: "https://reasonml.github.io/docs/en/overview" },
-				{ label: "RegEx Guide", link: "https://drive.google.com/file/d/1KbEclOrZHuH9TusaprXqcC4IoTymcA8d/view?usp=sharing"},
+				{ label: "RegEx Guide", link: "https://drive.google.com/file/d/1KbEclOrZHuH9TusaprXqcC4IoTymcA8d/view?usp=sharing" },
 			]
 	},
 	{
-		section: "Departmental Resources", links:
+		section: "Departmental Resources",
+		note: "If you need accommodation for your physical and mental health, please reach out to Professor Fisler at kfisler@cs.brown.edu — we want to support you as much as we can in the most comfortable way for you. It is important to note that TAs should not be handling health and accomodations information, so inquiries should be directed towards the professor only.",
+		links:
 			[
+				{ label: "Undergraduate Missive", link: "http://cs.brown.edu/courses/ta/pubs/ugrad_missive.pdf" },
+				{ label: "Information on Accommodations", link: "https://cs.brown.edu/media/filer_public/03/0a/030a6a2e-7a61-4c30-98c1-dce87b9d9899/brown_cs_health_and_wellness_resources.pdf" },
 				{ label: "Diversity and Inclusion Student Advocates", link: "https://cs.brown.edu/about/diversity/student-advocates-diversity-and-inclusion/" },
 				{ label: "Health and Wellness Student Advocates", link: "https://cs.brown.edu/about/diversity/health-wellness-student-advocates/" },
+				{ label: "Women in Computer Science", link: "https://cs.brown.edu/people/orgs/wics/" },
+				{ label: "MOSAIC+", link: "https://mosaic-plus-brown.github.io/mosaic/" },
 				{ label: "Other Resources", link: "http://cs.brown.edu/about/diversity/resources/" },
 			]
 	}

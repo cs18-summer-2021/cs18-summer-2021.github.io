@@ -13,7 +13,7 @@ class ResourcesPage extends React.Component {
 		return ImportantLinks.map((l) => <div className="resources-important-link">
 			<p className="resources-important-link-icon">{l.icon}</p>
 			<a href={l.link} target="_blank" rel="noopener noreferrer">{l.label}</a>
-			<p className="resources-important-link-description">{l.description}</p>
+			{l.description != "" && <p className="resources-important-link-description">{l.description}</p>}
 		</div>
 		)
 	}
@@ -21,6 +21,7 @@ class ResourcesPage extends React.Component {
 	renderResources() {
 		return Resources.map((s) => <div className="resources-section">
 			<div className="resources-section-title">{s.section}</div>
+			{s.note != "" && <div className="resources-section-note">{s.note}</div>}
 			<div className="resources-section-links">
 				{s.links.map((r) => <a className="resources-section-link" href={r.link}>{r.label}</a>)}
 			</div>

@@ -40,13 +40,13 @@
       }
 
       .resources-important-link {
-        display: flex;
-        flex-direction: row;
+        display: inline-grid;
+        grid-template-columns: min-content auto;
+        grid-template-rows: min-content min-content;
 
-        flex: none;
         // gap: 0.5em;
         & > * {
-          @include h-gap(0.5em);
+          @include h-gap(0.6em);
         }
         width: 100%;
 
@@ -68,6 +68,7 @@
           font-size: 1em;
           padding: 0.25em 0.5em;
 
+
           background-color: $aqua-medium;
           color: $light;
           border-radius: 0.25em;
@@ -79,7 +80,12 @@
         }
 
         .resources-important-link-description {
+          color: $dark;
+          grid-column: 2;
           width: 100%;
+          font-size: 0.8em;
+          font-style: italic;
+          padding-top: 0.1em;
         }
       }
     }
@@ -112,6 +118,12 @@
         font-size: 1.5em;
         font-weight: 700;
         color: $dark;
+      }
+
+      .resources-section-note {
+        font-size: 0.9em;
+        color: $dark;
+        width: 90%;
       }
 
       .resources-section-links {

@@ -8,7 +8,7 @@ const staff = [
 	},
 	{
 		name: "Ethan Mullen (HTA)", login: "emullen2", image: staffImages.EthanMullen,
-		hometown: "Atlanta, GA", birthday: "Feb. 7th",  pronouns: "he/him/his",
+		hometown: "Atlanta, GA", birthday: "Feb. 7th", pronouns: "he/him/his",
 		bio: "Helloo! I'm a rising junior concentrating in Computer Science and Theatre Arts. Likes: fairy lights, fake plants, Schitt’s Creek. Dislikes: the big light, res life, merge conflicts. Looking forward to a great semester! HAGS!"
 	},
 	{
@@ -27,14 +27,14 @@ const staff = [
 		bio: "Hello! I'm a rising senior studying English and Computer Science. In my spare time, I love swimming, watching (and writing about!) TV, acting, and learning new languages!"
 	},
 	{
+		name: "Ahmad Jamal Alkhatib", login: "aalkhati", image: staffImages.AhmadAlkhatib,
+		hometown: "Amman, Jordan", birthday: "July 4th", pronouns: "he/him/his",
+		bio: "Hi!!! I am Palestinian-Jordanian currently in Amman, Jordan. I am a rising junior concentrating in Computational Biology on the CS track. I like to sing and do A Capella (Harmonic Motion >>) and I also love making and sharing playlists!"
+	},
+	{
 		name: "Annie Cimack", login: "acimack", image: staffImages.AnnieCimack,
 		hometown: "Mt. Prospect, IL", birthday: "Mar. 7th", pronouns: "she/her",
 		bio: "Hi!! I'm a junior studying CS, and fun fact, my legal name is Annie, not Anne. Away from CS, I write for the Brown Noser, play in the band, and I love old movies and music."
-	},
-	{
-		name: "Ahmad Jamal Ahmad Alkhatib", login: "aalkhati", image: staffImages.AhmadAlkhatib,
-		hometown: "Amman, Jordan", birthday: "July 4th", pronouns: "he/him/his",
-		bio: "Hi!!! I am Palestinian-Jordanian currently in Amman, Jordan. I am a rising junior concentrating in Computational Biology on the CS track. I like to sing and do A Capella (Harmonic Motion >>) and I also love making and sharing playlists!"
 	},
 	{
 		name: "Grace Lee", login: "glee73", image: staffImages.GraceLee,

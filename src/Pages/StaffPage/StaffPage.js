@@ -57,12 +57,16 @@ class StaffPage extends React.Component {
 							</div>
 							<p className="staff-main-bio">{cur.bio}</p>
 						</div>
-						{/* <div className="staff-contact-description">
-							<div><FaExclamation /></div>
-							<p>Email <a href="mailto:kfisler@cs.brown.edu" target="_blank" rel="noreferrer noopener">Kathi</a> for grade questions, extenuating circumstances, and extension requests. Email the <a href="mailto:cs0180headtas@lists.brown.edu" target="_blank" rel="noreferrer noopener"> HTA List </a> for private course logistical questions, e.g. problems with partners, gradescope submission problems.</p>
-						</div> */}
 					</div>
 					<div className="staff-right-wrapper">
+						<div className="staff-announcement">
+							<div>
+								<div>
+									<FaExclamation />
+								</div>
+								<p>Email <a href="mailto:kfisler@cs.brown.edu" target="_blank" rel="noreferrer noopener">Kathi</a> for grade questions, extenuating circumstances, and extension requests. Email the <a href="mailto:cs0180headtas@lists.brown.edu" target="_blank" rel="noreferrer noopener"> HTA List </a> for private course logistical questions, e.g. problems with partners, gradescope submission problems.</p>
+							</div>
+						</div>
 						<div className="staff-grid">
 							{allStaff}
 						</div>

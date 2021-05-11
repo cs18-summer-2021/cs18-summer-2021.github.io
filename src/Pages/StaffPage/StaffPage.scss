@@ -112,12 +112,66 @@
 		overflow-y: auto;
 		padding-right: 4em;
 		position: relative;
+		.staff-announcement {
+			grid-column: 2;
+			grid-row: 1;
+			height: min-content;
+		
+			padding: 1em;
+			border-top-left-radius: 1.5em;
+			border-bottom-left-radius: 1.5em;
+			border-top-right-radius: 1.5em;
+			border-bottom-right-radius: 1.5em;
+		
+			background: $orange-light;
+			color: $dark;
+		
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			flex-wrap: wrap;
 
+			font-size: 0.9em;
+		
+			a {
+				color: $aqua-dark;
+			
+				&:hover {
+				color: $orange-dark;
+				}
+			}
+
+			div {
+				display: flex;
+				align-items: flex-start;
+				justify-content: flex-start;
+		  
+				div {
+				  line-height: 0em;
+				  font-size: 0.75em;
+				  background: $dark;
+				  border-radius: 50em;
+				  padding: 0.5em;
+				  color: $orange-light;
+				  margin-right: 0.5em;
+				}
+		  
+				p {
+				  mark {
+					color: $dark;
+					background: none;
+					font-weight: 700;
+					margin-right: 0.25em;
+				  }
+				}
+			  }
+		}
 		.staff-grid {
 			display: grid;
 			grid-template-columns: repeat(5, 1fr);
 			grid-template-rows: auto;
 			gap: 1em;
+			padding-top: 1.5em;
 			padding-bottom: 2em;
 
 			.staff-card {

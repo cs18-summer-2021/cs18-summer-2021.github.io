@@ -9,7 +9,7 @@ import AssignmentsCard from '../../Components/AssignmentsCard/AssignmentsCard';
 
 class AssignmentsPage extends React.Component {
 	renderCards(assignments) {
-		return assignments.map((a) => <AssignmentsCard number={a.number} title={a.title} dueDate={a.dueDate} active={a.active} links={a.links}/>)
+		return assignments.map((a) => <AssignmentsCard number={a.number} title={a.title} dueDate={a.dueDate} active={a.active} links={a.links} />)
 	}
 
 	render() {
@@ -34,8 +34,8 @@ class AssignmentsPage extends React.Component {
 					</div>
 					<div className="assignments-right-note">
 						<p>
-							Note: AoE on due dates refer to "Anywhere On Earth" time. For example, May 1 (AoE) means you can turn in an assignment as long as it is still May 1 anywhere on Earth.
-							For conversion, an AoE due date is due at <mark>8:00 a.m. EDT the next day</mark> (May 1 (AoE) is due May 2, 8:00 a.m. EDT). 
+							AoE on due dates refer to "Anywhere On Earth" time. For example, May 1 (AoE) means you can turn in an assignment as long as it is still May 1 anywhere on Earth.
+							For conversion, an AoE due date is due at <mark>8:00 a.m. EDT the next day</mark> (May 1 (AoE) is due May 2, 8:00 a.m. EDT).
 						</p>
 					</div>
 					<div className="assignments-right-wrapper">
