@@ -4,7 +4,7 @@ const classes = [
     {
 		number: 1, title: "Intro and Classes", outDate: "May 12", active: true,
 		links: [
-		    { icon: <FaFileAlt />,
+		    { icon: <FaMap />,
 		      link: "https://brown-cs18-master.github.io/content/lectures/01intro/dillo.ml",
 		      label: "Setup/Prep" },
 		    { icon: <FaFileAlt />,
@@ -13,6 +13,9 @@ const classes = [
 		    { icon: <FaYoutube />,
 		      link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ebcf6e7a-354d-463d-921c-ad26010b74aa",
 		      label: "Video" },
+		     { icon: <FaCogs />,
+		      link: "https://brown-cs18-master.github.io/content/practice/01classes.pdf",
+		      label: "Practice Probs" },
 		],
 		tags: []
     },
