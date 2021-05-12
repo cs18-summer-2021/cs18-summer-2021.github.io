@@ -16,7 +16,7 @@ const classes = [
 		      label: "Video" },
 		     { icon: <FaCogs />,
 		      link: "https://brown-cs18-master.github.io/content/practice/01classes.pdf",
-		      label: "Practice Probs" },
+		      label: "Practice" },
 		],
 		tags: ["Classes"]
     },
