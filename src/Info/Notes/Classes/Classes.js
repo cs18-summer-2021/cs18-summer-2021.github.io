@@ -14,7 +14,7 @@ const classes = [
 		    { icon: <FaYoutube />,
 		      link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ebcf6e7a-354d-463d-921c-ad26010b74aa",
 		      label: "Video" },
-		     { icon: <FaFileAlts />,
+		     { icon: <FaFileAlt />,
 		      link: "https://brown-cs18-master.github.io/content/practice/01classes.pdf",
 		      label: "Practice" },
 		],
