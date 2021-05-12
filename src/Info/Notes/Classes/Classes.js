@@ -30,7 +30,7 @@ const classes = [
 		    //  link: "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ebcf6e7a-354d-463d-921c-ad26010b74aa",
 		    //  label: "Video" },
 		],
-		tags: [ "Java", "Classes" ]
+		tags: []
 	},
 ]
 
