@@ -17,7 +17,7 @@ const classes = [
 		      link: "https://brown-cs18-master.github.io/content/practice/01classes.pdf",
 		      label: "Practice Probs" },
 		],
-		tags: []
+		tags: ["Classes"]
     },
     {
 		number: 2, title: "Methods and Testing", outDate: "May 14", active: true,
