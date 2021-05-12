@@ -12,7 +12,7 @@ Updating the course website is super simple: just follow these steps! Remember t
 7. Run `npm run build && npm run deploy` to actually build and deploy your changes to the website.
 
 ### Serving static files
-We often want to serve static files to users (lecture notes, starter code, prep questions, etc.) We store all static files in the `public/static` directory. For example, the files for Lecture 1 are stored in `public/static/classes/1`. To reference these files in the website (perhaps from an `IconLink`) you provide the path **not** including `public`. To link the lecture notes for the first class the url would be `link: /static/classes/1/lec01.pdf`. When adding files to the static folder, make sure you add them to the proper directory or create a new one if necessary!
+We often want to serve static files to users (lecture notes, starter code, prep questions, etc.) We store all static files in the `public/static` directory. For example, the files for Lecture 1 are stored in `public/static/classes/1`. To reference these files in the website (perhaps from an `IconLink`) you provide the path **not** including `public`. To link the lecture notes for the first class the url would be `/static/classes/1/lec01.pdf`. When adding files to the static folder, make sure you add them to the proper directory or create a new one if necessary!
 
 ### Questions?
 If you have any questions, don't hesitate to ask in the slack channel or email the HTA's!
