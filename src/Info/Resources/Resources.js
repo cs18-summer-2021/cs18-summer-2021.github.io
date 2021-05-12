@@ -6,7 +6,7 @@ export const ImportantLinks = [
 	{ label: "Gradescope", icon: <FaSchool />, link: "https://www.gradescope.com/", description: "Submit homework, projects, and exams" },
 	{ label: "EdStem", icon: <FaQuestion />, link: "https://edstem.org/us/courses/5623/discussion/", description: "Ask clarification, debugging, and conceptual questions" },
 	{ label: "SignMeUp", icon: <FaComment />, link: "https://signmeup.cs.brown.edu/", description: "Sign up for TA hours" },
-	{ label: "Lab Form", icon: <FaShoePrints />, link: "", description: "Make a temporary or permanent lab switch" },
+	{ label: "Lab Switch", icon: <FaShoePrints />, link: "https://forms.gle/kpVmeVpzYx5dohoj7", description: "Make a temporary or permanent lab switch" },
 ]
 
 export const Resources = [
@@ -35,7 +35,7 @@ export const Resources = [
 			[
 				{ label: "Java Good Coding Practices", link: "https://hackmd.io/@cs18-spring-2021/S1H3RpLd_" },
 				{ label: "Scala Good Coding Practices", link: "" },
-				{ label: "Java Style Guide", link: "" },
+				{ label: "Java Style Guide", link: "https://hackmd.io/@cs18-spring-2021/Sy7vHMuuu" },
 				{ label: "Scala Style Guide", link: "" },
 				{ label: "Java Documentation", link: "https://docs.oracle.com/javase/8/docs/api/" },
 				{ label: "Scala Documentation", link: "http://www.scala-lang.org/api/current/index.html" },
