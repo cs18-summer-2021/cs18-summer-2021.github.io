@@ -11,7 +11,7 @@ const iconType = {
 
 /**
  * Makes an IconLink for a Class card.
- * @param {iconType} type the type of icon to make (see above definition) 
+ * @param {string} type the type of icon to make (see above definition) 
  * @param {string} url the url to link to
  * @returns an icon link of a certain type linking to the given url
  */
