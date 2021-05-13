@@ -2,9 +2,14 @@ import { FaFileAlt, FaCode } from "react-icons/fa";
 
 const homeworks = [
 	{
-		number: 0, title: "Socially Responsible Computing", dueDate: "May 21 (AoE)", active: false,
+		number: 0.1, title: "Background Survey", dueDate: "May 16 (AoE)", active: true,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/S1yl8Hgdd", label: "Handout" },
+			{ icon: <FaFileAlt />, link: "https://docs.google.com/forms/d/e/1FAIpQLSdLOa2GsyH8KwcB1dEJGgT8emAJH7s19jw2owFTOQp5LMtSIw/viewform?usp=sf_link", label: "Survey" },
+		]
+	}{
+		number: 0.2, title: "Socially Responsible Computing", dueDate: "May 21 (AoE)", active: true,
+		links: [
+			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/hwk0-src-summer", label: "Handout" },
 		]
 	},
 	{
