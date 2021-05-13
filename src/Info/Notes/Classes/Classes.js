@@ -5,7 +5,7 @@ const classes = [
     {
 		number: 1, title: "Intro and Classes", outDate: "May 12", active: true,
 		links: [
-		    { icon: <FaBook />,
+		    { icon: <FaMap />,
 		      link: `${staticBasePath}/1/dillo.ml`,
 		      label: "Setup/Prep" },
 		    { icon: <FaFileAlt />,
@@ -23,7 +23,7 @@ const classes = [
     {
 		number: 2, title: "Methods and Testing", outDate: "May 14", active: true,
 		links: [
-		    { icon: <FaFileAlt />,
+		    { icon: <FaMap />,
 		      link: "https://hackmd.io/@cs18-spring-2021/lec02setup",
 		      label: "Setup/Prep" },
 		    //{ icon: <FaFileAlt />,
