@@ -17,7 +17,7 @@ const homeworks = [
 		number: 1, title: "Classes and Methods", dueDate: "May 21 (AoE)", active: true,
 		links: [
 			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/hwk1-summer", label: "Handout" },
-			{ icon: <FaCode />, link: "", label: "Source Code" },
+			{ icon: <FaCode />, link: "https://classroom.github.com/a/MDq3vz6o", label: "Source Code" },
 		]
 	},
 	{
