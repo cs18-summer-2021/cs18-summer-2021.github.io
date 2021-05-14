@@ -26,7 +26,7 @@ export const Resources = [
 				{ label: "IntelliJ Setup Guide", link: "https://hackmd.io/@cs18-spring-2021/rkqhvPyy_" },
 				{ label: "Github Guide", link: "https://hackmd.io/@cs18-spring-2021/BkfI_Pky_" },
 				{ label: "IntelliJ Common Problems", link: "https://hackmd.io/@cs18-spring-2021/SJgen0L_d" },
-				{ label: "Download tester.jar (If prompted, press 'Keep')", link: "https://cs18-summer-2021.github.io/src/Info/Resources/tester.jar" },
+				{ label: "Download tester.jar (If prompted, press 'Keep')", link: "/static/resources/tester.jar" },
 				{ label: "Connecting to Department Machines", link: "https://cs.brown.edu/about/system/connecting/ssh/" },
 			]
 	},
