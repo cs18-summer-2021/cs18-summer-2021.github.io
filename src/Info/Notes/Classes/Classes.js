@@ -68,11 +68,18 @@ const classes = [
 	links: [
 	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec02setup"),
 	    makeIcon(iconType.NOTES, makeUrl(2, "02methods.pdf")),
-	    // makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ebcf6e7a-354d-463d-921c-ad26010b74aa"),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9824c93e-7fbd-4aad-8de7-ad28010b24c9"),
 	    makeIcon(iconType.PRACTICE, makeUrl(2, "02methods-practice.pdf")),
 	],
 	tags: ["Memory Diagram"]
     },
+    {
+	number: 3, title: "Interfaces and Types", outDate: "May 17", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec03setup")
+	],
+	tags: []
+    }
 ]
 
 export default classes;
