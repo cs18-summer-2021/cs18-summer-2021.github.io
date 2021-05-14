@@ -54,22 +54,25 @@ function makeUrl(classNumber, fileName) {
 
 const classes = [
     {
-		number: 1, title: "Intro and Classes", outDate: "May 12", active: true,
-		links: [
-			makeIcon(iconType.SETUP, makeUrl(1, "dillo.ml")),
-			makeIcon(iconType.NOTES, makeUrl(1, "lec01.pdf")),
-			makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ebcf6e7a-354d-463d-921c-ad26010b74aa"),
-			makeIcon(iconType.PRACTICE, makeUrl(1, "01classes.pdf")),
-		],
-		tags: ["Classes"]
+	number: 1, title: "Intro and Classes", outDate: "May 12", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, makeUrl(1, "dillo.ml")),
+	    makeIcon(iconType.NOTES, makeUrl(1, "01classes.pdf")),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ebcf6e7a-354d-463d-921c-ad26010b74aa"),
+	    makeIcon(iconType.PRACTICE, makeUrl(1, "01classes-practice.pdf")),
+	],
+	tags: ["Classes"]
     },
     {
-		number: 2, title: "Methods and Testing", outDate: "May 14", active: true,
-		links: [
-			makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec02setup"),
-		],
-		tags: []
-	},
+	number: 2, title: "Methods and Testing", outDate: "May 14", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec02setup"),
+	    makeIcon(iconType.NOTES, makeUrl(2, "02methods.pdf")),
+	    // makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ebcf6e7a-354d-463d-921c-ad26010b74aa"),
+	    makeIcon(iconType.PRACTICE, makeUrl(2, "02methods-practice.pdf")),
+	],
+	tags: ["Memory Diagram"]
+    },
 ]
 
 export default classes;
