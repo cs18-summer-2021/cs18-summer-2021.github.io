@@ -77,6 +77,9 @@ const classes = [
 	number: 3, title: "Interfaces and Types", outDate: "May 17", active: true,
 	links: [
 	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec03setup")
+	    makeIcon(iconType.NOTES, makeUrl(3, "03interfaces.pdf")),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=390f60ec-9112-4550-9122-ad2b010ce733"),
+	    makeIcon(iconType.PRACTICE, makeUrl(3, "03interfaces-practice.pdf")),
 	],
 	tags: []
     }
