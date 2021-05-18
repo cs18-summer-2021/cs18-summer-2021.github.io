@@ -52,6 +52,11 @@ const staff = [
 		bio: "Hey all, I'm Jack. I'm a junior studying CS and music, and a part of the Brown Organization of Producers and Songwriters (BOPS) and Tunes for Change. In my free time, I love to run, bike, and make music."
 	},
 	{
+		name: "Lizzy Zhang", login: "ezhang29", image: staffImages.LizzyZhang,
+		hometown: "Princeton, NJ", birthday: "Sept. 25th", pronouns: "she/her",
+		bio: "B)"
+	},
+	{
 		name: "Mario Camacho", login: "mcamach6", image: staffImages.MarioCamacho,
 		hometown: "Chicago, IL", birthday: "Nov. 10th", pronouns: "he/him/his",
 		bio: "Hi! I’m a sophomore concentrating in CS(systems + software). In my free time I like losing at chess, playing games(monster hunter!!), and watching basketball."

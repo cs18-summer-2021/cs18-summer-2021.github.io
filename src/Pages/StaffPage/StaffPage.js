@@ -47,26 +47,28 @@ class StaffPage extends React.Component {
 			<Page activeTab="Staff" resizeStyle="staff-resize">
 				<div className="staff-wrapper">
 					<div className="staff-left-wrapper">
-						<div className="staff-main-image" style={curBgStyle} />
-						<div className="staff-main-info">
-							<p className="staff-main-name">{cur.name} ({cur.login})</p>
-							<div className="staff-subtitle-info">
-								<p className="staff-main-birthday">{cur.birthday}</p><p />
-								<p className="staff-main-hometown">{cur.hometown}</p><p />
-								<p className="staff-main-pronouns">{cur.pronouns}</p>
-							</div>
-							<p className="staff-main-bio">{cur.bio}</p>
-						</div>
-					</div>
-					<div className="staff-right-wrapper">
 						<div className="staff-announcement">
 							<div>
 								<div>
 									<FaExclamation />
 								</div>
-								<p>Email <a href="mailto:kfisler@cs.brown.edu" target="_blank" rel="noreferrer noopener">Kathi</a> for grade questions, extenuating circumstances, and extension requests. Email the <a href="mailto:cs0180headtas@lists.brown.edu" target="_blank" rel="noreferrer noopener"> HTA List </a> for private course logistical questions, e.g. problems with partners, gradescope submission problems.</p>
+								<p>Email <a href="mailto:kfisler@cs.brown.edu" target="_blank" rel="noreferrer noopener">Kathi</a> for grade questions, extenuating circumstances, and extension requests. Email the <a href="mailto:cs0180headtas@lists.brown.edu" target="_blank" rel="noreferrer noopener"> HTA List</a> for private course logistical questions, e.g. problems with partners, gradescope submission problems.</p>
 							</div>
 						</div>
+						<div className="staff-left-bio">
+							<div className="staff-main-image" style={curBgStyle} />
+							<div className="staff-main-info">
+								<p className="staff-main-name">{cur.name} ({cur.login})</p>
+								<div className="staff-subtitle-info">
+									<p className="staff-main-birthday">{cur.birthday}</p><p />
+									<p className="staff-main-hometown">{cur.hometown}</p><p />
+									<p className="staff-main-pronouns">{cur.pronouns}</p>
+								</div>
+								<p className="staff-main-bio">{cur.bio}</p>
+							</div>
+						</div>
+					</div>
+					<div className="staff-right-wrapper">
 						<div className="staff-grid">
 							{allStaff}
 						</div>

@@ -12,12 +12,13 @@ import GraceLee from './Images/GraceLee.jpeg';
 import MorgannThain from './Images/MorgannThain.jpg';
 import StephenChen from './Images/StephenChen.jpg';
 import IanLayzer from './Images/IanLayzer.jpg';
+import LizzyZhang from './Images/LizzyZhang.jpg';
 import Kathi from './Images/kathi.jpg'
 
 const staffImages = {
 	AnnieCimack, JackRiley, HarshiniVenkatachalam, ThetHtayZaw, IsabelLai,
 	EthanMullen, PeterZubiago, AhmadAlkhatib, MarioCamacho, CarolynZech, GraceLee,
-	MorgannThain, StephenChen, IanLayzer, Kathi
+	MorgannThain, StephenChen, IanLayzer, LizzyZhang, Kathi
 }
 
 export default staffImages;
