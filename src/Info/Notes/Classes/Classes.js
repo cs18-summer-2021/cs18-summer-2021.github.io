@@ -82,6 +82,13 @@ const classes = [
 	    makeIcon(iconType.PRACTICE, makeUrl(3, "03interfaces-practice.pdf")),
 	],
 	tags: []
+    },
+    {
+	number: 4, title: "Abstract Classes", outDate: "May 19", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec04setup-sum")
+	],
+	tags: []
     }
 ]
 
