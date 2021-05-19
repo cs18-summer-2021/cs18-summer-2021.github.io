@@ -86,7 +86,10 @@ const classes = [
     {
 	number: 4, title: "Abstract Classes", outDate: "May 19", active: true,
 	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec04setup-sum")
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec04setup-sum"),
+	    makeIcon(iconType.NOTES, makeUrl(4, "04abs-classes.pdf")),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=46342dfd-23a2-4591-9132-ad2d010b4057"),
+	    makeIcon(iconType.PRACTICE, makeUrl(4, "04tracing.pdf")),
 	],
 	tags: []
     }
