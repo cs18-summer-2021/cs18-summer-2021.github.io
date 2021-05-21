@@ -21,10 +21,10 @@ const homeworks = [
 		]
 	},
 	{
-		number: 2, title: "Interfaces, Lists, and Testing for Mutation", dueDate: "May 28 (AoE)", active: false,
+		number: 2, title: "Abstract Classes, Lists, and Mutation", dueDate: "May 28 (AoE)", active: true,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/S1OY7ExOd", label: "Handout" },
-			{ icon: <FaCode />, link: "", label: "Source Code" },
+			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/hwk2-summer", label: "Handout" },
+			{ icon: <FaCode />, link: "https://classroom.github.com/a/qdDdc9V-", label: "Source Code" },
 		]
 	},
 	{
