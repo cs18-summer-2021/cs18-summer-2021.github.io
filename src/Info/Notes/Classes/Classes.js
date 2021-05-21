@@ -53,53 +53,53 @@ function makeUrl(classNumber, fileName) {
 }
 
 const classes = [
-    {
-	number: 1, title: "Intro and Classes", outDate: "May 12", active: true,
-	links: [
-	    makeIcon(iconType.SETUP, makeUrl(1, "dillo.ml")),
-	    makeIcon(iconType.NOTES, makeUrl(1, "01classes.pdf")),
-	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ebcf6e7a-354d-463d-921c-ad26010b74aa"),
-	    makeIcon(iconType.PRACTICE, makeUrl(1, "01classes-practice.pdf")),
-	],
-	tags: ["Classes"]
-    },
-    {
-	number: 2, title: "Methods and Testing", outDate: "May 14", active: true,
-	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec02setup"),
-	    makeIcon(iconType.NOTES, makeUrl(2, "02methods.pdf")),
-	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9824c93e-7fbd-4aad-8de7-ad28010b24c9"),
-	    makeIcon(iconType.PRACTICE, makeUrl(2, "02methods-practice.pdf")),
-	],
-	tags: ["Memory Diagram"]
-    },
-    {
-	number: 3, title: "Interfaces and Types", outDate: "May 17", active: true,
-	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec03setup"),
-	    makeIcon(iconType.NOTES, makeUrl(3, "03interfaces.pdf")),
-	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=390f60ec-9112-4550-9122-ad2b010ce733"),
-	    makeIcon(iconType.PRACTICE, makeUrl(3, "03interfaces-practice.pdf")),
-	],
-	tags: []
-    },
-    {
-	number: 4, title: "Abstract Classes", outDate: "May 19", active: true,
-	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec04setup-sum"),
-	    makeIcon(iconType.NOTES, makeUrl(4, "04abs-classes.pdf")),
-	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=46342dfd-23a2-4591-9132-ad2d010b4057"),
-	    makeIcon(iconType.PRACTICE, makeUrl(4, "04tracing.pdf")),
-	],
-	tags: []
-    },
-    {
-	number: 5, title: "Implementing Lists", outDate: "May 21", active: true,
-	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec05setup-sum")
-	],
-	tags: []
-    }
+	{
+		number: 1, title: "Intro and Classes", outDate: "May 12", active: true,
+		links: [
+			makeIcon(iconType.SETUP, makeUrl(1, "dillo.ml")),
+			makeIcon(iconType.NOTES, makeUrl(1, "01classes.pdf")),
+			makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ebcf6e7a-354d-463d-921c-ad26010b74aa"),
+			makeIcon(iconType.PRACTICE, makeUrl(1, "01classes-practice.pdf")),
+		],
+		tags: ["Classes"]
+	},
+	{
+		number: 2, title: "Methods and Testing", outDate: "May 14", active: true,
+		links: [
+			makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec02setup"),
+			makeIcon(iconType.NOTES, makeUrl(2, "02methods.pdf")),
+			makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9824c93e-7fbd-4aad-8de7-ad28010b24c9"),
+			makeIcon(iconType.PRACTICE, makeUrl(2, "02methods-practice.pdf")),
+		],
+		tags: ["Memory Diagram"]
+	},
+	{
+		number: 3, title: "Interfaces and Types", outDate: "May 17", active: true,
+		links: [
+			makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec03setup"),
+			makeIcon(iconType.NOTES, makeUrl(3, "03interfaces.pdf")),
+			makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=390f60ec-9112-4550-9122-ad2b010ce733"),
+			makeIcon(iconType.PRACTICE, makeUrl(3, "03interfaces-practice.pdf")),
+		],
+		tags: []
+	},
+	{
+		number: 4, title: "Abstract Classes", outDate: "May 19", active: true,
+		links: [
+			makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec04setup-sum"),
+			makeIcon(iconType.NOTES, makeUrl(4, "04abs-classes.pdf")),
+			makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=46342dfd-23a2-4591-9132-ad2d010b4057"),
+			makeIcon(iconType.PRACTICE, makeUrl(4, "04tracing.pdf")),
+		],
+		tags: []
+	},
+	{
+		number: 5, title: "Implementing Lists", outDate: "May 21", active: true,
+		links: [
+			makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec05setup-sum")
+		],
+		tags: []
+	}
 ]
 
 export default classes;
