@@ -7,7 +7,7 @@ const homeworks = [
 			{ icon: <FaFileAlt />, link: "https://docs.google.com/forms/d/e/1FAIpQLSdLOa2GsyH8KwcB1dEJGgT8emAJH7s19jw2owFTOQp5LMtSIw/viewform?usp=sf_link", label: "Survey" },
 		]
 	},
-        {
+	{
 		number: 0.2, title: "Socially Responsible Computing", dueDate: "May 21 (AoE)", active: true,
 		links: [
 			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/hwk0-src-summer", label: "Handout" },
@@ -23,8 +23,8 @@ const homeworks = [
 	{
 		number: 2, title: "Interfaces, Lists, and Testing for Mutation", dueDate: "May 28 (AoE)", active: false,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/S1OY7ExOd", label: "Handout" },
-			{ icon: <FaCode />, link: "", label: "Source Code" },
+			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/hwk2-summer", label: "Handout" },
+			{ icon: <FaCode />, link: "https://classroom.github.com/a/qdDdc9V-", label: "Source Code" },
 		]
 	},
 	{
