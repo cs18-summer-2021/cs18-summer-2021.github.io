@@ -96,9 +96,11 @@ const classes = [
 	{
 		number: 5, title: "Implementing Lists", outDate: "May 21", active: true,
 		links: [
-			makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec05setup-sum")
+		    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec05setup-sum"),
+		    makeIcon(iconType.NOTES, makeUrl(5, "05listsfunctional.pdf")),
+		    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2d037cda-6d4a-4308-a000-ad2f010bf450")
 		],
-		tags: []
+		tags: ["Class Hierarchies"]
 	}
 ]
 
