@@ -111,7 +111,7 @@ const classes = [
 		    */
 		],
 		tags: ["Memory Diagram"]
-	},
+	} /*,
 	{
 		number: 7, title: "Implementing Lists", outDate: "May 26", active: false,
 		links: [
@@ -130,6 +130,7 @@ const classes = [
 		],
 		tags: ["Class Hierarchies"]
 	}
+*/
 ]
 
 export default classes;
