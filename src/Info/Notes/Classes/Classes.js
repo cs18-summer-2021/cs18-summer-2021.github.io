@@ -110,7 +110,7 @@ const classes = [
 		    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2d037cda-6d4a-4308-a000-ad2f010bf450")
 		    */
 		],
-		tags: ["Memory Diagrams"]
+		tags: ["Memory Diagram"]
 	},
 	{
 		number: 7, title: "Implementing Lists", outDate: "May 26", active: false,
