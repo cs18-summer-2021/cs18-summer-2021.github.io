@@ -110,7 +110,7 @@ const classes = [
 		    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=574f31ce-be05-4e11-8bce-ad32010a6c53")
 		],
 		tags: ["Memory Diagram"]
-	} 
+	}, 
 	{
 		number: 7, title: "Java's Built-In Lists", outDate: "May 26", active: true,
 		links: [
