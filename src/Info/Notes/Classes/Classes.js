@@ -106,7 +106,7 @@ const classes = [
 		number: 6, title: "Changing Fields and Equality", outDate: "May 24", active: true,
 		links: [
 		    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec06setup"),
-		    makeIcon(iconType.NOTES, makeUrl(5, "06/equalityl.pdf")),
+		    makeIcon(iconType.NOTES, makeUrl(5, "06equality.pdf")),
 		    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=574f31ce-be05-4e11-8bce-ad32010a6c53")
 		],
 		tags: ["Memory Diagram"]
