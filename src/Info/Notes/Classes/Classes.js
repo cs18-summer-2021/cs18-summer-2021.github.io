@@ -105,22 +105,23 @@ const classes = [
 	{
 		number: 6, title: "Changing Fields and Equality", outDate: "May 24", active: true,
 		links: [
-		    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec06setup")
-		    /* makeIcon(iconType.NOTES, makeUrl(5, "05listsfunctional.pdf")),
-		    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2d037cda-6d4a-4308-a000-ad2f010bf450")
-		    */
+		    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec06setup"),
+		    makeIcon(iconType.NOTES, makeUrl(5, "06/equalityl.pdf")),
+		    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=574f31ce-be05-4e11-8bce-ad32010a6c53")
 		],
 		tags: ["Memory Diagram"]
-	} /*,
+	} 
 	{
-		number: 7, title: "Implementing Lists", outDate: "May 26", active: false,
+		number: 7, title: "Java's Built-In Lists", outDate: "May 26", active: true,
 		links: [
-		    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec05setup-sum"),
+		    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec07setup") 
+		   /*,
 		    makeIcon(iconType.NOTES, makeUrl(5, "05listsfunctional.pdf")),
 		    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2d037cda-6d4a-4308-a000-ad2f010bf450")
+		   */
 		],
 		tags: ["Class Hierarchies"]
-	},
+	}/*,
 	{
 		number: 8, title: "Implementing Lists", outDate: "May 28", active: false,
 		links: [
