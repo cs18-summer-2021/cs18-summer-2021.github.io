@@ -17,10 +17,11 @@ const labs = [
 		]
 	},
 	{
-		number: 2, title: "For-While Loops/Oracle", dueDate: "May 26-27", active: false,
+		number: 2, title: "For-While Loops/Oracle", dueDate: "May 26-27", active: true,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1h-7cghV5qIr98iJeddcmz_7ImXDQONo5/view?usp=sharing", label: "Handout" },
-			{ icon: <FaFilePowerpoint />, link: "https://docs.google.com/presentation/d/1ColymQG6aOgZl1zLxJB9H_r6y4J-dCAYLvnhruOJhIA/edit?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/16c5ccmngpF4NdpRZUd59hZOfpGH6_pHj/view?usp=sharing", label: "Handout (For Loops)" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1gOxhXuCLO6VdKpqIj32qXsNBYSytU-oF/view?usp=sharing", label: "Handout (Oracle)" },
+			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1qOG3YFhfzu2VmMODpnw2_1Zbfn-eHs9z/view?usp=sharing", label: "Slides" },
 		]
 	},
 	{
