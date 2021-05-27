@@ -131,7 +131,6 @@ const classes = [
 		],
 		tags: ["Memory Diagram"]
 	}
-*/
 ]
 
 export default classes;
