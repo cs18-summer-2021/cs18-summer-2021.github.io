@@ -54,7 +54,7 @@ const staff = [
 	{
 		name: "Lizzy Zhang", login: "ezhang29", image: staffImages.LizzyZhang,
 		hometown: "Princeton, NJ", birthday: "Sept. 25th", pronouns: "she/her",
-		bio: "B)"
+		bio: "Hello!! I’m a junior studying biology. I love singing, video games, and watching figure skating! In my free time, you can find me attempting to learn new languages by watching way too much netflix."
 	},
 	{
 		name: "Mario Camacho", login: "mcamach6", image: staffImages.MarioCamacho,
