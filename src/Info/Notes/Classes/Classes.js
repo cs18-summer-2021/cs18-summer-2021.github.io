@@ -114,22 +114,22 @@ const classes = [
 	{
 		number: 7, title: "Java's Built-In Lists", outDate: "May 26", active: true,
 		links: [
-		    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec07setup") 
-		   /*,
-		    makeIcon(iconType.NOTES, makeUrl(7, "05listsfunctional.pdf")),
-		    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2d037cda-6d4a-4308-a000-ad2f010bf450")
-		   */
+		    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec07setup"),
+		    makeIcon(iconType.NOTES, makeUrl(7, "07javalists.pdf")),
+		    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fe0ffbf5-ef76-421c-be6f-ad3401108611")
 		],
-		tags: ["Class Hierarchies"]
-	}/*,
+	    tags: ["Loops", "Grading"]
+	},
 	{
-		number: 8, title: "Implementing Lists", outDate: "May 28", active: false,
+		number: 8, title: "Implementing Java Lists", outDate: "May 28", active: true,
 		links: [
-		    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec05setup-sum"),
-		    makeIcon(iconType.NOTES, makeUrl(5, "05listsfunctional.pdf")),
+		    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec08setup-sum")
+		    /*,
+		    makeIcon(iconType.NOTES, makeUrl(8, "05listsfunctional.pdf")),
 		    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2d037cda-6d4a-4308-a000-ad2f010bf450")
+		    */
 		],
-		tags: ["Class Hierarchies"]
+		tags: ["Memory Diagram"]
 	}
 */
 ]

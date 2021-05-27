@@ -1,0 +1,249 @@
+\documentclass{courseclass}
+\lec{7}{Mutable Lists, Conceptually}
+\cs{coursebegin}
+
+\subsection*{Motivating Question}
+How are Java's built-in lists different from the functional lists in
+Racket, Reason, and Pyret?
+
+\subsection*{Objectives}
+
+By the end of this lecture, you will know:
+\begin{itemize}
+    \item How to create a list with Java's LinkedList class 
+    \item How to traverse a list with a for loop 
+\end{itemize}
+
+\section{One = Sign, Two Impacts}
+
+In the last lecture, we looked at two ways to try to update the room
+associated with a course. Roughly speaking, we tried the following two
+approaches:
+
+\begin{javadisp}
+  Course cs18 = new Course(''csci'', 18, ''Bert 130'');
+  // approach #1
+  cs18 =  new Course(''csci'', 18, ''Sayles''); 
+  // approach #2
+  cs18.room = ''SAL001''; 
+\end{javadisp}
+
+Under the hood, the first version adds a new \oop{Course} to the heap,
+then redirects the reference from the name \oop{cs18} in the
+environment to the new \oop{Course} object. The second version,
+however, does neither. It simply updates the value in the \oop{room}
+field of the original \oop{Course} object. In particular, the second
+version leaves the environment untouched.
+
+How can one use of \oop{=} change the environment but not the other?
+What matters is the term on the left side of the \oop{=}: if the left
+side of \oop{=} is just a name (like \oop{cs18}), then the environment
+updates (recall that the environment tracks how names map to
+values). If the left side of \oop{=} is of the form
+\oop{<object>.<field>}, then the field value changes within the
+heap. Think of \oop{=} as saying: update the value associated with the
+left hand side: fields are stored in the heap, but plain names are
+stored in the environment.
+
+Why is this distinction important? Because as we saw last lecture,
+changing the value associated with a name/variable in the environment
+only affects \emph{future} use of that variable, but changing the
+value in a field affects all \emph{existing} references to the
+corresponding object. We'll work more with when to use each kind of
+update. For now, it is worth bearing in mind that a key question while
+designing programs is whether an update should affect past or only
+future references to a variable name.
+
+\section{Built-in Lists in Java}
+
+Last week, we wrote our own implementation of lists, based on the
+\code{cons} and \code{link} constructs in Racket and Pyret
+(respectively). Like all programming languages, Java also has lists
+built-in, but they behave somewhat differently. Let's look at a
+concrete example of how to create a list containing the numbers 5 and
+3 (in that order):
+
+\begin{javadisp}
+import java.util.LinkedList;
+
+public class JListExample {
+	
+	JListExample(){}
+	
+	public static void main(String[] args) {
+		LinkedList<Integer> L = new LinkedList<Integer>();
+		L.addFirst(3);
+		L.addFirst(5);
+                System.out.println(L.toString());
+		
+		// compute sum of items in L
+		Integer total = 0;  // a variable to hold the running sum
+		for (Integer num : L) {
+			total = total + num;
+		}
+		System.out.println(total);
+	}
+}
+\end{javadisp}
+
+Things to notice about the code to set up the list:
+
+\begin{itemize}
+  \item We need to import the \code{LinkedList} library in order to
+    use lists in Java. (For those with prior Java experience, we are
+    intentionally using \code{LinkedList} instead of \code{ArrayList}
+    for now -- we will talk about the difference in about a week.)
+
+  \item When we use the \code{LinkedList} class, we have to specify
+    the type of the list contents within the angle brackets. Here, we
+    write \code{LinkedList<Integer>} to indicate a list containing
+    integers. This is a situation when you have to use \code{Integer}
+    instead of \code{int}: the type name for list elements has to be
+    the name of a class, abstract class, or interface.
+
+  \item As in our list implementation, \code{addFirst} is the method
+    that adds an item to the front of a list.
+
+  \item Unlike in our list implementation, however, \code{addFirst}
+    \emph{actually modifies the contents of the list}.
+  \end{itemize}
+
+This last point is perhaps the most significant. Whereas in
+Racket/Reason/Pyret, the original list is kept intact when you add or
+delete elements, Java modifies the original list. Think of a situation
+like undoing an edit in a document processor: in one case, both
+versions of the document would exist, but in the other, there would
+only be the current version (we'll return to undoing edits at the end
+of the semester).
+
+\subsection{Traversing and Processing Lists in Java}
+
+In Java, we don't process built-in lists recursively: Java lists don't
+have a ``rest of list'' operation that we would use in a recursive
+computation (we'll see why in the next lecture).  Instead, Java uses a
+construct called a \code{for} loop. The code sample above shows how to
+use a for-loop to compute the sum of a list of numbers.
+
+Things to notice:
+
+\begin{itemize}
+\item We start by creating a variable to hold the result of the
+  function (in this case, \code{total}). We initially set the variable
+  to the result we would get on the empty list (the same value we'd
+  return in the empty case of the corresponding recursive function).
+  
+\item the for-loop construct walks down the list, calling each
+  number in the list \code{num} in turn (\code{num} plays a similar role
+  to the \code{first} of the list in a recursive version). As Java encounters each
+  num, it adds it to the \code{total}. Java goes through
+  the lines in the body (inside) of the \code{for} once for 
+  every number in the list \code{L}. The list items are taken
+  in order from the front to the end of the list.
+  
+\item After the for-loop is done, Java returns the \code{total}
+  as the result of the function.
+
+\item The computation in the non-empty of a recursive version is
+  the same one that we use to update the \code{total} inside
+  the for loop.
+\end{itemize}
+
+You'll get more practice with loops in this week's lab.
+
+\section{Functional vs Java/Python Lists}
+
+As we go through CS18, we'll get more practical experience with when
+to use mutable lists and when not to. For now, we want to think about
+what these two styles of lists look like in terms of implementation.
+We've already written our own functional (non-mutating) list
+classes. What would a version look like that did mutate the list?
+
+We recalled our example from the top of the notes (the two calls to
+\oop{addFirst}) and sent everyone into breakout rooms to discuss what
+might be going on at the level of memory to make that work. We jotted
+down some ideas, but generally left this as a cliffhanger for the next
+class ...
+
+\end{document}
+
+To start thinking about that question, we're going to work through a
+concrete example of the same core statements written against each of
+the non-mutating and mutating lists. We'll draw each out in memory
+this lecture, then use that as a basis for writing the code in the
+next lecture. 
+
+\begin{javadisp}
+public class ListsSideBySide {
+    public static void main(String[] args) {
+        // the functional-style (non-mutating) lists
+        IList LF1 = new EmptyList();
+        LF1 = LF1.addFirst(4);
+        IList LF2 = LF1;
+        LF1.addFirst(7);
+        System.out.println("LF1 is " + LF1.toString());
+        System.out.println("LF2 is " + LF2.toString());
+
+        // the Java/Python-style (mutating) lists
+        LinkedList<Integer> LJ1 = new LinkedList<Integer>();
+        LJ1.addFirst(4); // addFirst does not return anything
+        LinkedList<Integer> LJ2 = LJ1;
+        LJ1.addFirst(7);
+        System.out.println("LJ1 is " + LJ1.toString());
+        System.out.println("LJ2 is " + LJ2.toString());
+    }
+  }
+\end{javadisp}
+
+If we run this code, we find that the two functional lists both
+contain just the number 4 (neither sees the 7 that was added before we
+printed out the list contents). In contrast, both Java lists contain
+the 7 followed by the 4.
+
+\subsection{Lists in memory}
+
+Take a moment and draw out the environment and heap contents for the
+first segment of code (the functional version, for lists \code{LF1}
+and \code{LF2}. To check your work, look at slide 2 at the following
+URL:
+
+{\tiny
+  \url{https://brown-cs18-master.github.io/content/lectures/07listsimperative/memory-layout-lists.pptx}}
+
+Now, we want to turn to understanding what memory might look like for
+the Java version. We can't get the memory contents exactly right
+without knowing how the \code{LinkedList} class is written, but we can
+infer a lot that will help us implement our own version of Linked List
+next lecture.  Let's take it line by line. The drawings are in the
+remaining slides in the same slide deck URL.
+
+After the first three lines (through the definition of \code{LJ2}), we
+have the contents as shown on slide 3: there is an object of the
+\code{LinkedList} class in memory that both \code{LJ1} and \code{LJ2}
+refer to. The \code{addFirst} suggests that there must also be an
+actual list somewhere in memory, and somehow, the \code{LinkedList}
+object must refer to that list. We don't know what that field might be
+called, but something along these lines would have to be there.
+
+On slide 4, we start the \code{addFirst(7)} computation. This will
+result in creating a new \code{NodeList} object that stores the 7 and
+refers to the rest of the list that is under the hood.
+
+On slide 5, we show how the \code{LinkedList} object could be updated
+to refer to the new list: the reference/arrow from that object to the
+actual list changes to refer to the new \code{NodeList} object (with
+7) instead of the previous one (with 4). If we were to image following
+the arrows to print the content of either  \code{LJ1} or \code{LJ2},
+we would get each of 7 and 4, as we see when we run this code in Java.
+
+Slide 6 puts the functional lists back in the environment, so you can
+see the contrast side by side. Hopefully, the contrast also helps you
+see how a change made to the list through either \code{LJ1} or
+\code{LJ2} would be visible in both, unlike changes made between
+\code{LF1} and \code{LF2}.
+
+\subsection{So How Do We Implement LinkedLists for Ourselves?}
+
+Think about how we might adapt our existing code for lists to support
+the additional \code{LinkedList} object -- that's where we'll start off on Friday.
+
+\cs{courseend}
