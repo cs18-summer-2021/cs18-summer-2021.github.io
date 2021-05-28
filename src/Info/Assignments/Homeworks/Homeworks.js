@@ -28,7 +28,7 @@ const homeworks = [
 		]
 	},
 	{
-		number: 3, title: "Doubly-Linked Lists", dueDate: "June 4 (AoE)", active: false,
+		number: 3, title: "Doubly-Linked Lists", dueDate: "June 4 (AoE)", active: true,
 		links: [
 			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/hwk3-summer", label: "Handout" },
 			{ icon: <FaCode />, link: "", label: "Source Code" },
