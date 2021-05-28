@@ -124,13 +124,15 @@ const classes = [
 		number: 8, title: "Implementing Java Lists", outDate: "May 28", active: true,
 		links: [
 		    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec08setup-sum")
-		    /*,
-		    makeIcon(iconType.NOTES, makeUrl(8, "05listsfunctional.pdf")),
-		    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2d037cda-6d4a-4308-a000-ad2f010bf450")
-		    */
+		    makeIcon(iconType.NOTES, makeUrl(8, "08mutablelists.pdf")),
+		    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9524be5f-e0f3-4b66-8c2e-ad36010abbab")
 		],
 		tags: ["Memory Diagram"]
+	},
+ 	{
+	    number: "N/A", title: "No Class", outDate: "May 31", active: true
 	}
+   
 ]
 
 export default classes;
