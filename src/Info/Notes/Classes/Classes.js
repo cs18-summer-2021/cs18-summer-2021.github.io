@@ -123,7 +123,7 @@ const classes = [
 	{
 		number: 8, title: "Implementing Java Lists", outDate: "May 28", active: true,
 		links: [
-		    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec08setup-sum")
+		    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec08setup-sum"),
 		    makeIcon(iconType.NOTES, makeUrl(8, "08mutablelists.pdf")),
 		    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9524be5f-e0f3-4b66-8c2e-ad36010abbab")
 		],
