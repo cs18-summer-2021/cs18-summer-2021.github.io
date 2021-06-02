@@ -135,15 +135,12 @@ const classes = [
         {
 		number: 9, title: "Optimizing List Methods", outDate: "Jun 1", active: true,
 		links: [
-		    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec09setup-sum")
-		    /*,
-		    makeIcon(iconType.NOTES, makeUrl(9, "08mutablelists.pdf")),
-		    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9524be5f-e0f3-4b66-8c2e-ad36010abbab")
-*/
+		    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec09setup-sum"),
+		    makeIcon(iconType.NOTES, makeUrl(9, "09listsoptimize.pdf")),
+		    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f6414aa1-0cbd-4a2c-b4f0-ad3b010b2cf0")
 		],
-		tags: ["Mutable Lists"]
-	},
-   
+		tags: []
+	}
 ]
 
 export default classes;
