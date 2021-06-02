@@ -25,10 +25,10 @@ const labs = [
 		]
 	},
 	{
-		number: 3, title: "Debugging", dueDate: "June 2-3", active: false,
+		number: 3, title: "Debugging", dueDate: "June 2-3", active: true,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1X2P956LNMJ46HPJ3fapaMlcwcPIUF__6/view?usp=sharing", label: "Handout" },
-			{ icon: <FaFilePowerpoint />, link: "https://docs.google.com/presentation/d/1rgQ-q0S0E3pbXjAhwGPDu9VF-Opf3w304Cs9eAAMR0U/edit?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1VXdOZR83d0qhvQPz_ir5kNmvjeKlhYjP/view?usp=sharing", label: "Handout" },
+			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1j6wPzd4lI3u21d7CwTotKM3zyrmF4rmD/view?usp=sharing", label: "Slides" },
 		]
 	},
 	{
