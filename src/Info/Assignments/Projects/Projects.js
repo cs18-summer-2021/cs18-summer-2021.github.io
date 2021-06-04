@@ -2,11 +2,11 @@ import { FaFileAlt, FaCode, FaFilePowerpoint, FaYoutube } from 'react-icons/fa';
 
 const projects = [
 	{
-		number: 1, title: "Recommender", dueDate: "June 18 (AoE)", active: false,
+		number: 1, title: "Recommender", dueDate: "June 18 (AoE)", active: true,
 		notes: "",
 		links: [
-			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/BJVuAueu_", label: "Handout" },
-			{ icon: <FaCode />, link: "", label: "Source Code" },
+			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/recommender", label: "Handout" },
+			// { icon: <FaCode />, link: "", label: "Stencil Code" },
 			// { icon: <FaFilePowerpoint />, link: "", label: "Gearup Slides" },
 			// { icon: <FaYoutube />, link: "", label: "Gearup Recording" }
 		]
@@ -16,7 +16,7 @@ const projects = [
 		notes: "",
 		links: [
 			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/Bk3CR_xuO", label: "Handout" },
-			{ icon: <FaCode />, link: "", label: "Source Code" },
+			// { icon: <FaCode />, link: "", label: "Source Code" },
 			// { icon: <FaFilePowerpoint />, link: "", label: "Gearup Slides" },
 			// { icon: <FaYoutube />, link: "", label: "Gearup Recording" }
 		]
