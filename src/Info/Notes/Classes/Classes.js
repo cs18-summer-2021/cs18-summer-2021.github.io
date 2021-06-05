@@ -144,9 +144,11 @@ const classes = [
     {
 	number: 10, title: "Arrays", outDate: "Jun 4", active: true,
 	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec10setup-sum")
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec10setup-sum"),
+	    makeIcon(iconType.NOTES, makeUrl(10, "10arrays.pdf")),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9b004d25-7365-43b8-9afa-ad3d010ca360")
 	],
-	tags: ["Memory Diagrams"]
+	tags: ["Memory"]
     }
 ]
 
