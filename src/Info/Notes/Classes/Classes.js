@@ -133,7 +133,7 @@ const classes = [
 	number: "N/A", title: "No Class", outDate: "May 31", active: true
     },
     {
-	number: 9, title: "Optimizing List Methods", outDate: "Jun 1", active: true,
+	number: 9, title: "Optimizing List Methods", outDate: "Jun 2", active: true,
 	links: [
 	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec09setup-sum"),
 	    makeIcon(iconType.NOTES, makeUrl(9, "09listsoptimize.pdf")),
@@ -147,6 +147,17 @@ const classes = [
 	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec10setup-sum"),
 	    makeIcon(iconType.NOTES, makeUrl(10, "10arrays.pdf")),
 	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9b004d25-7365-43b8-9afa-ad3d010ca360")
+	],
+	tags: ["Memory"]
+    },
+    {
+	number: 11, title: "Dynamic Arrays", outDate: "Jun 7", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec11setup")
+	    /*,
+	    makeIcon(iconType.NOTES, makeUrl(10, "10arrays.pdf")),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9b004d25-7365-43b8-9afa-ad3d010ca360")
+*/
 	],
 	tags: ["Memory"]
     }
