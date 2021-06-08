@@ -158,15 +158,14 @@ const classes = [
 	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8885c2ef-d138-4cae-ae27-ad40010b14ab")
 	],
 	tags: ["Memory"]
-    }
-    /*,
+    },
     {
 	number: 12, title: "Iterators (enabling for loops)", outDate: "Jun 9", active: true,
 	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec12setup")
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec12setup-sum")
 	],
 	tags: []
-    }*/
+    }
 ]
 
 export default classes;
