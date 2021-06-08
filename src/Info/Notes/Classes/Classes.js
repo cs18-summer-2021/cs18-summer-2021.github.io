@@ -153,14 +153,20 @@ const classes = [
     {
 	number: 11, title: "Dynamic Arrays", outDate: "Jun 7", active: true,
 	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec11setup")
-	    /*,
-	    makeIcon(iconType.NOTES, makeUrl(10, "10arrays.pdf")),
-	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9b004d25-7365-43b8-9afa-ad3d010ca360")
-*/
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec11setup"),
+	    makeIcon(iconType.NOTES, makeUrl(11, "11dynArrays.pdf")),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8885c2ef-d138-4cae-ae27-ad40010b14ab")
 	],
 	tags: ["Memory"]
     }
+    /*,
+    {
+	number: 12, title: "Iterators (enabling for loops)", outDate: "Jun 9", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec12setup")
+	],
+	tags: []
+    }*/
 ]
 
 export default classes;
