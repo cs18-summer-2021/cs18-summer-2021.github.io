@@ -160,9 +160,11 @@ const classes = [
 	tags: ["Memory"]
     },
     {
-	number: 12, title: "Iterators (enabling for loops)", outDate: "Jun 9", active: true,
+	number: 12, title: "Wrap-Around Dynamic Arrays", outDate: "Jun 9", active: true,
 	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec12setup-sum")
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec12setup-sum"),
+	    makeIcon(iconType.NOTES, makeUrl(12, "12dynArraysWrap.pdf")),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ea0cb545-4ac7-4643-9495-ad42010c131b")
 	],
 	tags: []
     }
