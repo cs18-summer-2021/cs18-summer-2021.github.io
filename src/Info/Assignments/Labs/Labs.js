@@ -32,10 +32,10 @@ const labs = [
 		]
 	},
 	{
-		number: 4, title: "File I/O", dueDate: "June 9-10", active: false,
+		number: 4, title: "File I/O", dueDate: "June 9-10", active: true,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/101DymqcjKYvSI_QLo58HhKaOq_CoHA_e/view?usp=sharing", label: "Handout" },
-			{ icon: <FaFilePowerpoint />, link: "https://docs.google.com/presentation/d/1fOq3U8yFAvVJgyv0yVC8GPCi6rFfqGP_3IU_SOQ-aA0/edit?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://hackmd.io/l2gYNy1SSdWUW1XLMOxCMQ", label: "Handout" },
+			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1Sjq_R5M6TOOGFU5NjY5pvYsqxppJ3Y29/view?usp=sharing", label: "Slides" },
 		]
 	},
 	{
