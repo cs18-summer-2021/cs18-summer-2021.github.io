@@ -167,7 +167,15 @@ const classes = [
 	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ea0cb545-4ac7-4643-9495-ad42010c131b")
 	],
 	tags: []
+    },
+    {
+	number: 13, title: "Enabling For Loops (Iterators)", outDate: "Jun 11", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec13setup-sum")
+	],
+	tags: []
     }
 ]
 
 export default classes;
+
