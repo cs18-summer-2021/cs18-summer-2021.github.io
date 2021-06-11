@@ -178,7 +178,7 @@ const classes = [
 	tags: []
     },
     {
-	number: 14, title: "Enabling For Loops (Iterators)", outDate: "Jun 14", active: true,
+	number: 14, title: "Access Modifiers and Program Design", outDate: "Jun 14", active: true,
 	links: [
 	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec14setup-sum")
 	],
