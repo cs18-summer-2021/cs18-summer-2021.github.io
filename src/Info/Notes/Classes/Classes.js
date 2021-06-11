@@ -171,10 +171,18 @@ const classes = [
     {
 	number: 13, title: "Enabling For Loops (Iterators)", outDate: "Jun 11", active: true,
 	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec13setup-sum")
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec13setup-sum"),
+	    makeIcon(iconType.NOTES, makeUrl(13, "13iterators.pdf")),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c130d30b-a985-48da-9607-ad44010f0728")
 	],
 	tags: []
-    }
+    },
+    {
+	number: 14, title: "Enabling For Loops (Iterators)", outDate: "Jun 14", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec14setup-sum")
+	],
+	tags: []
 ]
 
 export default classes;
