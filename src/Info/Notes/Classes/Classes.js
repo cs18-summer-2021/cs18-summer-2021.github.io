@@ -183,6 +183,7 @@ const classes = [
 	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec14setup-sum")
 	],
 	tags: []
+    }
 ]
 
 export default classes;
