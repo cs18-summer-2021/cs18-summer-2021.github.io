@@ -20,8 +20,8 @@ const labs = [
 	{
 		number: 2, title: "For-While Loops/Oracle", dueDate: "May 26-27", active: true,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/16c5ccmngpF4NdpRZUd59hZOfpGH6_pHj/view?usp=sharing", label: "Handout (For Loops)" },
-			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1gOxhXuCLO6VdKpqIj32qXsNBYSytU-oF/view?usp=sharing", label: "Handout (Oracle)" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1kCg7XsqezDra83HEdz6OgawoSgWtBLxf/view?usp=sharing", label: "Solution (For Loops)" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1yjGD15-kCz3lpKxMPbxfUkgiubFRN6Ng/view?usp=sharing", label: "Solution (Oracle)" },
 			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1qOG3YFhfzu2VmMODpnw2_1Zbfn-eHs9z/view?usp=sharing", label: "Slides" },
 		]
 	},
