@@ -14,6 +14,7 @@ const labs = [
 		links: [
 			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1puH4CxJNpUsVO__d94UnqPw-gWZCGmCv/view?usp=sharing", label: "Handout" },
 			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1iJGBdzm5TBJS7IoyZkn4DLIJKEbqO5Pi/view?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://edstem.org/us/courses/5623/discussion/485735", label: "Solution"},
 		]
 	},
 	{
@@ -29,6 +30,7 @@ const labs = [
 		links: [
 			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1VXdOZR83d0qhvQPz_ir5kNmvjeKlhYjP/view?usp=sharing", label: "Handout" },
 			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1j6wPzd4lI3u21d7CwTotKM3zyrmF4rmD/view?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/drive/u/0/folders/1PHO54BZh7RpMI7OyS4H_oF5BvKjr4Hv3", label: "Solution"},
 		]
 	},
 	{
@@ -36,6 +38,7 @@ const labs = [
 		links: [
 			{ icon: <FaFileAlt />, link: "https://hackmd.io/l2gYNy1SSdWUW1XLMOxCMQ", label: "Handout" },
 			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1Sjq_R5M6TOOGFU5NjY5pvYsqxppJ3Y29/view?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://hackmd.io/nF6x0tNDT0KuQUrNgSVvDA", label: "Solution"},
 		]
 	},
 	{
