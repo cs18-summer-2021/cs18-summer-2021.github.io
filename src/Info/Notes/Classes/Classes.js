@@ -180,7 +180,9 @@ const classes = [
     {
 	number: 14, title: "Access Modifiers and Program Design", outDate: "Jun 14", active: true,
 	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec14setup-sum")
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec14setup-sum"),
+	    makeIcon(iconType.NOTES, makeUrl(14, "14accessEncap.pdf")),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2849d09c-877a-4f04-82e5-ad47010d5e1a")
 	],
 	tags: []
     }
