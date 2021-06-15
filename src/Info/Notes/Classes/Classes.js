@@ -204,4 +204,3 @@ const classes = [
 
 export default classes;
 
-https://hackmd.io/@cs18-spring-2021/lec15setup-sum
