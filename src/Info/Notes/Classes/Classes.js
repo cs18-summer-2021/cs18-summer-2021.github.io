@@ -185,6 +185,13 @@ const classes = [
 	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2849d09c-877a-4f04-82e5-ad47010d5e1a")
 	],
 	tags: []
+    },
+    {
+	number: "N/A", title: "Midterm Prep Guide", outDate: "Jun 14", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/midterm-prep-sum2021")
+	],
+	tags: []
     }
 ]
 
