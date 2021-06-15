@@ -192,8 +192,16 @@ const classes = [
 	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/midterm-prep-sum2021")
 	],
 	tags: []
+    },
+    {
+	number: 15, title: "Exceptions and Model-View-Controller", outDate: "Jun 16", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec15setup-sum")
+	],
+	tags: []
     }
 ]
 
 export default classes;
 
+https://hackmd.io/@cs18-spring-2021/lec15setup-sum
