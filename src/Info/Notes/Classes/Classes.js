@@ -196,10 +196,20 @@ const classes = [
     {
 	number: 15, title: "Exceptions and Model-View-Controller", outDate: "Jun 16", active: true,
 	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec15setup-sum")
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec15setup-sum"),
+	    makeIcon(iconType.NOTES, makeUrl(15, "15mvcExceptions.pdf")),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=702172bc-80b3-4291-bb0c-ad49010be3f2")
+	],
+	tags: ["throw", "try/catch"]
+    },
+    {
+	number: 16, title: "Intro to Hashtables", outDate: "Jun 18", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec16setup-sum")
 	],
 	tags: []
     }
+    
 ]
 
 export default classes;
