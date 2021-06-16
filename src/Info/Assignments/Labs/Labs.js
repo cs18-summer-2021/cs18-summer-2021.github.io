@@ -42,10 +42,10 @@ const labs = [
 		]
 	},
 	{
-		number: 5, title: "Regular Expressions", dueDate: "June 16-17", active: false,
+		number: 5, title: "Regular Expressions", dueDate: "June 16-17", active: true,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1Dn7MQBcO0ste21fsa8u_aqSksWfzuRrw/view?usp=sharing", label: "Handout" },
-			{ icon: <FaFilePowerpoint />, link: "https://docs.google.com/presentation/d/1DPVvaAQ8jsN1JzGVw-VSygZW-CKLYAOEq_fJhaeGf_s/edit?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1PvlrieKVeZy13U5m3fYk0Rh8_DnHns9V/view?usp=sharing", label: "Handout" },
+			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1XkzWuIn85rtRuLJQn7D1drjVEUW2I2T7/view?usp=sharing", label: "Slides" },
 		]
 	},
 	{
