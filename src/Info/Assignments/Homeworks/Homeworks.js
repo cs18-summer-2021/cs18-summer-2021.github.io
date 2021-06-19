@@ -35,14 +35,14 @@ const homeworks = [
 		]
 	},
 	{
-		number: 4, title: "Hashtables, Iterator", dueDate: "June 28 (AoE)", active: false,
+		number: 4, title: "Hashtables, Iterator", dueDate: "June 28 (AoE)", active: true,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/rydGGMX_d", label: "Handout" },
-			{ icon: <FaCode />, link: "", label: "Source Code" },
+			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/summer-hw4", label: "Handout" },
+			{ icon: <FaCode />, link: "https://classroom.github.com/a/1_5j8sUZ", label: "Source Code" },
 		]
 	},
 	{
-		number: 5, title: "Scala", dueDate: "July 5 (AoE)", active: false,
+		number: 5, title: "Scala", dueDate: "July 7 (AoE)", active: false,
 		links: [
 			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/rJFRSrxdd", label: "Handout" },
 			{ icon: <FaCode />, link: "", label: "Source Code" },
