@@ -14,13 +14,14 @@ const labs = [
 		links: [
 			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1puH4CxJNpUsVO__d94UnqPw-gWZCGmCv/view?usp=sharing", label: "Handout" },
 			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1iJGBdzm5TBJS7IoyZkn4DLIJKEbqO5Pi/view?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://edstem.org/us/courses/5623/discussion/485735", label: "Solution"},
 		]
 	},
 	{
 		number: 2, title: "For-While Loops/Oracle", dueDate: "May 26-27", active: true,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/16c5ccmngpF4NdpRZUd59hZOfpGH6_pHj/view?usp=sharing", label: "Handout (For Loops)" },
-			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1gOxhXuCLO6VdKpqIj32qXsNBYSytU-oF/view?usp=sharing", label: "Handout (Oracle)" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1kCg7XsqezDra83HEdz6OgawoSgWtBLxf/view?usp=sharing", label: "Solution (For Loops)" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1yjGD15-kCz3lpKxMPbxfUkgiubFRN6Ng/view?usp=sharing", label: "Solution (Oracle)" },
 			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1qOG3YFhfzu2VmMODpnw2_1Zbfn-eHs9z/view?usp=sharing", label: "Slides" },
 		]
 	},
@@ -29,6 +30,7 @@ const labs = [
 		links: [
 			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1VXdOZR83d0qhvQPz_ir5kNmvjeKlhYjP/view?usp=sharing", label: "Handout" },
 			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1j6wPzd4lI3u21d7CwTotKM3zyrmF4rmD/view?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/drive/u/0/folders/1PHO54BZh7RpMI7OyS4H_oF5BvKjr4Hv3", label: "Solution"},
 		]
 	},
 	{
@@ -36,13 +38,14 @@ const labs = [
 		links: [
 			{ icon: <FaFileAlt />, link: "https://hackmd.io/l2gYNy1SSdWUW1XLMOxCMQ", label: "Handout" },
 			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1Sjq_R5M6TOOGFU5NjY5pvYsqxppJ3Y29/view?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://hackmd.io/nF6x0tNDT0KuQUrNgSVvDA", label: "Solution"},
 		]
 	},
 	{
-		number: 5, title: "Regular Expressions", dueDate: "June 16-17", active: false,
+		number: 5, title: "Regular Expressions", dueDate: "June 16-17", active: true,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1Dn7MQBcO0ste21fsa8u_aqSksWfzuRrw/view?usp=sharing", label: "Handout" },
-			{ icon: <FaFilePowerpoint />, link: "https://docs.google.com/presentation/d/1DPVvaAQ8jsN1JzGVw-VSygZW-CKLYAOEq_fJhaeGf_s/edit?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1PvlrieKVeZy13U5m3fYk0Rh8_DnHns9V/view?usp=sharing", label: "Handout" },
+			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1XkzWuIn85rtRuLJQn7D1drjVEUW2I2T7/view?usp=sharing", label: "Slides" },
 		]
 	},
 	{
