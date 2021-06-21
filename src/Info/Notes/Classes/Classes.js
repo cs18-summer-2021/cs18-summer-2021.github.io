@@ -6,7 +6,8 @@ const iconType = {
 	SETUP: "Setup/Prep",
 	NOTES: "Notes",
 	VIDEO: "Video",
-	PRACTICE: "Practice"
+    PRACTICE: "Practice",
+    CODE: "Code"
 }
 
 /**
