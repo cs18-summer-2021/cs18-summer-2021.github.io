@@ -1,4 +1,4 @@
-import { FaFileAlt, FaYoutube, FaFilePowerpoint, FaPencilRuler, FaWrench, FaBook, FaMapMarkedAlt, FaCogs, FaMap } from 'react-icons/fa';
+import { FaFileAlt, FaYoutube, FaFilePowerpoint, FaPencilRuler, FaWrench, FaBook, FaMapMarkedAlt, FaCogs, FaMap, FaCode } from 'react-icons/fa';
 
 const staticBasePath = "/static/classes";
 
