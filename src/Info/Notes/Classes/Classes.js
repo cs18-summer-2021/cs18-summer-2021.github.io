@@ -56,7 +56,6 @@ function makeUrl(classNumber, fileName) {
 }
 
 const classes = [
-<<<<<<< HEAD
     {
 	number: 1, title: "Intro and Classes", outDate: "May 12", active: true,
 	links: [
