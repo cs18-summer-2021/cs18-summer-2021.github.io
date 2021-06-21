@@ -56,6 +56,7 @@ function makeUrl(classNumber, fileName) {
 }
 
 const classes = [
+<<<<<<< HEAD
     {
 	number: 1, title: "Intro and Classes", outDate: "May 12", active: true,
 	links: [
@@ -223,6 +224,32 @@ const classes = [
 	],
 	tags: []
     }
+    /*
+    ,
+    {
+	number: 18, title: "Implementing Hashtables", outDate: "Jun 21", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec17setup-sum")
+	],
+	tags: []
+    }
+    ,
+    {
+	number: 19, title: "Implementing Hashtables", outDate: "Jun 21", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec17setup-sum")
+	],
+	tags: []
+    }
+    ,
+    {
+	number: 20, title: "Implementing Hashtables", outDate: "Jun 21", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec17setup-sum")
+	],
+	tags: []
+    }
+*/
 ]
 
 export default classes;
