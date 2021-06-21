@@ -212,7 +212,7 @@ const classes = [
 	number: 16, title: "Intro to Hashtables", outDate: "Jun 18", active: true,
 	links: [
 	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec16setup-sum"),
-	    makeIcon(iconType.NOTES, makeUrl(16, "hashtables.pdf")),
+	    makeIcon(iconType.NOTES, makeUrl(16, "16hashtables.pdf")),
 	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c6abe0c7-ed8f-4a95-80db-ad4b010bc695")
 	],
 	tags: []
