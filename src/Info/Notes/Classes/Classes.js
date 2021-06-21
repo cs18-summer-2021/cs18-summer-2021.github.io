@@ -103,7 +103,7 @@ const classes = [
 	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec05setup-sum"),
 	    makeIcon(iconType.NOTES, makeUrl(5, "05listsfunctional.pdf")),
 	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2d037cda-6d4a-4308-a000-ad2f010bf450"),
-	    makeIcon(iconType.CODE, makeURL(5, "lec05final.zip"))
+	    makeIcon(iconType.CODE, makeUrl(5, "lec05final.zip"))
 	],
 	tags: ["Class Hierarchies"]
     },
@@ -143,7 +143,7 @@ const classes = [
 	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec09setup-sum"),
 	    makeIcon(iconType.NOTES, makeUrl(9, "09listsoptimize.pdf")),
 	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f6414aa1-0cbd-4a2c-b4f0-ad3b010b2cf0"),
-	    makeIcon(iconType.CODE, makeURL(9, "lec09final.zip"))
+	    makeIcon(iconType.CODE, makeUrl(9, "lec09final.zip"))
 	],
 	tags: []
     },
