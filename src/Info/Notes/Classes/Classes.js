@@ -221,7 +221,7 @@ const classes = [
 	number: 17, title: "Implementing Hashtables", outDate: "Jun 21", active: true,
 	links: [
 	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec17setup-sum"),
-	    makeIcon(iconType.NOTES, makeUrl(17, "17hashtableimpl.pdf"),
+	    makeIcon(iconType.NOTES, makeUrl(17, "17hashtableimpl.pdf")),
 	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d928e795-7f53-44ef-99ac-ad4e010b8a8e")
 	],
 	tags: []
