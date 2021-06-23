@@ -46,14 +46,14 @@ const labs = [
 		links: [
 			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1PvlrieKVeZy13U5m3fYk0Rh8_DnHns9V/view?usp=sharing", label: "Handout" },
 			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1XkzWuIn85rtRuLJQn7D1drjVEUW2I2T7/view?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/14i7AQFdneoz90XHAfFXq5deg5HnZFWdm/view?usp=sharing", label: "Solution"},
 		]
 	},
 	{
-		number: 6, title: "Optimization", dueDate: "June 23-24", active: false,
+		number: 6, title: "Optimization", dueDate: "June 23-24", active: true,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1Rleua9k28ilyYN-IUEZ4awN61CIocLXo/view?usp=sharing", label: "Handout" },
-			{ icon: <FaCode />, link: "https://drive.google.com/drive/folders/1yk6N0b7CFMyErYxoYkqQYz_C7JQJ8jcV?usp=sharing", label: "Source Code" },
-			{ icon: <FaFilePowerpoint />, link: "https://docs.google.com/presentation/d/1CgvgaUe6JGKUfiXIfKhXAoddJ_lK42W-USuWCwKjUqk/edit?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1Fs0RXG5P9tx7wN6OhhF6jU99FWgWTc8F/view?usp=sharing", label: "Handout" },
+			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1yeZFuxoBa1wXzoe1_ZP8PQCcSW7HjC8M/view?usp=sharing", label: "Slides" },
 		]
 	},
 	{
