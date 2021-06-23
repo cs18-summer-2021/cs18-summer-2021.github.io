@@ -230,7 +230,8 @@ const classes = [
 	number: 18, title: "In-place sorting and memory usage", outDate: "Jun 23", active: true,
 	links: [
 	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec18setup-sum"),
-	    makeIcon(iconType.NOTES, makeUrl(18, "18memoryusage.pdf"))
+	    makeIcon(iconType.NOTES, makeUrl(18, "18memoryusage.pdf")),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cf947f09-775f-4666-985a-ad50010d7acc")
 	],
 	tags: []
     }
