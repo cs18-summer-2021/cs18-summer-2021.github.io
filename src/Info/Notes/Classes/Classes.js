@@ -234,16 +234,16 @@ const classes = [
 	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cf947f09-775f-4666-985a-ad50010d7acc")
 	],
 	tags: []
-    }
-    /*
-    ,
+    },
     {
-	number: 19, title: "Implementing Hashtables", outDate: "Jun 21", active: true,
+	number: 19, title: "Designing for SRC", outDate: "Jun 25", active: true,
 	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec17setup-sum")
+	    makeIcon(iconType.NOTES, makeUrl(19, "19slidedeck.pdf")),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=570a4de6-546b-415e-80e4-ad52010b8061")
 	],
 	tags: []
     }
+    /*
     ,
     {
 	number: 20, title: "Implementing Hashtables", outDate: "Jun 21", active: true,
