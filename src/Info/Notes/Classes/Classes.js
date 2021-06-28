@@ -250,7 +250,6 @@ const classes = [
 	],
 	tags: []
     }
-*/
 ]
 
 export default classes;
