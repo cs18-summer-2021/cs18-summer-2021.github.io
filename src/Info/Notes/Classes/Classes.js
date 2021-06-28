@@ -246,7 +246,9 @@ const classes = [
     {
 	number: 20, title: "Scala: Functional", outDate: "Jun 28", active: true,
 	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec20setup-sum")
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec20setup-sum"),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3fbf7ceb-4118-4164-8dd1-ad55010b0507"),
+	    makeIcon(iconType.NOTES, makeUrl(20, "20scalaIntro.pdf"))
 	],
 	tags: []
     }
