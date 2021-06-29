@@ -44,8 +44,8 @@ const homeworks = [
 	{
 		number: 5, title: "Scala", dueDate: "July 7 (AoE)", active: false,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/rJFRSrxdd", label: "Handout" },
-			{ icon: <FaCode />, link: "", label: "Source Code" },
+			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/hwk5-summer", label: "Handout" },
+			{ icon: <FaCode />, link: "https://classroom.github.com/a/DI2HNDbE", label: "Source Code" },
 		]
 	},
 	{
