@@ -251,6 +251,13 @@ const classes = [
 	    makeIcon(iconType.NOTES, makeUrl(20, "20scalaIntro.pdf"))
 	],
 	tags: []
+    },
+    {
+    	number: 21, title: "Scala: OO and Traits", outDate: "Jun 30", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec21setup-sum")
+	],
+	tags: []
     }
 ]
 
