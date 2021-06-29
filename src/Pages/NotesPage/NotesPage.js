@@ -33,7 +33,7 @@ class NotesPage extends React.Component {
 	renderTags() {
 		const tags = this.state.allTags;
 		const active = this.state.activeTags;
-		return tags.map((t) => 
+		return tags.filter((t) => t).map((t) => 
 			<p className={"notes-filter-tag" + (this.state.activeTags.includes(t) ? " active-filter-tag" : "")}
 				onClick={() => this.toggleTag(t)}>{t}</p>
 		)
@@ -62,7 +62,7 @@ class NotesPage extends React.Component {
 	render() {
 		let filteredNotes = this.props.notes;
 		if (this.state.activeTags.length > 0) { 
-			filteredNotes = filteredNotes.filter((n) => n.tags.some((t) => this.state.activeTags.includes(t))); 
+			filteredNotes = filteredNotes.filter((n) => n.tags !== undefined && n.tags.some((t) => this.state.activeTags.includes(t))); 
 		}
 		const renderedNotes = this.renderCards(filteredNotes);
 

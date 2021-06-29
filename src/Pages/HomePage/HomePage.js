@@ -140,9 +140,8 @@ class HomePage extends React.Component {
 								<FaExclamation />
 							</div>
 							<p>
-								<mark>Announcement:</mark> The first class will be held at{" "}
-								<mark>11 a.m. EDT, May 12</mark>&nbsp;
-                				<a href="https://brown.zoom.us/j/97494424082?pwd=QW1EckRVU2lPVVhZbnRFdnAxVjBDZz09">on Zoom</a>!
+								<mark>Announcement:</mark> Fill out our anonymous and optional{" "}
+                				<a href="https://forms.gle/qA1dGNoFMH81e5bXA">mid-semester feedback form</a>!
               				</p>
 						</div>
 					</div>

@@ -42,7 +42,7 @@ const homeworks = [
 		]
 	},
 	{
-		number: 5, title: "Scala", dueDate: "July 7 (AoE)", active: false,
+		number: 5, title: "Scala", dueDate: "July 7 (AoE)", active: true,
 		links: [
 			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/hwk5-summer", label: "Handout" },
 			{ icon: <FaCode />, link: "https://classroom.github.com/a/DI2HNDbE", label: "Source Code" },
