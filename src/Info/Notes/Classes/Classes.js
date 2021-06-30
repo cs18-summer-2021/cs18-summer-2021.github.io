@@ -248,15 +248,22 @@ const classes = [
 	links: [
 	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec20setup-sum"),
 	    makeIcon(iconType.NOTES, makeUrl(20, "20scalaIntro.pdf")),
-		makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3fbf7ceb-4118-4164-8dd1-ad55010b0507")
+            makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3fbf7ceb-4118-4164-8dd1-ad55010b0507")
 	],
 	tags: []
     },
     {
     	number: 21, title: "Scala: OO and Traits", outDate: "Jun 30", active: true,
 	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec21setup-sum")
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec21setup-sum"),
+	    makeIcon(iconType.NOTES, makeUrl(21, "21scalatraits.pdf")),
+            makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d54d67d3-73f3-4438-9ce6-ad57010b33e5")
 	],
+	tags: []
+    },
+    {
+        number: 22, title: "Scala: Private and Mutable Vars (NO PREP)", outDate: "Jul 2", active: true,
+	links: [],
 	tags: []
     }
 ]
