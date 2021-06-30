@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c3e1c1c.chunk.css",
-    "main.js": "/static/js/main.75f024d0.chunk.js",
-    "main.js.map": "/static/js/main.75f024d0.chunk.js.map",
+    "main.css": "/static/css/main.9d87bedd.chunk.css",
+    "main.js": "/static/js/main.6046cdb0.chunk.js",
+    "main.js.map": "/static/js/main.6046cdb0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9d1366f0.js",
     "runtime-main.js.map": "/static/js/runtime-main.9d1366f0.js.map",
     "static/js/2.e9e58098.chunk.js": "/static/js/2.e9e58098.chunk.js",
     "static/js/2.e9e58098.chunk.js.map": "/static/js/2.e9e58098.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9c3e1c1c.chunk.css.map": "/static/css/main.9c3e1c1c.chunk.css.map",
+    "static/css/main.9d87bedd.chunk.css.map": "/static/css/main.9d87bedd.chunk.css.map",
     "static/js/2.e9e58098.chunk.js.LICENSE.txt": "/static/js/2.e9e58098.chunk.js.LICENSE.txt",
     "static/media/AhmadAlkhatib.94f1809b.jpeg": "/static/media/AhmadAlkhatib.94f1809b.jpeg",
     "static/media/AnnieCimack.8f24c56f.png": "/static/media/AnnieCimack.8f24c56f.png",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.9d1366f0.js",
     "static/js/2.e9e58098.chunk.js",
-    "static/css/main.9c3e1c1c.chunk.css",
-    "static/js/main.75f024d0.chunk.js"
+    "static/css/main.9d87bedd.chunk.css",
+    "static/js/main.6046cdb0.chunk.js"
   ]
 }
