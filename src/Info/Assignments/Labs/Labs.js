@@ -30,7 +30,7 @@ const labs = [
 		links: [
 			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1VXdOZR83d0qhvQPz_ir5kNmvjeKlhYjP/view?usp=sharing", label: "Handout" },
 			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1j6wPzd4lI3u21d7CwTotKM3zyrmF4rmD/view?usp=sharing", label: "Slides" },
-			{ icon: <FaFileAlt />, link: "https://drive.google.com/drive/u/0/folders/1PHO54BZh7RpMI7OyS4H_oF5BvKjr4Hv3", label: "Solution"},
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1Jg-Hcmtcl8FwmttIzNu38c1VKUOeBWll/view?usp=sharing", label: "Solution"},
 		]
 	},
 	{
@@ -54,14 +54,14 @@ const labs = [
 		links: [
 			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1Fs0RXG5P9tx7wN6OhhF6jU99FWgWTc8F/view?usp=sharing", label: "Handout" },
 			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1yeZFuxoBa1wXzoe1_ZP8PQCcSW7HjC8M/view?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1D0m6u2JRzru-5R-wT82QUoKPaX12O4Cw/view?usp=sharing", label: "Solution"},
 		]
 	},
 	{
-		number: 7, title: "Introduction to Scala", dueDate: "June 30-July 1", active: false,
+		number: 7, title: "Introduction to Scala", dueDate: "June 30-July 1", active: true,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1V8PyChitw9Wuy5ouHiBPAp-i4JoKPKg9/view?usp=sharing", label: "Handout" },
-			{ icon: <FaCode />, link: "https://drive.google.com/drive/folders/10YO1f-b_EtsUfSBNMMVJaZHH1Sqi5f3f?usp=sharing", label: "Source Code" },
-			{ icon: <FaFilePowerpoint />, link: "https://docs.google.com/presentation/d/17MblxNUvy5dRQUOdoE1dxj750_EubRRSwc-RFERlPng/edit?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/13HcqqdzRyy9RBwfM2tCFeVt25NVF0u1u/view?usp=sharing", label: "Handout" },
+			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1mrHfucRuRQMLxaA9H9Sa5DYbfR3woHq7/view?usp=sharing", label: "Slides" },
 		]
 	},
 	{
