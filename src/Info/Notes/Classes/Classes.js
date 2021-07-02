@@ -263,7 +263,11 @@ const classes = [
     },
     {
         number: 22, title: "Scala: Private and Mutable Vars (NO PREP)", outDate: "Jul 2", active: true,
-	links: [],
+	links: [
+	    makeIcon(iconType.NOTES, makeUrl(22, "22scalaMutable.pdf")),
+            makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=44a767b7-8398-40d9-9324-ad59010b4f1d"),
+	    makeIcon(iconType.CODE, makeUrl(22, "Bookings.scala"))
+	],
 	tags: []
     }
 ]
