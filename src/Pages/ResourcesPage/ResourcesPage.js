@@ -23,7 +23,7 @@ class ResourcesPage extends React.Component {
 			<div className="resources-section-title">{s.section}</div>
 			{s.note != "" && <div className="resources-section-note">{s.note}</div>}
 			<div className="resources-section-links">
-				{s.links.map((r) => <a className="resources-section-link" href={r.link}>{r.label}</a>)}
+				{s.links.map((r) => <a target="_blank" rel="noopener noreferrer" className="resources-section-link" href={r.link}>{r.label}</a>)}
 			</div>
 		</div>)
 	}

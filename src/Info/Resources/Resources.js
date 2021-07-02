@@ -34,9 +34,9 @@ export const Resources = [
 		section: "Coding Guidelines", note: "", links:
 			[
 				{ label: "Java Good Coding Practices", link: "https://hackmd.io/@cs18-spring-2021/HJrPDXOOO" },
-				{ label: "Scala Good Coding Practices", link: "" },
+				{ label: "Scala Good Coding Practices", link: "https://hackmd.io/@cs18-spring-2021/S1FuJmuOu" },
 				{ label: "Java Style Guide", link: "https://hackmd.io/@cs18-spring-2021/H1tqkCU_u" },
-				{ label: "Scala Style Guide", link: "" },
+				{ label: "Scala Style Guide", link: "https://hackmd.io/@cs18-spring-2021/HkjsOGudO" },
 				{ label: "Java Documentation", link: "https://docs.oracle.com/javase/8/docs/api/" },
 				{ label: "Scala Documentation", link: "http://www.scala-lang.org/api/current/index.html" },
 				{ label: "Tester Documentation", link: "https://course.ccs.neu.edu/cs2510/tester-doc.html" },
