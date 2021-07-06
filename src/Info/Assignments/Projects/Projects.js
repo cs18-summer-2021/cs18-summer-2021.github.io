@@ -6,19 +6,13 @@ const projects = [
 		notes: "",
 		links: [
 			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/recommender", label: "Handout" },
-			// { icon: <FaCode />, link: "", label: "Stencil Code" },
-			// { icon: <FaFilePowerpoint />, link: "", label: "Gearup Slides" },
-			// { icon: <FaYoutube />, link: "", label: "Gearup Recording" }
 		]
 	},
 	{
-		number: 2, title: "Search", dueDate: "July 16 (AoE)", active: false,
+		number: 2, title: "Search", dueDate: "July 16 (AoE)", active: true,
 		notes: "",
 		links: [
-			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/Bk3CR_xuO", label: "Handout" },
-			// { icon: <FaCode />, link: "", label: "Source Code" },
-			// { icon: <FaFilePowerpoint />, link: "", label: "Gearup Slides" },
-			// { icon: <FaYoutube />, link: "", label: "Gearup Recording" }
+			{ icon: <FaFileAlt />, link: "https://hackmd.io/QlXr9CCHSumgk5i-0vhldg", label: "Handout" },
 		]
 	},
 	{
