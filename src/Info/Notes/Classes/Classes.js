@@ -273,7 +273,7 @@ const classes = [
     {
     	number: 23, title: "Heaps (Data Structure)", outDate: "July 6", active: true,
 	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec22setup-sum")
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec22setup")
 	],
 	tags: []
     }
