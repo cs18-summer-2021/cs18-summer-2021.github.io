@@ -271,12 +271,21 @@ const classes = [
 	tags: []
     },
     {
-    	number: 23, title: "Heaps (Data Structure)", outDate: "July 6", active: true,
+    	number: 23, title: "Heaps (Data Structure)", outDate: "July 7", active: true,
 	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec22setup")
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec22setup"),
+	    makeIcon(iconType.NOTES, makeUrl(23, "23heaps.pdf")),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d49937fa-3477-4564-8920-ad5e010994d6")
 	],
 	tags: []
-    }
+    },
+    {
+    	number: 24, title: "Implementing Heaps", outDate: "July 9", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec23setup")
+	],
+	tags: []
+    }	
 ]
 
 export default classes;
