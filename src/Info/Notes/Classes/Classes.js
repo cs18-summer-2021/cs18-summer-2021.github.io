@@ -282,10 +282,19 @@ const classes = [
     {
     	number: 24, title: "Implementing Heaps", outDate: "July 9", active: true,
 	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec23setup")
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec23setup"),
+	    makeIcon(iconType.NOTES, makeUrl(24, "24heapimpl.pdf")),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=edb1fc4f-d9a1-4a8f-8ea7-ad60010a1835")
+	],
+	tags: ["Arrays"]
+    },
+    {
+    	number: 25, title: "Implementing Heaps", outDate: "July 12", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec24setup")
 	],
 	tags: []
-    }	
+    }
 ]
 
 export default classes;
