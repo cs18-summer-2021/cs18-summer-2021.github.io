@@ -300,7 +300,7 @@ const classes = [
     {
     	number: 26, title: "Dynamic Programming", outDate: "July 14", active: true,
 	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec25setup")
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec26setup")
 	],
 	tags: []
     }
