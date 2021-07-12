@@ -289,9 +289,18 @@ const classes = [
 	tags: ["Arrays"]
     },
     {
-    	number: 25, title: "Implementing Heaps", outDate: "July 12", active: true,
+    	number: 25, title: "Using Heaps", outDate: "July 12", active: true,
 	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec24setup")
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec24setup"),
+	    makeIcon(iconType.NOTES, makeUrl(25, "heapusage.pdf")),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=091e21bf-31d5-4c0e-b1b9-ad6301097756")
+	],
+	tags: []
+    },
+    {
+    	number: 26, title: "Dynamic Programming", outDate: "July 14", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec25setup")
 	],
 	tags: []
     }
