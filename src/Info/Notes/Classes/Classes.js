@@ -301,7 +301,8 @@ const classes = [
     	number: 26, title: "Dynamic Programming", outDate: "July 14", active: true,
 	links: [
 	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec26setup"),
-	    makeIcon(iconType.NOTES, makeUrl(26, "26slides.pptx"))
+	    makeIcon(iconType.NOTES, makeUrl(26, "26slides.pptx")),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cc1ba70e-efb9-405f-81f9-ad65010cf221")
 	],
 	tags: []
     }
