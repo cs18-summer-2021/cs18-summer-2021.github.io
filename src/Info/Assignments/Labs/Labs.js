@@ -62,6 +62,7 @@ const labs = [
 		links: [
 			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/13HcqqdzRyy9RBwfM2tCFeVt25NVF0u1u/view?usp=sharing", label: "Handout" },
 			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1mrHfucRuRQMLxaA9H9Sa5DYbfR3woHq7/view?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1xg_LwhcdT30Tg3ZjDYqfWj3CAAg5q7jS/view?usp=sharing", label: "Solution"},
 		]
 	},
 	{
@@ -69,30 +70,29 @@ const labs = [
 		links: [
 			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1KWvGr2Yb5HAHoFQHg9fBcQsHIADDNNvA/view?usp=sharing", label: "Handout" },
 			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1RW4Vf_Ux4XMUV-dfVtj7FhwjMK4ax8dd/view?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1bm2nma99NKDU2yfmC7EVC2NQf6x5p7DQ/view?usp=sharing", label: "Solution"},
+
 		]
 	},
 	{
-		number: 9, title: "Dynamic Programming", dueDate: "July 14-15", active: false,
+		number: 9, title: "Dynamic Programming", dueDate: "July 14-15", active: true,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1mLvFgTRgKgD1PPCIY7-PGQzwqwmgbGyF/view?usp=sharing", label: "Handout" },
-			{ icon: <FaCode />, link: "https://drive.google.com/drive/folders/11hNP3X9_xtg7kcx8_5VIN13mw1OEvqwa?usp=sharing", label: "Source Code" },
-			{ icon: <FaFilePowerpoint />, link: "https://docs.google.com/presentation/d/10j1e7SrPOYDoraIQ9OPZaMo43wYgmJMdZzL3ogp0SqE/edit?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/13ZqzUKtq1gLxdmU9lTkZ6Vv-9O1Yh54d/view?usp=sharing", label: "Handout" },
+			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1YBYKEZmonA4BB7i8XG6M19VQrAPko1et/view?usp=sharing", label: "Slides" },
 		]
 	},
 	{
 		number: 10, title: "Understanding Dijkstra's Algorithm", dueDate: "July 21-22", active: false,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1mLvFgTRgKgD1PPCIY7-PGQzwqwmgbGyF/view?usp=sharing", label: "Handout" },
-			{ icon: <FaCode />, link: "https://drive.google.com/drive/folders/11hNP3X9_xtg7kcx8_5VIN13mw1OEvqwa?usp=sharing", label: "Source Code" },
-			{ icon: <FaFilePowerpoint />, link: "https://docs.google.com/presentation/d/10j1e7SrPOYDoraIQ9OPZaMo43wYgmJMdZzL3ogp0SqE/edit?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "", label: "Handout" },
+			{ icon: <FaFilePowerpoint />, link: "", label: "Slides" },
 		]
 	},
 	{
 		number: 11, title: "Garbage Collection", dueDate: "July 28-29", active: false,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1mLvFgTRgKgD1PPCIY7-PGQzwqwmgbGyF/view?usp=sharing", label: "Handout" },
-			{ icon: <FaCode />, link: "https://drive.google.com/drive/folders/11hNP3X9_xtg7kcx8_5VIN13mw1OEvqwa?usp=sharing", label: "Source Code" },
-			{ icon: <FaFilePowerpoint />, link: "https://docs.google.com/presentation/d/10j1e7SrPOYDoraIQ9OPZaMo43wYgmJMdZzL3ogp0SqE/edit?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "", label: "Handout" },
+			{ icon: <FaFilePowerpoint />, link: "", label: "Slides" },
 		]
 	},
 ]
