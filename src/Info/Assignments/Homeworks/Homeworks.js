@@ -49,10 +49,10 @@ const homeworks = [
 		]
 	},
 	{
-		number: 6, title: "Dynamic Programming, SRC", dueDate: "July 23 (AoE)", active: false,
+		number: 6, title: "Dynamic Programming, SRC", dueDate: "July 23 (AoE)", active: true,
 		links: [
-			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/r1bmtSgdd", label: "Handout" },
-			{ icon: <FaCode />, link: "", label: "Source Code" },
+			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/hwk6-summer", label: "Handout" },
+			{ icon: <FaCode />, link: "https://classroom.github.com/a/VtiQgv9u", label: "Source Code" },
 		]
 	},
 ]
