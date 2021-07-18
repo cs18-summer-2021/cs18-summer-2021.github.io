@@ -313,8 +313,14 @@ const classes = [
 	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=16526eba-bc31-4e79-be70-ad670108ca71")
 	],
 	tags: []
+    },
+    {
+    	number: 28, title: "Intro to Graphs", outDate: "July 19", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec28setup")
+	],
+	tags: []
     }
 ]
 
 export default classes;
-
