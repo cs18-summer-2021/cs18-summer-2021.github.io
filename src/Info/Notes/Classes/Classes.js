@@ -317,10 +317,13 @@ const classes = [
     {
     	number: 28, title: "Intro to Graphs", outDate: "July 19", active: true,
 	links: [
-	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec28setup")
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec28setup"),
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4972e87b-20f5-4d03-a622-ad6a0108dfb2"),
+	    makeIcon(iconType.NOTES, makeUrl(28, "28graphsIntro.pdf")),
 	],
 	tags: []
     }
 ]
 
 export default classes;
+
