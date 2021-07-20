@@ -79,6 +79,7 @@ const labs = [
 		links: [
 			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/13ZqzUKtq1gLxdmU9lTkZ6Vv-9O1Yh54d/view?usp=sharing", label: "Handout" },
 			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1YBYKEZmonA4BB7i8XG6M19VQrAPko1et/view?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1Xrqu1Cq8hSUP4oUuXGZr0Ow9Iv84MIB_/view?usp=sharing", label: "Solution"},
 		]
 	},
 	{
