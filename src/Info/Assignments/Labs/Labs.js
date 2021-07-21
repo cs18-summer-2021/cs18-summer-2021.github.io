@@ -83,10 +83,10 @@ const labs = [
 		]
 	},
 	{
-		number: 10, title: "Understanding Dijkstra's Algorithm", dueDate: "July 21-22", active: false,
+		number: 10, title: "Understanding Dijkstra's Algorithm", dueDate: "July 21-22", active: true,
 		links: [
-			{ icon: <FaFileAlt />, link: "", label: "Handout" },
-			{ icon: <FaFilePowerpoint />, link: "", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1Nt40fnpGLNxCOVy0axmDQCzSohwp2FSE/view?usp=sharing", label: "Handout" },
+			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1xgoBUT2fmIwEvLeecSkJ1wew677ayOfh/view?usp=sharing", label: "Slides" },
 		]
 	},
 	{
