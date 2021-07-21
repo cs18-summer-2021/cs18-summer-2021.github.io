@@ -335,4 +335,3 @@ const classes = [
 
 export default classes;
 
-https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e1c01ace-5992-43fd-b1ca-ad6c010bb5d2
