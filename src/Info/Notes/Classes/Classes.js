@@ -327,7 +327,7 @@ const classes = [
     	number: 29, title: "Exploring Graphs", outDate: "July 21", active: true,
 	links: [
 	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e1c01ace-5992-43fd-b1ca-ad6c010bb5d2"),
-	    makeIcon(iconType.NOTES, makeUrl(29, "2pexploreGraphs.pdf")),
+	    makeIcon(iconType.NOTES, makeUrl(29, "29exploreGraphs.pdf")),
 	],
 	tags: ["Dijkstra"]
     }
