@@ -330,6 +330,14 @@ const classes = [
 	    makeIcon(iconType.NOTES, makeUrl(29, "29exploreGraphs.pdf")),
 	],
 	tags: ["Dijkstra"]
+    },
+    {
+    	number: 30, title: "Exploring Graphs", outDate: "July 23", active: true,
+	links: [
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=197aec67-0d61-4cb5-a6a5-ad6e010800b1"),
+	    makeIcon(iconType.NOTES, makeUrl(30, "30graphSearchBFS.pdf")),
+	],
+	tags: ["Dijkstra", "DFS", "BFS"]
     }
 ]
 
