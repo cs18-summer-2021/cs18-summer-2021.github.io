@@ -16,11 +16,10 @@ const projects = [
 		]
 	},
 	{
-		number: 3, title: "Mini-Project: Model Checking", dueDate: "Aug. 6 (AoE)", active: false,
+		number: 3, title: "Mini-Project: Model Checking", dueDate: "Aug. 6 (AoE)", active: true,
 		notes: "",
 		links: [
-			{ icon: <FaFileAlt />, link: "https://hackmd.io/@cs18-spring-2021/rkkuytg_u", label: "Handout" },
-			{ icon: <FaCode />, link: "", label: "Source Code" },
+			{ icon: <FaFileAlt />, link: "https://hackmd.io/FF1Z_DJVSBqkVb-Th0gcfw?view", label: "Handout" },
 		]
 	}
 ]
