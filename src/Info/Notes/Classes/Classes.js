@@ -343,10 +343,8 @@ const classes = [
     	number: 31, title: "Minimum Spanning Trees", outDate: "July 26", active: true,
 	links: [
 	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/lec28setup")
-	    /*
-	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=197aec67-0d61-4cb5-a6a5-ad6e010800b1"),
-	    makeIcon(iconType.NOTES, makeUrl(30, "30graphSearchBFS.pdf")),
-*/
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=98d0770f-e515-4a63-8a0c-ad71010886e3"),
+	    makeIcon(iconType.NOTES, makeUrl(31, "31mst.pdf")),
 	],
 	tags: []
     }
