@@ -347,6 +347,21 @@ const classes = [
 	    makeIcon(iconType.NOTES, makeUrl(31, "31mst.pdf")),
 	],
 	tags: []
+    },
+    {
+    	number: 32, title: "Union Find", outDate: "July 28", active: true,
+	links: [
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9d33f252-7762-4926-a548-ad73010af221"),
+	    makeIcon(iconType.NOTES, makeUrl(32, "32unionfind.pdf")),
+	],
+	tags: []
+    },
+    {
+	number: "N/A", title: "Final Prep Guide", outDate: "July 28", active: true,
+	links: [
+	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/final-prep-sum21")
+	],
+	tags: []
     }
 ]
 
