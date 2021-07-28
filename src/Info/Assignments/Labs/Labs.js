@@ -87,13 +87,15 @@ const labs = [
 		links: [
 			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1Nt40fnpGLNxCOVy0axmDQCzSohwp2FSE/view?usp=sharing", label: "Handout" },
 			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1xgoBUT2fmIwEvLeecSkJ1wew677ayOfh/view?usp=sharing", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1gCX7EBh2BHFUEyaEB1RqEcZjgm0dacWA/view?usp=sharing", label: "Solution"},
+
 		]
 	},
 	{
-		number: 11, title: "Garbage Collection", dueDate: "July 28-29", active: false,
+		number: 11, title: "Garbage Collection", dueDate: "July 28-29", active: true,
 		links: [
-			{ icon: <FaFileAlt />, link: "", label: "Handout" },
-			{ icon: <FaFilePowerpoint />, link: "", label: "Slides" },
+			{ icon: <FaFileAlt />, link: "https://drive.google.com/file/d/1DbbPvC9ScI2sRKBKm9xuUYSL53ARYZDq/view?usp=sharing", label: "Handout" },
+			{ icon: <FaFilePowerpoint />, link: "https://drive.google.com/file/d/1Lg6Y_EGH2WsL6u0tzjCL1PAQdM8miLvK/view?usp=sharing", label: "Slides" },
 		]
 	},
 ]
