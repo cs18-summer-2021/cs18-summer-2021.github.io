@@ -362,6 +362,13 @@ const classes = [
 	    makeIcon(iconType.SETUP, "https://hackmd.io/@cs18-spring-2021/final-prep-sum21")
 	],
 	tags: []
+    },
+    {
+    	number: 33, title: "Design Challenges", outDate: "July 30", active: true,
+	links: [
+	    makeIcon(iconType.VIDEO, "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=17eea594-af6f-45e9-a894-ad7501090c96")
+	],
+	tags: []
     }
 ]
 
